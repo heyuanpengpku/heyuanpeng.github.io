@@ -99,7 +99,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/covers/2025-icassp-hyp2.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/covers/2025-icassp-hyp2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multi-Prototype-based Embedding Refinement for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/10889249)
