@@ -57,7 +57,7 @@ IEEE Transactions on Mobile Computing (2025).
 
 [Time evidence fusion network: Multi-source view in long-term time series forecasting](https://ieeexplore.ieee.org/abstract/document/11120455/)
 
-**Tianxiang Zhan**, Yuanpeng He, Yong Deng, Zhen Li, Wenjie Du, and Qingsong Wen.
+Tianxiang Zhan, **Yuanpeng He**, Yong Deng, Zhen Li, Wenjie Du, and Qingsong Wen.
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
