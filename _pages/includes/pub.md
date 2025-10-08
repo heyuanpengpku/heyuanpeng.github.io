@@ -66,6 +66,22 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/covers/2025-acl-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Revisit Self-Debugging with Self-Generated Tests for Code Generation](https://aclanthology.org/2025.acl-long.881/)
+
+Xiancai Chen, Zhengwei Tao, Kechi Zhang, Changzhi Zhou, Wanli Gu, **Yuanpeng He**, Mengdi Zhang, Xunliang Cai, Haiyan Zhao, and Zhi Jin.
+
+The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
+
+![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
