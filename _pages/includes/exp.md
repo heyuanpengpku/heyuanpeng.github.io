@@ -5,13 +5,13 @@
 - _2016.09 - 2019.06_, High School Student, [Sichuan Chengdu Shishi High School](https://www.cdshishi.net/).
 
 # 🏆 Honors
-- <span style="color:#d32f2f;font-weight:600;">National Scholarship</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000)
+- <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000)
 - Merit Student Award (2025, Peking University)
 - Outstanding Scientific Research Award (2024, Peking University)
 - Outstanding Graduates of Colleges and Universities Award in Chongqing (2023, Chongqing Municipal Education Commission)
 - Outstanding Graduates Award (2023, Southwest Univeristy)
 - Xiaomi Grand Scholarship (2023, Southwest Univeristy, ￥20000)
-- <span style="color:#d32f2f;font-weight:600;">National Scholarship</span> of P. R. China for Undergraduate Students (2022, Southwest University, ￥8000)
+- <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Undergraduate Students (2022, Southwest University, ￥8000)
 - Advanced Individual Award for Innovation Capacity Enhancement (2022, Chongqing Municipal Education Commission)
 - Academic Technology Award (2020, 2021, 2022, Southwest University)
 - Innovation and Entrepreneurship Award (2021, 2022, Southwest University)
