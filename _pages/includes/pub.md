@@ -7,7 +7,7 @@
 
 **Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
 
-Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2, pp. 908-919. 2025.
+Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025) V. 2, pp. 908-919.
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
@@ -26,6 +26,23 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 Pattern Recognition 166 (2025): 111639.
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC 2025</div><img src='images/covers/2025-tmc-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[UniTrans A Unified Vertical Federated Knowledge Transfer Framework for Enhancing Edge Healthcare Collaboration](https://ieeexplore.ieee.org/abstract/document/11086401)
+
+Chung-ju Huang, **Yuanpeng He**, Xiao Han, Wenpin Jiao, Zhi Jin and Leye Wang.
+
+IEEE Transactions on Mobile Computing (2025).
+
+![Static Badge](https://img.shields.io/badge/CCF_A-EF413D
 )
 
 </div>
