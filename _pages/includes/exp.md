@@ -20,3 +20,4 @@
 - The Stars of Self-improvement of Chinese College Students (2021, The Communist Youth League of China)
 - First Prize Scholarship (2021, Southwest University, ￥5000)
 - Third Prize Scholarship (2020, Southwest Univeristy, ￥2000)
+
