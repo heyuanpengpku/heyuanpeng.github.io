@@ -59,7 +59,7 @@ IEEE Transactions on Mobile Computing (2025).
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D) [![Code](https://img.shields.io/badge/ztxtech-Time--Evidence--Fusion--Network-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/Time-Evidence-Fusion-Network)
+![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
 </div>
 </div>
