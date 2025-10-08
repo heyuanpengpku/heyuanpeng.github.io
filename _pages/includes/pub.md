@@ -16,6 +16,23 @@ In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Evidential Prototype Learning for Semi-supervised Medical Image Segmentation](https://dl.acm.org/doi/abs/10.1145/3711896.3736944)
+
+Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
+
+In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2, pp. 908-919. 2025.
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI 2025</div><img src='images/covers/2025-pami.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
