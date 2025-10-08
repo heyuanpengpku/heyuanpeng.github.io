@@ -82,7 +82,7 @@ The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/covers/2025-icassp-hyp1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/covers/2025-icassp-hyp1.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An Adaptive Framework for Multi-View Clustering Leveraging Conditional Entropy Optimization](https://ieeexplore.ieee.org/abstract/document/10888088)
@@ -99,7 +99,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/covers/2025-icassp-hyp2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/covers/2025-icassp-hyp2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Multi-Prototype-based Embedding Refinement for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/10889249)
@@ -116,12 +116,26 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2025</div><img src='images/covers/2025-coam-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Transfer Graph in the Context of Evidence Theory](https://link.springer.com/article/10.1007/s40314-025-03293-w)
+
+Tianxiang Zhan, Qianli Zhou, **Yuanpeng He** and Yong Deng.
+
+Computational and Applied Mathematics 44.7 (2025): 345.
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/)
 
-**Tianxiang Zhan**, Yuanpeng He, Yong Deng, and Zhen Li.
+Tianxiang Zhan, **Yuanpeng He**, Yong Deng, and Zhen Li.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
