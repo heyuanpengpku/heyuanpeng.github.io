@@ -82,6 +82,23 @@ The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/covers/2025-icassp-hyp1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[An Adaptive Framework for Multi-View Clustering Leveraging Conditional Entropy Optimization](https://ieeexplore.ieee.org/abstract/document/10888088)
+
+Lijian Li, **Yuanpeng He** and Chi-Man Pun
+
+ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
