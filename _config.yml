@@ -7,12 +7,12 @@
 
 # Site Settings
 title: "Yuanpeng He"
-description: "To recognize that what is past cannot be amended, and that what is to come may yet be pursued."
-repository: "heyuanpengpku/heyuanpeng.github.io"
+description: "Explore the secrets of time."
+repository: "ztxtech/ztxtech.github.io"
 google_scholar_stats_use_cdn: true
 
 # google analytics
-google_analytics_id: 
+google_analytics_id: "G-WE2J7LBCGB"
 
 # SEO Related
 google_site_verification: # get google_site_verification from https://search.google.com/search-console/about
@@ -21,15 +21,15 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 
 # Site Author
 author:
-  name: "Yuanpeng He"
-  avatar: "images/photos/hyp.jpg"
-  bio: "Key Laboratory of High Confidence Software Technologies (Peking University), Ministry of Education, Beijing, 100871, China;\n School of Computer Science, Peking University, Beijing, 100871, China"
-  location: "Beijing, China"
+  name: "Tianxiang Zhan"
+  avatar: "images/photos/ztx.png"
+  bio: "Institute of Fundamental and Frontier Sciences,\n University of Electronic Science and Technology of China"
+  location: "Chengdu, Sichuan, China"
   employer:
   pubmed:
-  googlescholar: 
-  email: "heyuanpeng@stu.pku.edu.cn"
-  researchgate: 
+  googlescholar: "https://scholar.google.com/citations?user=bRYz250AAAAJ"
+  email: "zhantianxianguestc@hotmail.com"
+  researchgate: "https://www.researchgate.net/profile/Tianxiang-Zhan"
   uri:
   bitbucket:
   codepen:
@@ -37,15 +37,15 @@ author:
   flickr:
   facebook:
   foursquare:
-  github:
+  github: "ztxtech"
   google_plus:
   keybase:
   instagram:
   impactstory: # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin:
+  linkedin: "ztxtech"
   dblp: # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid: 
+  orcid: "https://orcid.org/0000-0002-5188-0381"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
