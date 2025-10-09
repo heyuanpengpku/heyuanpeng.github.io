@@ -49,6 +49,7 @@
 - [Applied Intelligence](https://link.springer.com/journal/10489) ![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
 )
 - [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
+- [The Visual Computer](https://link.springer.com/journal/371)
 
 # 💻 Research Project
 
