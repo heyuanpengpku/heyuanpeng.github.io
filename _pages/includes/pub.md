@@ -198,7 +198,7 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2024</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="75%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2023</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TDQMF: Two-Dimensional Quantum Mass Function](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013238)
