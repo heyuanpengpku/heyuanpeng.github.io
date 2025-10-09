@@ -291,3 +291,17 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KSEM 2022</div><img src='images/covers/2021-cmec.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Conflicting management of evidence combination from the point of improvement of basic probability assignment](https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22366)
+
+**Yuanpeng He** and Fuyuan Xiao.
+
+International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
+
+</div>
+</div>
+
+---
+
