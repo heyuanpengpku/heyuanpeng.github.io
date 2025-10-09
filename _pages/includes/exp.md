@@ -13,22 +13,27 @@
 # 🏆 Honors
 - <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000)
 - Merit Student Award (2025, Peking University)
+---
 - Outstanding Scientific Research Award (2024, Peking University)
+---
 - Outstanding Graduates of Colleges and Universities Award in Chongqing (2023, Chongqing Municipal Education Commission)
 - Outstanding Graduates Award (2023, Southwest Univeristy)
 - Xiaomi Grand Scholarship (2023, Southwest Univeristy, ￥20000)
+---
 - <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Undergraduate Students (2022, Southwest University, ￥8000)
 - Merit Student Award (2022, Southwest University)
 - Academic Technology Award (2022, Southwest University)
 - Innovation and Entrepreneurship Award (2022, Southwest University)
 - Literary and Artistic Activities Award (2022, Southwest University)
 - Advanced Individual Award for Innovation Capacity Enhancement (2022, Chongqing Municipal Education Commission)
+---
 - First Prize Scholarship (2021, Southwest University, ￥5000)
 - Merit Student Award (2021, Southwest University)
 - Academic Technology Award (2021, Southwest University)
 - Innovation and Entrepreneurship Award (2021, Southwest University)
 - Literary and Artistic Activities Award (2021, Southwest University)
 - The Stars of Self-improvement of Chinese College Students (2021, The Communist Youth League of China)
+---
 - Third Prize Scholarship (2020, Southwest Univeristy, ￥2000)
 - Academic Technology Award (2020, Southwest University)
 
@@ -48,6 +53,7 @@
 - [International Conference on Learning Representations](https://iclr.cc/)
 - [International Conference on Robotics & Automation](https://2026.ieee-icra.org/) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 - [International Conference on Acoustics, Speech, and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+---
 - [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
 ) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
