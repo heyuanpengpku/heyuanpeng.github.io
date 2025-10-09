@@ -92,7 +92,7 @@
 
 <div class="art-box-glass" markdown="1">
 
-# 💻 Research Project
+# 💻 Research Projects
 
 - National Natural Science Foundation of China under Grant 62436006 (Participant)
 - National Natural Science Foundation of China under Grant 62192730 (Participant)
