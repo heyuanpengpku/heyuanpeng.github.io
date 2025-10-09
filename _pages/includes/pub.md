@@ -337,7 +337,6 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJIS 2021</div><img src='images/covers/2021-cmec.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
