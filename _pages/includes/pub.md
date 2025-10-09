@@ -263,6 +263,40 @@ Remote Sensing 15.12 (2023): 2975.
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2022</div><img src='images/covers/2021-mmget.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MMGET: a Markov model for generalized evidence theory](https://link.springer.com/article/10.1007/s40314-021-01697-y)
+
+**Yuanpeng He** and Fuyuan Xiao.
+
+Computational and Applied Mathematics 41.1 (2022): 9.
+
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AP 2022</div><img src='images/covers/2021-nbf.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A new base function in basic probability assignment for conflict management](https://link.springer.com/article/10.1007/s10489-021-02525-w)
+
+**Yuanpeng He** and Fuyuan Xiao.
+
+Applied Intelligence 52.4 (2022): 4473-4487.
+
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
+)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJFS 2022</div><img src='images/covers/2022-odf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -286,6 +320,9 @@ Lijian Li, **Yuanpeng He** and Li Li.
 
 International Conference on Knowledge Science, Engineering and Management (2022) (pp. 339-355).
 
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
+)
+
 </div>
 </div>
 
@@ -300,8 +337,13 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
+)
+
 </div>
 </div>
 
 ---
+
+
 
