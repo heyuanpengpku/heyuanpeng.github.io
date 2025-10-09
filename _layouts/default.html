@@ -11,6 +11,18 @@ layout: compress
       body, #particles-js {
         background-color: #F5FFFA; /* 这是一个常用的浅灰色 */
       }
+
+      .art-box-glass {
+        background: rgba(255, 255, 255, 0.2); /* 半透明背景 */
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px); /* 核心：背景模糊 */
+        -webkit-backdrop-filter: blur(10px); /* 兼容 Safari */
+        border: 1px solid rgba(255, 255, 255, 0.3); /* 一个微妙的白色边框 */
+        padding: 25px 30px;
+        margin: 20px 0;
+        color: #333; /* 根据你的背景，可能需要调整文字颜色 */
+      }
     </style>
   </head>
 

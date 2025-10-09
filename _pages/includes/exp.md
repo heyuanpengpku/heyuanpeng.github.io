@@ -1,8 +1,10 @@
+<div class="art-box-glass"> 
 # 📖 Educations
 
 - _2023.09 - 2028.06 (now)_, Ph.D's Degree, [Peking University](https://cs.pku.edu.cn/), Computer Science.
 - _2019.09 - 2023.06_, Bachelor‘s Degree, [Southwest University](https://cis.swu.edu.cn/), Software Engineering.
 - _2016.09 - 2019.06_, High School Student, [Sichuan Chengdu Shishi High School](https://www.cdshishi.net/).
+</div>
 
 # 🏆 Honors
 - <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000)
