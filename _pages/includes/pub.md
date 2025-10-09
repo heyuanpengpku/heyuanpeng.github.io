@@ -1,3 +1,5 @@
+<div class="art-box-glass" markdown="1">
+
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
@@ -356,5 +358,5 @@ International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
 ---
 
-
+</div>
 
