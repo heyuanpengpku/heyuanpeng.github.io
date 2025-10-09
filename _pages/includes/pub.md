@@ -241,6 +241,9 @@ Tianxiang Zhan, **Yuanpeng He**, Yong Deng, and Zhen Li.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
 </div>
 </div>
 
