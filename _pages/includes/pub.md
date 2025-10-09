@@ -198,7 +198,7 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2024</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2024</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TDQMF: Two-Dimensional Quantum Mass Function](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013238)
@@ -215,7 +215,7 @@ Information Sciences 621 (2023): 749-765.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SC 2024</div><img src='images/covers/2023-obe.jpg' alt="sym" width="75%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SC 2024</div><img src='images/covers/2023-obe.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Ordinal belief entropy](https://link.springer.com/article/10.1007/s00500-023-07947-x)
@@ -232,7 +232,7 @@ Soft Computing 27.11 (2023): 6973-6981.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/)
