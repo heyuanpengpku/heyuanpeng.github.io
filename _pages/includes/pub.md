@@ -62,8 +62,7 @@ Tianxiang Zhan, **Yuanpeng He**, Yong Deng, Zhen Li, Wenjie Du, and Qingsong Wen
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
 </div>
@@ -94,8 +93,23 @@ Lijian Li, **Yuanpeng He** and Chi-Man Pun.
 
 ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2025</div><img src='images/covers/2025-tsm-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Structure-aware Model for Multi-modal Knowledge Graph Completion]()
+
+Linyu Li, Zhi Jin, Yichi Zhang, Dongming Jin, Chengfeng, **Yuanpeng He** Xuan Zhang and Haiyan Zhao.
+
+IEEE Transactions on Multimedia (2025).
+
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -110,8 +124,7 @@ Yali Bi, Enyu Che, Yinan Chen, **Yuanpeng He** and Jingwei Qu.
 
 ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -139,10 +152,8 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 
 Pattern Recognition 152 (2024): 110439.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -157,8 +168,7 @@ Pattern Recognition 152 (2024): 110439.
 
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -173,8 +183,7 @@ Lijian Li, **Yuanpeng He** and Chi-Man Pun.
 
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -189,8 +198,7 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -205,10 +213,8 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 Information Sciences 621 (2023): 749-765.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -223,8 +229,7 @@ Information Sciences 621 (2023): 749-765.
 
 Soft Computing 27.11 (2023): 6973-6981.
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
 
 </div>
 </div>
@@ -239,10 +244,8 @@ Tianxiang Zhan, **Yuanpeng He**, Yong Deng, and Zhen Li.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 </div>
 </div>
@@ -283,8 +286,7 @@ Computational and Applied Mathematics 41.1 (2022): 9.
 
 Applied Intelligence 52.4 (2022): 4473-4487.
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
 
 </div>
 </div>
@@ -312,8 +314,7 @@ Lijian Li, **Yuanpeng He** and Li Li.
 
 International Conference on Knowledge Science, Engineering and Management (2022) (pp. 339-355).
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
 
 </div>
 </div>
@@ -328,10 +329,8 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
 
 </div>
 </div>
