@@ -280,7 +280,7 @@ Computational and Applied Mathematics 41.1 (2022): 9.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AP 2022</div><img src='images/covers/2021-nbf.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">APIN 2022</div><img src='images/covers/2021-nbf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A new base function in basic probability assignment for conflict management](https://link.springer.com/article/10.1007/s10489-021-02525-w)
