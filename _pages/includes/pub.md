@@ -263,3 +263,31 @@ Remote Sensing 15.12 (2023): 2975.
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJFS 2022</div><img src='images/covers/2022-odf.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Ordinal fuzzy entropy](https://ijfs.usb.ac.ir/article_6950.html)
+
+**Yuanpeng He** and Yong Deng.
+
+Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KSEM 2022</div><img src='images/covers/2022-nndf.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[NNDF: A new neural detection network for aspect-category sentiment analysis](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_27)
+
+Lijian Li, **Yuanpeng He** and Li Li.
+
+International Conference on Knowledge Science, Engineering and Management (2022) (pp. 339-355).
+
+</div>
+</div>
+
+---
+
