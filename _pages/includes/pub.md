@@ -181,7 +181,7 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-icassp-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/covers/2024-icassp-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Generalized Uncertainty-Based Evidential Fusion with Hybrid Multi-Head Attention for Weak-Supervised Temporal Action Localization](https://ieeexplore.ieee.org/abstract/document/10446799)
@@ -191,6 +191,40 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2024</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TDQMF: Two-Dimensional Quantum Mass Function](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013238)
+
+**Yuanpeng He** and Yong Deng.
+
+Information Sciences 621 (2023): 749-765.
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SC 2024</div><img src='images/covers/2023-obe.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Ordinal belief entropy](https://link.springer.com/article/10.1007/s00500-023-07947-x)
+
+**Yuanpeng He** and Yong Deng.
+
+Soft Computing 27.11 (2023): 6973-6981.
+
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
 )
 
 </div>
@@ -209,4 +243,20 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
 </div>
 </div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='2023-stva.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Spatio-Temporal Variability Analysis of Vegetation Dynamics in China from 2000 to 2022 Based on Leaf Area Index: A Multi-Temporal Image Classification Perspective](https://www.mdpi.com/2072-4292/15/12/2975)
+
+Tianchi Xu, Kai Yan, **Yuanpeng He**, Si Gao, Kai Yang, Jingrui Wang, Jinxiu Liu and Zhao Liu.
+
+Remote Sensing 15.12 (2023): 2975.
+
+</div>
+</div>
+
+---
 
