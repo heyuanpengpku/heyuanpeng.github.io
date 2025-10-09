@@ -44,6 +44,8 @@ Chung-ju Huang, **Yuanpeng He**, Xiao Han, Wenpin Jiao, Zhi Jin and Leye Wang.
 
 IEEE Transactions on Mobile Computing (2025).
 
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D
 )
 
@@ -61,6 +63,8 @@ Tianxiang Zhan, **Yuanpeng He**, Yong Deng, Zhen Li, Wenjie Du, and Qingsong Wen
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
 </div>
@@ -141,6 +145,8 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 
 Pattern Recognition 152 (2024): 110439.
 
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
 )
 
@@ -209,6 +215,8 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 Information Sciences 621 (2023): 749-765.
 
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
 )
 
@@ -243,6 +251,8 @@ Tianxiang Zhan, **Yuanpeng He**, Yong Deng, and Zhen Li.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
 )
 
@@ -336,6 +346,8 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
 ![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
 )
 
