@@ -246,7 +246,7 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='2023-stva.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='images/covers/2023-stva.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Spatio-Temporal Variability Analysis of Vegetation Dynamics in China from 2000 to 2022 Based on Leaf Area Index: A Multi-Temporal Image Classification Perspective](https://www.mdpi.com/2072-4292/15/12/2975)
