@@ -8,6 +8,8 @@
 
 </div>
 
+<div class="art-box-glass" markdown="1">
+
 # 🏆 Honors
 - <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000)
 - Merit Student Award (2025, Peking University)
@@ -30,6 +32,10 @@
 - Third Prize Scholarship (2020, Southwest Univeristy, ￥2000)
 - Academic Technology Award (2020, Southwest University)
 
+</div>
+
+
+<div class="art-box-glass" markdown="1">
 
 # ✍🏻 Reviewers
 - [Neural Information Processing Systems](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
@@ -55,9 +61,16 @@
 - [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
 - [The Visual Computer](https://link.springer.com/journal/371)
 
+</div>
+
+
+<div class="art-box-glass" markdown="1">
+
 # 💻 Research Project
 
 - National Natural Science Foundation of China under Grant 62436006, 62192731 and 62192730 (Participant)
 - National Key Research and Development Program of China under Grant 2023YFC3502900 (Participant)
 - Science and Technology Development Fund, Macau SAR, under Grant 0141/2023/RIA2 and 0193/2023/RIA3 (Participant)
 - Innovative Entrepreneurial Training Plan Program of College Students in Chongqing (Hoster)
+
+</div>
