@@ -263,7 +263,7 @@ Remote Sensing 15.12 (2023): 2975.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2022</div><img src='images/covers/2021-mmget.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2022</div><img src='images/covers/2021-mmget.jpg' alt="sym" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MMGET: a Markov model for generalized evidence theory](https://link.springer.com/article/10.1007/s40314-021-01697-y)
