@@ -336,7 +336,19 @@ International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 </div>
 
 
-- [![arXiv](https://img.shields.io/badge/cs.AI-2102.01538-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2102.01538) [A Matrix-Based Distance of Pythagorean Fuzzy Set and Its Application in Medical Diagnosis](https://arxiv.org/abs/2102.01538), **Yuanpeng He**, Lijian Li, and Tianxiang Zhan.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJIS 2021</div><img src='images/covers/2021-MDP.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Matrix-based Distance of Pythagorean Fuzzy Set and its Application in Medical Diagnosis](https://arxiv.org/abs/2102.01538)
+
+**Yuanpeng He**, Lijian Li, and Tianxiang Zhan.
+
+arXiv.
+
+![arXiv](https://img.shields.io/badge/cs.AI-2102.01538-b31b1b?style=flat&logo=arxiv&logoColor=red)
+
+</div>
+</div>
 
 
 </div>
