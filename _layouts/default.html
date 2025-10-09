@@ -24,7 +24,41 @@ layout: compress
         color: #333; /* 根据你的背景，可能需要调整文字颜色 */
       }
 
-      
+      /* --- 复制并粘贴从这里开始的所有代码 --- */
+
+      /* 1. 为导航栏添加毛玻璃效果 */
+      .masthead {
+        /* 关键样式 */
+        background: rgba(245, 255, 250, 0.7) !important; /* 使用你网页背景色的半透明版本 */
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* 一个微妙的亮色边框 */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* 柔和的阴影 */
+
+        /* 你的主题应该已经处理了定位，所以下面这些通常不需要 */
+        /* 如果导航栏没有固定在顶部，再取消注释 */
+        /*
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        */
+      }
+
+      .masthead__inner-wrap {
+        background: none !important; /* 或者 background: transparent !important; */
+      }
+
+      .masthead__menu { background: none !important; }
+
+      #site-nav { background: none !important; }
+
+      /* 2. 为主要内容区域增加上边距，防止被导航栏遮挡 */
+      #main {
+        /* 这个值约等于你导航栏的高度，可以根据实际效果微调 */
+        padding-top: 80px; 
+      }
+
+      /* --- 粘贴到这里结束 --- */
 
     </style>
   </head>
