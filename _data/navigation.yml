@@ -9,5 +9,11 @@ main:
   - title: "Honors"
     url: "/#-honors"
 
+  - title: "Reviewers"
+    url: "/#-reviewers"
+
+  - title: "Research Project"
+    url: "/#-research-project"
+
   - title: "Publications"
     url: "/#-publications"
