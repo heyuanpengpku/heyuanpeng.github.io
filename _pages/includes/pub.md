@@ -16,7 +16,6 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2025</div><img src='images/covers/2025-pr-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -35,7 +34,6 @@ Pattern Recognition 166 (2025): 111639.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMC 2025</div><img src='images/covers/2025-tmc-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -54,7 +52,6 @@ IEEE Transactions on Mobile Computing (2025).
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI 2025</div><img src='images/covers/2025-pami.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -72,7 +69,6 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/covers/2025-acl-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -88,7 +84,6 @@ The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/covers/2025-icassp-hyp1.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -105,7 +100,6 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/covers/2025-icassp-hyp2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -122,7 +116,6 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2025</div><img src='images/covers/2025-coam-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -136,7 +129,6 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2024</div><img src='images/covers/2024-pr-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -155,7 +147,6 @@ Pattern Recognition 152 (2024): 110439.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-bibm-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -172,7 +163,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-bibm-llj.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -189,7 +179,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/covers/2024-icassp-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -206,7 +195,6 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2023</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -225,7 +213,6 @@ Information Sciences 621 (2023): 749-765.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SOCO 2023</div><img src='images/covers/2023-obe.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -242,7 +229,6 @@ Soft Computing 27.11 (2023): 6973-6981.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -261,7 +247,6 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RS 2023</div><img src='images/covers/2023-stva.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -275,7 +260,6 @@ Remote Sensing 15.12 (2023): 2975.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2022</div><img src='images/covers/2021-mmget.jpg' alt="sym" width="70%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -289,7 +273,6 @@ Computational and Applied Mathematics 41.1 (2022): 9.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">APIN 2022</div><img src='images/covers/2021-nbf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -306,7 +289,6 @@ Applied Intelligence 52.4 (2022): 4473-4487.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJFS 2022</div><img src='images/covers/2022-odf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -320,7 +302,6 @@ Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
 </div>
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KSEM 2022</div><img src='images/covers/2022-nndf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
