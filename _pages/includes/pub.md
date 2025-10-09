@@ -104,7 +104,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 [Towards Structure-aware Model for Multi-modal Knowledge Graph Completion]()
 
-Linyu Li, Zhi Jin, Yichi Zhang, Dongming Jin, Chengfeng, **Yuanpeng He** Xuan Zhang and Haiyan Zhao.
+Linyu Li, Zhi Jin, Yichi Zhang, Dongming Jin, Chengfeng, **Yuanpeng He**, Xuan Zhang and Haiyan Zhao.
 
 IEEE Transactions on Multimedia (2025).
 
