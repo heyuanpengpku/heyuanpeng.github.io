@@ -130,6 +130,40 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2024</div><img src='images/covers/2024-pr-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Residual Feature-Reutilization Inception Network](https://www.sciencedirect.com/science/article/pii/S0031320324001900)
+
+**Yuanpeng He**, Wenjie Song, Lijian Li, Tianxiang Zhan and Wenpin Jiao.
+
+Pattern Recognition 152 (2024): 110439.
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2024</div><img src='images/covers/2024-bibm-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Mutual Evidential Deep Learning for Semi-supervised Medical Image Segmentation](https://www.computer.org/csdl/proceedings-article/bibm/2024/10822008/23ooxNRj6W4)
+
+**Yuanpeng He**, Yali Bi, Lijian Li, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
+
+IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
