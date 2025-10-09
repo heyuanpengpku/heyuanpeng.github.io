@@ -147,7 +147,7 @@ Pattern Recognition 152 (2024): 110439.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2024</div><img src='images/covers/2024-bibm-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-bibm-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Mutual Evidential Deep Learning for Semi-supervised Medical Image Segmentation](https://www.computer.org/csdl/proceedings-article/bibm/2024/10822008/23ooxNRj6W4)
@@ -155,6 +155,40 @@ Pattern Recognition 152 (2024): 110439.
 **Yuanpeng He**, Yali Bi, Lijian Li, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
 
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-bibm-llj.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Efficient Prototype Consistency Learning in Semi-Supervised Medical Image Segmentation via Joint Uncertainty and Data Augmentation](https://ieeexplore.ieee.org/document/10821789)
+
+Lijian Li, **Yuanpeng He** and Chi-Man Pun.
+
+IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-icassp-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Generalized Uncertainty-Based Evidential Fusion with Hybrid Multi-Head Attention for Weak-Supervised Temporal Action Localization](https://ieeexplore.ieee.org/abstract/document/10446799)
+
+**Yuanpeng He** Lijian Li, Tianxiang Zhan Wenpin Jiao and Chi-Man Pun.
+
+ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
 )
