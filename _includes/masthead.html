@@ -11,7 +11,13 @@
           </li>
           {% for link in site.data.navigation.main %}
           <li class="masthead__menu-item">
-            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            {% if link.url contains '#' %}
+              <!-- 如果是页面内锚点链接，强制在当前页面跳转 -->
+              <a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a>
+            {% else %}
+              <!-- 其他链接（外部链接）则遵循 base 标签的默认行为 -->
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>
