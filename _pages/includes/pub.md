@@ -272,9 +272,6 @@ Remote Sensing 15.12 (2023): 2975.
 
 Computational and Applied Mathematics 41.1 (2022): 9.
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
-
 </div>
 </div>
 
