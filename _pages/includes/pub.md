@@ -225,7 +225,7 @@ Information Sciences 621 (2023): 749-765.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SC 2023</div><img src='images/covers/2023-obe.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SOCO 2023</div><img src='images/covers/2023-obe.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Ordinal belief entropy](https://link.springer.com/article/10.1007/s00500-023-07947-x)
