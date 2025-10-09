@@ -174,21 +174,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-bibm-llj.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Efficient Prototype Consistency Learning in Semi-Supervised Medical Image Segmentation via Joint Uncertainty and Data Augmentation](https://ieeexplore.ieee.org/document/10821789)
-
-Lijian Li, **Yuanpeng He** and Chi-Man Pun.
-
-IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
-
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/covers/2024-icassp-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -197,6 +182,21 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 **Yuanpeng He** Lijian Li, Tianxiang Zhan Wenpin Jiao and Chi-Man Pun.
 
 ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
+
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2024</div><img src='images/covers/2024-bibm-llj.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Efficient Prototype Consistency Learning in Semi-Supervised Medical Image Segmentation via Joint Uncertainty and Data Augmentation](https://ieeexplore.ieee.org/document/10821789)
+
+Lijian Li, **Yuanpeng He** and Chi-Man Pun.
+
+IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
@@ -264,19 +264,6 @@ Remote Sensing 15.12 (2023): 2975.
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2022</div><img src='images/covers/2021-mmget.jpg' alt="sym" width="70%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MMGET: a Markov model for generalized evidence theory](https://link.springer.com/article/10.1007/s40314-021-01697-y)
-
-**Yuanpeng He** and Fuyuan Xiao.
-
-Computational and Applied Mathematics 41.1 (2022): 9.
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">APIN 2022</div><img src='images/covers/2021-nbf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -287,6 +274,19 @@ Computational and Applied Mathematics 41.1 (2022): 9.
 Applied Intelligence 52.4 (2022): 4473-4487.
 
 ![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COAM 2022</div><img src='images/covers/2021-mmget.jpg' alt="sym" width="70%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MMGET: a Markov model for generalized evidence theory](https://link.springer.com/article/10.1007/s40314-021-01697-y)
+
+**Yuanpeng He** and Fuyuan Xiao.
+
+Computational and Applied Mathematics 41.1 (2022): 9.
 
 </div>
 </div>
