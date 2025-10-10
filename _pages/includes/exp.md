@@ -40,7 +40,7 @@
 - Academic Technology Award (2021, Southwest University)
 - Innovation and Entrepreneurship Award (2021, Southwest University)
 - Literary and Artistic Activities Award (2021, Southwest University)
-- The Stars of Self-improvement of Chinese College Students (2021, The Communist Youth League of China)
+- The Stars of Self-improvement of Chinese College Students (2021, The Communist Youth League of China, The Sole University-Wide Recipient)
 
 ---
 
