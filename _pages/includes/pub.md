@@ -7,7 +7,7 @@
 
 [Evidential Prototype Learning for Semi-supervised Medical Image Segmentation](https://dl.acm.org/doi/abs/10.1145/3711896.3736944)
 
-**Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
+**Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
 
 Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025) V. 2, pp. 908-919.
 
@@ -22,7 +22,7 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 
 [Co-evidential fusion with information volume for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0031320325002997)
 
-**Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
+**Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
 
 Pattern Recognition 166 (2025): 111639.
 
@@ -58,7 +58,7 @@ IEEE Transactions on Mobile Computing (2025).
 
 [Time evidence fusion network: Multi-source view in long-term time series forecasting](https://ieeexplore.ieee.org/abstract/document/11120455/)
 
-Tianxiang Zhan, **Yuanpeng He**, Yong Deng, Zhen Li, Wenjie Du, and Qingsong Wen.
+Tianxiang Zhan, **Yuanpeng He**, Yong Deng, Zhen Li, Wenjie Du and Qingsong Wen.
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
@@ -74,7 +74,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 [Revisit Self-Debugging with Self-Generated Tests for Code Generation](https://aclanthology.org/2025.acl-long.881/)
 
-Xiancai Chen, Zhengwei Tao, Kechi Zhang, Changzhi Zhou, Wanli Gu, **Yuanpeng He**, Mengdi Zhang, Xunliang Cai, Haiyan Zhao, and Zhi Jin.
+Xiancai Chen, Zhengwei Tao, Kechi Zhang, Changzhi Zhou, Wanli Gu, **Yuanpeng He**, Mengdi Zhang, Xunliang Cai, Haiyan Zhao and Zhi Jin.
 
 The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
@@ -240,7 +240,7 @@ Soft Computing 27.11 (2023): 6973-6981.
 
 [Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/)
 
-Tianxiang Zhan, **Yuanpeng He**, Yong Deng, and Zhen Li.
+Tianxiang Zhan, **Yuanpeng He**, Yong Deng and Zhen Li.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
@@ -341,7 +341,7 @@ International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
 [A Matrix-based Distance of Pythagorean Fuzzy Set and its Application in Medical Diagnosis](https://arxiv.org/abs/2102.01538)
 
-**Yuanpeng He**, Lijian Li, and Tianxiang Zhan.
+**Yuanpeng He**, Lijian Li and Tianxiang Zhan.
 
 arXiv (2021).
 
