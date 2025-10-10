@@ -11,7 +11,7 @@
 <div class="art-box-glass" markdown="1">
 
 # 🏆 Honors
-- <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000)
+- <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000, ~Top 2%)
 - Merit Student Award (2025, Peking University)
 
 ---
@@ -26,7 +26,7 @@
 
 ---
 
-- <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Undergraduate Students (2022, Southwest University, ￥8000)
+- <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Undergraduate Students (2022, Southwest University, ￥8000, ~Top 1%)
 - Merit Student Award (2022, Southwest University)
 - Academic Technology Award (2022, Southwest University)
 - Innovation and Entrepreneurship Award (2022, Southwest University)
@@ -35,7 +35,7 @@
 
 ---
 
-- First Prize Scholarship (2021, Southwest University, ￥5000)
+- First Prize Scholarship (2021, Southwest University, ￥5000, ~Top 2%)
 - Merit Student Award (2021, Southwest University)
 - Academic Technology Award (2021, Southwest University)
 - Innovation and Entrepreneurship Award (2021, Southwest University)
