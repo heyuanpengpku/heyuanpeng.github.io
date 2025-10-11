@@ -27,9 +27,9 @@ author:
   location: "Beijing, China"
   employer:
   pubmed:
-  googlescholar: 
+  googlescholar: "https://scholar.google.com/citations?user=HaefBCQAAAAJ&hl=en&authuser=1"
   email: "heyuanpeng@stu.pku.edu.cn"
-  researchgate: 
+  researchgate: "https://www.researchgate.net/profile/Yuanpeng-He"
   uri:
   bitbucket:
   codepen:
@@ -44,12 +44,12 @@ author:
   impactstory: # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
   linkedin:
-  dblp: # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid:
+  dblp: "https://dblp2.uni-trier.de/pid/284/8058.html"
+  orcid: "https://orcid.org/0000-0001-9071-2260"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
-  steam:
+  steam: "https://steamcommunity.com/profiles/76561198449099267/"
   tumblr:
   twitter:
   vine:
