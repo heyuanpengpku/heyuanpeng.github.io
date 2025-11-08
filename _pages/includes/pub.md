@@ -1,5 +1,3 @@
-<div class="art-box-glass" markdown="1">
-
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/covers/2026-aaai-hyp.png' alt="sym" width="100%"></div></div>
@@ -16,8 +14,6 @@ The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)
 
 
 <div class="art-box-glass" markdown="1">
-
-# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
