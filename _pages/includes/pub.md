@@ -1,5 +1,7 @@
 # 📝 Publications
 
+<div class="art-box-glass" markdown="1">
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/covers/2026-aaai-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -12,8 +14,6 @@ The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)
 </div>
 </div>
 
-
-<div class="art-box-glass" markdown="1">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -33,8 +33,6 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 <div class='paper-box-text' markdown="1">
 
 [Co-evidential fusion with information volume for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0031320325002997)
-
-**Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
 
 Pattern Recognition 166 (2025): 111639.
 
