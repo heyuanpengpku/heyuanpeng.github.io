@@ -2,7 +2,7 @@
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/covers/2026-aaai-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/covers/2026-aaai-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DEFNet: Multitasks-based Deep Evidential Fusion Network for Blind Image Quality Assessment](https://arxiv.org/abs/2507.19418)
