@@ -2,12 +2,28 @@
 
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/covers/2026-aaai-hyp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DEFNet: Multitasks-based Deep Evidential Fusion Network for Blind Image Quality Assessment](https://arxiv.org/abs/2507.19418)
+
+The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)
+
+![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+
+</div>
+</div>
+
+
+<div class="art-box-glass" markdown="1">
+
+# 📝 Publications
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Evidential Prototype Learning for Semi-supervised Medical Image Segmentation](https://dl.acm.org/doi/abs/10.1145/3711896.3736944)
 
-**Yuanpeng He**, Lijian Li, Tianxiang Zhan, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
 
 Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025) V. 2, pp. 908-919.
 
@@ -40,8 +56,6 @@ Pattern Recognition 166 (2025): 111639.
 
 [UniTrans A Unified Vertical Federated Knowledge Transfer Framework for Enhancing Edge Healthcare Collaboration](https://ieeexplore.ieee.org/abstract/document/11086401)
 
-Chung-ju Huang, **Yuanpeng He**, Xiao Han, Wenpin Jiao, Zhi Jin and Leye Wang.
-
 IEEE Transactions on Mobile Computing (2025).
 
 ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
@@ -58,8 +72,6 @@ IEEE Transactions on Mobile Computing (2025).
 
 [Time evidence fusion network: Multi-source view in long-term time series forecasting](https://ieeexplore.ieee.org/abstract/document/11120455/)
 
-Tianxiang Zhan, **Yuanpeng He**, Yong Deng, Zhen Li, Wenjie Du and Qingsong Wen.
-
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
@@ -74,8 +86,6 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 [Revisit Self-Debugging with Self-Generated Tests for Code Generation](https://aclanthology.org/2025.acl-long.881/)
 
-Xiancai Chen, Zhengwei Tao, Kechi Zhang, Changzhi Zhou, Wanli Gu, **Yuanpeng He**, Mengdi Zhang, Xunliang Cai, Haiyan Zhao and Zhi Jin.
-
 The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
@@ -89,8 +99,6 @@ The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
 [An Adaptive Framework for Multi-View Clustering Leveraging Conditional Entropy Optimization](https://ieeexplore.ieee.org/abstract/document/10888088)
 
-Lijian Li, **Yuanpeng He** and Chi-Man Pun.
-
 ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
@@ -103,8 +111,6 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 <div class='paper-box-text' markdown="1">
 
 [Towards Structure-aware Model for Multi-modal Knowledge Graph Completion]()
-
-Linyu Li, Zhi Jin, Yichi Zhang, Dongming Jin, Chengfeng Dou, **Yuanpeng He**, Xuan Zhang and Haiyan Zhao.
 
 IEEE Transactions on Multimedia (2025).
 
@@ -120,8 +126,6 @@ IEEE Transactions on Multimedia (2025).
 
 [Multi-Prototype-based Embedding Refinement for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/10889249)
 
-Yali Bi, Enyu Che, Yinan Chen, **Yuanpeng He** and Jingwei Qu.
-
 ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
@@ -135,8 +139,6 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 [Transfer Graph in the Context of Evidence Theory](https://link.springer.com/article/10.1007/s40314-025-03293-w)
 
-Tianxiang Zhan, Qianli Zhou, **Yuanpeng He** and Yong Deng.
-
 Computational and Applied Mathematics 44.7 (2025): 345.
 
 </div>
@@ -147,8 +149,6 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 <div class='paper-box-text' markdown="1">
 
 [Residual Feature-Reutilization Inception Network](https://www.sciencedirect.com/science/article/pii/S0031320324001900)
-
-**Yuanpeng He**, Wenjie Song, Lijian Li, Tianxiang Zhan and Wenpin Jiao.
 
 Pattern Recognition 152 (2024): 110439.
 
@@ -164,8 +164,6 @@ Pattern Recognition 152 (2024): 110439.
 
 [Mutual Evidential Deep Learning for Semi-supervised Medical Image Segmentation](https://www.computer.org/csdl/proceedings-article/bibm/2024/10822008/23ooxNRj6W4)
 
-**Yuanpeng He**, Yali Bi, Lijian Li, Chi-Man Pun, Wenpin Jiao and Zhi Jin.
-
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
@@ -178,8 +176,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 <div class='paper-box-text' markdown="1">
 
 [Generalized Uncertainty-Based Evidential Fusion with Hybrid Multi-Head Attention for Weak-Supervised Temporal Action Localization](https://ieeexplore.ieee.org/abstract/document/10446799)
-
-**Yuanpeng He** Lijian Li, Tianxiang Zhan Wenpin Jiao and Chi-Man Pun.
 
 ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
 
@@ -194,8 +190,6 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 [Efficient Prototype Consistency Learning in Semi-Supervised Medical Image Segmentation via Joint Uncertainty and Data Augmentation](https://ieeexplore.ieee.org/document/10821789)
 
-Lijian Li, **Yuanpeng He** and Chi-Man Pun.
-
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
 ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
@@ -208,8 +202,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 <div class='paper-box-text' markdown="1">
 
 [TDQMF: Two-Dimensional Quantum Mass Function](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013238)
-
-**Yuanpeng He** and Yong Deng.
 
 Information Sciences 621 (2023): 749-765.
 
@@ -225,8 +217,6 @@ Information Sciences 621 (2023): 749-765.
 
 [Ordinal belief entropy](https://link.springer.com/article/10.1007/s00500-023-07947-x)
 
-**Yuanpeng He** and Yong Deng.
-
 Soft Computing 27.11 (2023): 6973-6981.
 
 ![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
@@ -239,8 +229,6 @@ Soft Computing 27.11 (2023): 6973-6981.
 <div class='paper-box-text' markdown="1">
 
 [Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/)
-
-Tianxiang Zhan, **Yuanpeng He**, Yong Deng and Zhen Li.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
@@ -256,8 +244,6 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
 [Spatio-Temporal Variability Analysis of Vegetation Dynamics in China from 2000 to 2022 Based on Leaf Area Index: A Multi-Temporal Image Classification Perspective](https://www.mdpi.com/2072-4292/15/12/2975)
 
-Tianchi Xu, Kai Yan, **Yuanpeng He**, Si Gao, Kai Yang, Jingrui Wang, Jinxiu Liu and Zhao Liu.
-
 Remote Sensing 15.12 (2023): 2975.
 
 </div>
@@ -268,8 +254,6 @@ Remote Sensing 15.12 (2023): 2975.
 <div class='paper-box-text' markdown="1">
 
 [A new base function in basic probability assignment for conflict management](https://link.springer.com/article/10.1007/s10489-021-02525-w)
-
-**Yuanpeng He** and Fuyuan Xiao.
 
 Applied Intelligence 52.4 (2022): 4473-4487.
 
@@ -284,8 +268,6 @@ Applied Intelligence 52.4 (2022): 4473-4487.
 
 [MMGET: a Markov model for generalized evidence theory](https://link.springer.com/article/10.1007/s40314-021-01697-y)
 
-**Yuanpeng He** and Fuyuan Xiao.
-
 Computational and Applied Mathematics 41.1 (2022): 9.
 
 </div>
@@ -297,8 +279,6 @@ Computational and Applied Mathematics 41.1 (2022): 9.
 
 [Ordinal fuzzy entropy](https://ijfs.usb.ac.ir/article_6950.html)
 
-**Yuanpeng He** and Yong Deng.
-
 Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
 
 </div>
@@ -309,8 +289,6 @@ Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
 <div class='paper-box-text' markdown="1">
 
 [NNDF: A new neural detection network for aspect-category sentiment analysis](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_27)
-
-Lijian Li, **Yuanpeng He** and Li Li.
 
 International Conference on Knowledge Science, Engineering and Management (2022) (pp. 339-355).
 
@@ -325,8 +303,6 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 [Conflicting management of evidence combination from the point of improvement of basic probability assignment](https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22366)
 
-**Yuanpeng He** and Fuyuan Xiao.
-
 International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
 ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
@@ -340,8 +316,6 @@ International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 <div class='paper-box-text' markdown="1">
 
 [A Matrix-based Distance of Pythagorean Fuzzy Set and its Application in Medical Diagnosis](https://arxiv.org/abs/2102.01538)
-
-**Yuanpeng He**, Lijian Li and Tianxiang Zhan.
 
 arXiv (2021).
 
