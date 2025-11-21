@@ -63,6 +63,7 @@
 - [International Conference on Learning Representations](https://iclr.cc/)
 - [International Conference on Robotics & Automation](https://2026.ieee-icra.org/) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 - [International Conference on Acoustics, Speech, and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+- [IEEE International Conference on Multimedia and Expo](https://2025.ieeeicme.org) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 
 ---
 
