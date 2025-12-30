@@ -77,6 +77,8 @@
 ) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 - [IEEE Transactions on Fuzzy Systems](https://cis.ieee.org/publications/t-fuzzy-systems) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
 ) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+- [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 - [Information Sciences](https://www.sciencedirect.com/journal/information-sciences) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
 ) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
 - [International Journal of Intelligent Systems](https://onlinelibrary.wiley.com/journal/ijis) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
