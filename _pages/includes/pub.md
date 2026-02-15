@@ -2,6 +2,22 @@
 
 # 📝 Publications
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/covers/2026-pr-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion]()
+
+Pattern Recognition (2026)
+
+![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
+)
+![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
+)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2026</div><img src='images/covers/2026-www.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
