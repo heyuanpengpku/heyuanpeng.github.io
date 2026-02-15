@@ -3,7 +3,7 @@
 # 📝 Publications
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/covers/2026-pr-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/covers/2026-pr-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion]()
