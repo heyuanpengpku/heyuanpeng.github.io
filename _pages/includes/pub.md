@@ -137,7 +137,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 IEEE Transactions on Multimedia (2025).
 
 ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
 </div>
 </div>
