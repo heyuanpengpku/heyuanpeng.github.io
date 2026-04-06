@@ -7,7 +7,7 @@
 
 [Your Inference Request will become a black box: Confidential Inference for Cloud-based Large Language Models](https://arxiv.org/abs/2603.00196)
 
-The 64th Annual Meeting of the Association for Computational Linguistics 2026 (ACL 2026)
+The 64th Annual Meeting of the Association for Computational Linguistics 2026 (2026)
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
@@ -19,7 +19,7 @@ The 64th Annual Meeting of the Association for Computational Linguistics 2026 (A
 
 [Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion]()
 
-Pattern Recognition (PR 2026)
+Pattern Recognition (2026)
 
 ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
 )
@@ -34,7 +34,7 @@ Pattern Recognition (PR 2026)
 
 [Learning to Evolve: Bayesian-Guided Continual Knowledge Graph Embedding](https://arxiv.org/abs/2508.02426)
 
-The Web Conference 2026 (WWW 2026)
+The Web Conference 2026 (2026)
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
@@ -46,7 +46,7 @@ The Web Conference 2026 (WWW 2026)
 
 [DEFNet: Multitasks-based Deep Evidential Fusion Network for Blind Image Quality Assessment](https://arxiv.org/abs/2507.19418)
 
-The Fortieth AAAI Conference on Artificial Intelligence (AAAI 2026)
+The Fortieth AAAI Conference on Artificial Intelligence (2026)
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
