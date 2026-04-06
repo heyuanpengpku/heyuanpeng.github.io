@@ -120,15 +120,16 @@
         min-width: 0;
         max-width: none;
 
-        a {
+        > p:first-of-type a,
+        > p:first-of-type a:hover,
+        > p:first-of-type a:focus,
+        > p:first-of-type a:visited {
             text-decoration: none !important;
+            text-decoration-line: none !important;
+            -webkit-text-decoration-line: none !important;
             border-bottom: none !important;
-        }
-
-        a:hover,
-        a:focus {
-            text-decoration: none !important;
-            border-bottom: none !important;
+            box-shadow: none !important;
+            background-image: none !important;
         }
     }
 
