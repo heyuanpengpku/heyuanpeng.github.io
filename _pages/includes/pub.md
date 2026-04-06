@@ -2,6 +2,11 @@
 
 # 📝 Publications
 
+<div class="pub-year-groups">
+
+<details class="pub-year-group" open>
+<summary><span class="pub-year-group__meta"><span>2026</span><span class="pub-year-group__count">4 papers</span></span></summary>
+<div class="pub-year-group__list">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/covers/2026-acl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -53,6 +58,13 @@ The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)
 
 </div>
 </div>
+
+</div>
+</details>
+
+<details class="pub-year-group" open>
+<summary><span class="pub-year-group__meta"><span>2025</span><span class="pub-year-group__count">9 papers</span></span></summary>
+<div class="pub-year-group__list">
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
@@ -178,6 +190,13 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 </div>
 </div>
 
+</div>
+</details>
+
+<details class="pub-year-group">
+<summary><span class="pub-year-group__meta"><span>2024</span><span class="pub-year-group__count">4 papers</span></span></summary>
+<div class="pub-year-group__list">
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2024</div><img src='images/covers/2024-pr-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -231,6 +250,13 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 </div>
 </div>
 
+</div>
+</details>
+
+<details class="pub-year-group">
+<summary><span class="pub-year-group__meta"><span>2023</span><span class="pub-year-group__count">4 papers</span></span></summary>
+<div class="pub-year-group__list">
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2023</div><img src='images/covers/2023-tqdmf.jpg' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -283,6 +309,13 @@ Remote Sensing 15.12 (2023): 2975.
 </div>
 </div>
 
+</div>
+</details>
+
+<details class="pub-year-group">
+<summary><span class="pub-year-group__meta"><span>2022</span><span class="pub-year-group__count">4 papers</span></span></summary>
+<div class="pub-year-group__list">
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">APIN 2022</div><img src='images/covers/2021-nbf.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -331,6 +364,13 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 </div>
 </div>
 
+</div>
+</details>
+
+<details class="pub-year-group">
+<summary><span class="pub-year-group__meta"><span>2021</span><span class="pub-year-group__count">2 papers</span></span></summary>
+<div class="pub-year-group__list">
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJIS 2021</div><img src='images/covers/2021-cmec.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -356,6 +396,11 @@ arXiv (2021).
 [![arXiv](https://img.shields.io/badge/cs.AI-2102.01538-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2102.01538)
 
 </div>
+</div>
+
+</div>
+</details>
+
 </div>
 
 

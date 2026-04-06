@@ -41,50 +41,80 @@
 @import "print";
 
 .paper-box {
+    position: relative;
     display: flex;
-    justify-content: left;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    gap: 1.25rem;
+    padding: 1.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.58);
+    border-radius: 20px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.34)),
+        rgba(255, 255, 255, 0.18);
+    box-shadow:
+        0 14px 32px rgba(49, 75, 122, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(16px) saturate(165%);
+    -webkit-backdrop-filter: blur(16px) saturate(165%);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 
-    .paper-box-image{
+    &:hover {
+        transform: translateY(-4px);
+        border-color: rgba(255, 255, 255, 0.82);
+        box-shadow:
+            0 20px 42px rgba(38, 63, 108, 0.18),
+            0 10px 22px rgba(38, 63, 108, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    }
+
+    & + .paper-box {
+        margin-top: 1rem;
+    }
+
+    .paper-box-image {
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
-        img {
+
+        > div {
+            position: relative;
+            width: 100%;
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 16px;
+            box-shadow: 0 14px 28px rgba(37, 53, 86, 0.22);
             object-fit: cover;
         }
     }
-    
-    .paper-box-text{
+
+    .paper-box-text {
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
-        .paper-box-image{
+        .paper-box-image {
             justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+            min-width: 220px;
+            max-width: 36%;
             order: 1;
         }
-        
-        .paper-box-text{
+
+        .paper-box-text {
             justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+            padding-left: 0.5rem;
+            max-width: calc(64% - 0.5rem);
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
@@ -98,12 +128,83 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.4rem 0.95rem;
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    top: 0.8rem;
+    left: 0.8rem;
     color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    background: linear-gradient(135deg, rgba(0, 54, 159, 0.95), rgba(57, 116, 255, 0.88));
+    border-radius: 999px;
+    box-shadow: 0 10px 24px rgba(0, 54, 159, 0.28);
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.pub-year-groups {
+    margin-top: 1.5rem;
+}
+
+.pub-year-group {
+    margin: 0 0 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow:
+        0 12px 28px rgba(51, 80, 128, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+}
+
+.pub-year-group[open] {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.18)),
+        rgba(255, 255, 255, 0.16);
+}
+
+.pub-year-group summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem 1.25rem;
+    font-size: 1.02rem;
+    font-weight: 600;
+}
+
+.pub-year-group summary::-webkit-details-marker {
+    display: none;
+}
+
+.pub-year-group summary::after {
+    content: "Expand";
+    min-width: 3em;
+    color: rgba(36, 50, 74, 0.72);
+    font-size: 0.88rem;
+    text-align: right;
+}
+
+.pub-year-group[open] summary::after {
+    content: "Collapse";
+}
+
+.pub-year-group__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.pub-year-group__count {
+    padding: 0.16rem 0.65rem;
+    border-radius: 999px;
+    background: rgba(36, 50, 74, 0.08);
+    color: rgba(36, 50, 74, 0.72);
+    font-size: 0.86rem;
+    font-weight: 500;
+}
+
+.pub-year-group__list {
+    padding: 0 1rem 1rem;
 }

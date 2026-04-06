@@ -8,65 +8,75 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     <style>
-      body, #particles-js {
-        background-color: #F5FFFA; /* 这是一个常用的浅灰色 */
+      body,
+      #particles-js {
+        background:
+          radial-gradient(circle at 20% 20%, rgba(107, 155, 255, 0.16), transparent 30%),
+          radial-gradient(circle at 80% 0%, rgba(92, 214, 184, 0.14), transparent 28%),
+          linear-gradient(135deg, #f5f8ff 0%, #fbfffe 52%, #eef8f4 100%);
+        background-color: #f5f8ff;
       }
 
       .art-box-glass {
-        background: rgba(255, 255, 255, 0.2); /* 半透明背景 */
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px); /* 核心：背景模糊 */
-        -webkit-backdrop-filter: blur(10px); /* 兼容 Safari */
-        border: 1px solid rgba(255, 255, 255, 0.3); /* 一个微妙的白色边框 */
+        position: relative;
+        overflow: hidden;
+        isolation: isolate;
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.26)),
+          rgba(255, 255, 255, 0.24);
+        border-radius: 24px;
+        box-shadow:
+          0 22px 60px rgba(51, 80, 128, 0.18),
+          inset 0 1px 0 rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(22px) saturate(180%);
+        -webkit-backdrop-filter: blur(22px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.62);
         padding: 25px 30px;
         margin: 20px 0;
-        color: #333; /* 根据你的背景，可能需要调整文字颜色 */
+        color: #24324a;
       }
 
-      /* --- 复制并粘贴从这里开始的所有代码 --- */
+      .art-box-glass::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(circle at top left, rgba(255, 255, 255, 0.45), transparent 34%),
+          linear-gradient(145deg, rgba(255, 255, 255, 0.14), transparent 58%);
+        pointer-events: none;
+        z-index: -1;
+      }
 
-      /* 1. 为导航栏添加毛玻璃效果 */
       .masthead {
-        /* 关键样式 */
-        background: rgba(245, 255, 250, 0.7) !important; /* 使用你网页背景色的半透明版本 */
-        backdrop-filter: blur(6px);
-        -webkit-backdrop-filter: blur(6px);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* 一个微妙的亮色边框 */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* 柔和的阴影 */
-
-        /* 你的主题应该已经处理了定位，所以下面这些通常不需要 */
-        /* 如果导航栏没有固定在顶部，再取消注释 */
-        /*
-        position: sticky;
-        top: 0;
-        z-index: 10;
-        */
+        background: rgba(255, 255, 255, 0.42) !important;
+        backdrop-filter: blur(18px) saturate(180%);
+        -webkit-backdrop-filter: blur(18px) saturate(180%);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        box-shadow:
+          0 12px 30px rgba(30, 50, 90, 0.12),
+          inset 0 1px 0 rgba(255, 255, 255, 0.72);
       }
 
       .masthead__inner-wrap {
-        background: none !important; /* 或者 background: transparent !important; */
+        background: none !important;
       }
 
-      .masthead__menu { background: none !important; }
+      .masthead__menu {
+        background: none !important;
+      }
 
-      #site-nav { background: none !important; }
+      #site-nav {
+        background: none !important;
+      }
 
-      /* 2. 为主要内容区域增加上边距，防止被导航栏遮挡 */
       #main {
-        /* 这个值约等于你导航栏的高度，可以根据实际效果微调 */
-        padding-top: 80px; 
+        padding-top: 80px;
       }
-
-      /* --- 粘贴到这里结束 --- */
 
       #main [id] {
-      /* 步骤1: 创建一个和你导航栏高度差不多的缓冲区 */
-      padding-top: 80px; 
-      
-      /* 步骤2: 将元素在视觉上拉回到原始位置，防止布局错乱 */
-      margin-top: -80px; 
-    }
+        padding-top: 80px;
+        margin-top: -80px;
+      }
 
     </style>
   </head>
