@@ -34,6 +34,18 @@ layout: compress
         padding: 25px 30px;
         margin: 20px 0;
         color: #24324a;
+        transform: translate3d(0, 0, 0);
+        will-change: transform, box-shadow;
+        transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+      }
+
+      .art-box-glass:hover {
+        transform: translate3d(0, -6px, 0);
+        border-color: rgba(255, 255, 255, 0.82);
+        box-shadow:
+          0 28px 68px rgba(51, 80, 128, 0.24),
+          0 12px 26px rgba(51, 80, 128, 0.12),
+          inset 0 1px 0 rgba(255, 255, 255, 0.8);
       }
 
       .art-box-glass::before {
