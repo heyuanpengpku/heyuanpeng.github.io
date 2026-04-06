@@ -12,16 +12,16 @@ $doc-font-size              : 14;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
-/* Source Serif 4 — SIL Open Font License, served via Google Fonts */
-$source-serif-4             : "Source Serif 4", Georgia, "Times New Roman", serif;
+/* system typefaces */
+$serif                      : Georgia, Times, serif;
+$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
+// $sans-serif                 : Georgia, serif, sans-serif;
 
-/* system typefaces (legacy names; site uses serif stack sitewide) */
-$serif                      : $source-serif-4;
-$sans-serif                 : $source-serif-4;
+// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
-$sans-serif-narrow          : $source-serif-4;
+$sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
@@ -31,9 +31,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $source-serif-4;
-$header-font-family         : $source-serif-4;
-$caption-font-family        : $source-serif-4;
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
