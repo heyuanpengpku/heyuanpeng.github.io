@@ -3,6 +3,18 @@
 # 📝 Publications
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/covers/2026-acl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Your Inference Request will become a black box: Confidential Inference for Cloud-based Large Language Models](https://arxiv.org/abs/2603.00196)
+
+The 64th Annual Meeting of the Association for Computational Linguistics 2026 (ACL 2026)
+
+![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/covers/2026-pr-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
