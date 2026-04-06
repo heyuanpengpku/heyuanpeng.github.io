@@ -78,6 +78,8 @@
 
     .paper-box-image {
         grid-column: 1;
+        position: relative;
+        z-index: 1;
         display: flex;
         width: 220px;
         min-width: 220px;
@@ -85,6 +87,7 @@
 
         > div {
             position: relative;
+            z-index: 1;
             width: 100%;
             max-width: 220px;
         }
@@ -146,6 +149,8 @@ h1:before, .anchor:before {
     position: absolute;
     top: 0.8rem;
     left: 0.8rem;
+    z-index: 3;
+    pointer-events: none;
     color: white;
     background: linear-gradient(135deg, rgba(0, 54, 159, 0.95), rgba(57, 116, 255, 0.88));
     border-radius: 999px;
@@ -153,4 +158,11 @@ h1:before, .anchor:before {
     font-size: 0.8em;
     font-weight: 600;
     letter-spacing: 0.02em;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
+}
+
+.paper-box:hover .badge {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 14px 28px rgba(0, 54, 159, 0.34);
 }
