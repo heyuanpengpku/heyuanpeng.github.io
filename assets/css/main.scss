@@ -47,8 +47,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    padding: 2em 0.5rem 2em 0.5rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    border-radius: 12px;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 36px rgba(18, 42, 72, 0.12);
+        background: rgba(255, 255, 255, 0.45);
+    }
 
     .paper-box-image{
         justify-content: center;
@@ -106,4 +115,168 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .paper-box {
+        transition: none;
+        &:hover {
+            transform: none;
+        }
+    }
+}
+
+/* --- Page backdrop & glass (moved from layout inline styles) --- */
+
+#particles-js {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: transparent;
+}
+
+body {
+    background: linear-gradient(
+            165deg,
+            #c9d6e8 0%,
+            #dde6ef 28%,
+            #e2ebe3 55%,
+            #d2dce8 100%
+        )
+        fixed;
+    min-height: 100vh;
+}
+
+.art-box-glass {
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 18px;
+    box-shadow:
+        0 10px 40px rgba(25, 48, 80, 0.14),
+        0 1px 0 rgba(255, 255, 255, 0.75) inset;
+    backdrop-filter: blur(20px) saturate(165%);
+    -webkit-backdrop-filter: blur(20px) saturate(165%);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    padding: 25px 30px;
+    margin: 20px 0;
+    color: #2a3340;
+}
+
+.masthead {
+    background: rgba(255, 255, 255, 0.78) !important;
+    backdrop-filter: blur(16px) saturate(155%);
+    -webkit-backdrop-filter: blur(16px) saturate(155%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65) !important;
+    box-shadow: 0 6px 24px rgba(20, 40, 65, 0.1);
+}
+
+.masthead__inner-wrap {
+    background: none !important;
+}
+
+.masthead__menu {
+    background: none !important;
+}
+
+#site-nav {
+    background: none !important;
+}
+
+#main {
+    padding-top: 80px;
+}
+
+#main [id] {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+/* Publications: year filter + collapsible sections */
+
+.pub-year-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 1rem 0 1.5rem;
+}
+
+.pub-year-btn {
+    font-family: $global-font-family;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid rgba(34, 75, 141, 0.25);
+    background: rgba(255, 255, 255, 0.55);
+    color: $text-color;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.85);
+        border-color: rgba(34, 75, 141, 0.45);
+    }
+
+    &.is-active {
+        background: rgba(34, 75, 141, 0.92);
+        border-color: rgba(34, 75, 141, 0.95);
+        color: #fff;
+        box-shadow: 0 2px 10px rgba(34, 75, 141, 0.25);
+    }
+}
+
+.pub-year-block {
+    margin-bottom: 0.75rem;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.22);
+    padding: 0 0.5rem 0.25rem;
+}
+
+.pub-year-summary {
+    font-family: $header-font-family;
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding: 0.65rem 0.5rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: #1c2740;
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+
+    &::after {
+        content: "";
+        width: 0.55rem;
+        height: 0.55rem;
+        border-right: 2px solid rgba(34, 75, 141, 0.55);
+        border-bottom: 2px solid rgba(34, 75, 141, 0.55);
+        transform: rotate(45deg);
+        transition: transform 0.2s ease;
+        flex-shrink: 0;
+    }
+}
+
+.pub-year-block[open] .pub-year-summary::after {
+    transform: rotate(-135deg);
+    margin-top: 0.2rem;
+}
+
+.pub-year-label {
+    letter-spacing: 0.02em;
+}
+
+.pub-year-count {
+    font-size: 0.85rem;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.pub-year-papers .paper-box:last-child {
+    border-bottom: none;
 }
