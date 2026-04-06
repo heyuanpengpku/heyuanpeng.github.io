@@ -45,8 +45,9 @@
     z-index: 0;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 1.25rem;
     padding: 1.35rem;
     border: 1px solid rgba(255, 255, 255, 0.58);
@@ -78,21 +79,23 @@
     }
 
     .paper-box-image {
-        justify-content: center;
+        flex: 0 0 220px;
+        justify-content: flex-start;
         display: flex;
-        width: 100%;
-        order: 2;
+        width: 220px;
+        min-width: 220px;
+        order: 1;
 
         > div {
             position: relative;
             width: 100%;
-            max-width: 400px;
+            max-width: 220px;
         }
 
         img {
             display: block;
             width: 100%;
-            max-width: 400px;
+            max-width: 220px;
             border-radius: 16px;
             box-shadow: 0 14px 28px rgba(37, 53, 86, 0.22);
             object-fit: cover;
@@ -106,23 +109,27 @@
     }
 
     .paper-box-text {
-        max-width: 100%;
-        order: 1;
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: none;
+        order: 2;
     }
 
     @include breakpoint($medium) {
         .paper-box-image {
-            justify-content: left;
-            min-width: 220px;
-            max-width: 36%;
-            order: 1;
+            flex-basis: 240px;
+            width: 240px;
+            min-width: 240px;
+
+            > div,
+            img {
+                max-width: 240px;
+            }
         }
 
         .paper-box-text {
-            justify-content: left;
+            justify-content: flex-start;
             padding-left: 0.5rem;
-            max-width: calc(64% - 0.5rem);
-            order: 2;
         }
     }
 }
