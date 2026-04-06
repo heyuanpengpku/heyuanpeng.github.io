@@ -183,3 +183,15 @@ h1:before, .anchor:before {
 .paper-box:hover .badge {
     box-shadow: 0 14px 28px rgba(0, 54, 159, 0.34);
 }
+
+.reviewers-card a,
+.reviewers-card a:hover,
+.reviewers-card a:focus,
+.reviewers-card a:visited {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    -webkit-text-decoration-line: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}

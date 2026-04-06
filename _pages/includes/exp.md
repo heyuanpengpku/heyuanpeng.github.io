@@ -1,4 +1,4 @@
-<div class="art-box-glass" markdown="1">
+<div class="art-box-glass reviewers-card" markdown="1">
 
 # 📖 Educations
 
@@ -50,7 +50,7 @@
 </div>
 
 
-<div class="art-box-glass" markdown="1">
+<div class="art-box-glass reviewers-card" markdown="1">
 
 # ✍🏻 Reviewers
 - [Neural Information Processing Systems](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
