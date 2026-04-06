@@ -7,7 +7,7 @@
 
 [Your Inference Request will become a black box: Confidential Inference for Cloud-based Large Language Models](https://arxiv.org/abs/2603.00196)
 
-The 64th Annual Meeting of the Association for Computational Linguistics 2026 (2026)
+The 64th Annual Meeting of the Association for Computational Linguistics (2026)
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
@@ -34,7 +34,7 @@ Pattern Recognition (2026)
 
 [Learning to Evolve: Bayesian-Guided Continual Knowledge Graph Embedding](https://arxiv.org/abs/2508.02426)
 
-The Web Conference 2026 (2026)
+The Web Conference (2026)
 
 ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 
