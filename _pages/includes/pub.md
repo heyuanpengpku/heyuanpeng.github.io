@@ -53,6 +53,18 @@ The Fortieth AAAI Conference on Artificial Intelligence (2026)
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FSS 2026</div><img src='images/covers/2026-fss.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Ternary Coding Of Maximum Deng Entropy]()
+
+Fuzzy Sets and Systems (2026)
+
+![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
