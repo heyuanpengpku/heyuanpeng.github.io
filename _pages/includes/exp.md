@@ -67,15 +67,15 @@
 
 ---
 
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-a">CCF A</span>
-- [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-a">CCF A</span>
-- [IEEE Transactions on Circuits and Systems for Video Technology](https://ieee-cas.org/publication/tcsvt) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [IEEE Transactions on Fuzzy Systems](https://cis.ieee.org/publications/t-fuzzy-systems) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [IEEE Transactions on Cybernetics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [Information Sciences](https://www.sciencedirect.com/journal/information-sciences) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [International Journal of Intelligent Systems](https://onlinelibrary.wiley.com/journal/ijis) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-a">CCF A</span>
+- [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-a">CCF A</span>
+- [IEEE Transactions on Circuits and Systems for Video Technology](https://ieee-cas.org/publication/tcsvt) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Fuzzy Systems](https://cis.ieee.org/publications/t-fuzzy-systems) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Cybernetics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [Information Sciences](https://www.sciencedirect.com/journal/information-sciences) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [International Journal of Intelligent Systems](https://onlinelibrary.wiley.com/journal/ijis) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
 - [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) <span class="hyp-pill ccf-c">CCF C</span>
 - [Applied Intelligence](https://link.springer.com/journal/10489) <span class="hyp-pill ccf-c">CCF C</span>
 - [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)

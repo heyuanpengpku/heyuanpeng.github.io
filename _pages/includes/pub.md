@@ -21,7 +21,7 @@ The 64th Annual Meeting of the Association for Computational Linguistics (2026)
 
 Pattern Recognition (2026)
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
@@ -85,7 +85,7 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 
 Pattern Recognition 166 (2025): 111639.
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
@@ -99,7 +99,7 @@ Pattern Recognition 166 (2025): 111639.
 
 IEEE Transactions on Mobile Computing (2025).
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
@@ -113,7 +113,7 @@ IEEE Transactions on Mobile Computing (2025).
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
@@ -153,7 +153,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 IEEE Transactions on Multimedia (2025).
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
@@ -191,7 +191,7 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 
 Pattern Recognition 152 (2024): 110439.
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
@@ -244,7 +244,7 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 Information Sciences 621 (2023): 749-765.
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
@@ -271,7 +271,7 @@ Soft Computing 27.11 (2023): 6973-6981.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
@@ -344,7 +344,7 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
-<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-c">CCF C</span>
 
 </div>
