@@ -11,6 +11,7 @@
 # Override defaults via env vars:
 #   GOOGLE_SCHOLAR_ID  scholar profile id (default: HaefBCQAAAAJ)
 #   GS_VENV            venv path (default: /tmp/gs_venv)
+#   GS_PUB_DIR         publish dir (default: ~/.gs_publish)
 
 set -euo pipefail
 
@@ -48,14 +49,29 @@ with open("results/gs_data_shieldsio.json", "w") as f:
 print(f"[refresh] OK citedby={author['citedby']} hindex={author['hindex']} i10index={author['i10index']}")
 PY
 
-# 3. Force-push results to the orphan `google-scholar-stats` branch
-#    via a fresh temp directory (so we don't touch the main repo).
-PUB_DIR="$(mktemp -d)"
+# 3. Force-push results to the orphan `google-scholar-stats` branch.
+#    A persistent dir at ~/.gs_publish is reused across refreshes; the
+#    first run bootstraps it (init + remote + branch).
+PUB_DIR="${GS_PUB_DIR:-$HOME/.gs_publish}"
+REMOTE_URL="$(cd "$REPO_DIR" && git config --get remote.origin.url)"
+
+if [ ! -d "$PUB_DIR/.git" ]; then
+  echo "[refresh] Bootstrapping publish dir at $PUB_DIR ..."
+  mkdir -p "$PUB_DIR"
+  cd "$PUB_DIR"
+  git init -q
+  git checkout -q -b google-scholar-stats
+  git remote add origin "$REMOTE_URL"
+fi
+
 cp "$CRAWLER_DIR/results/"* "$PUB_DIR/"
 cd "$PUB_DIR"
-git init -q
-git checkout -q -b google-scholar-stats
 git add .
+
+if git diff --cached --quiet; then
+  echo "[refresh] No changes since last refresh; nothing to push."
+  exit 0
+fi
 
 EMAIL="$(cd "$REPO_DIR" && git config user.email 2>/dev/null || true)"
 NAME="$(cd "$REPO_DIR" && git config user.name 2>/dev/null || true)"
@@ -64,7 +80,6 @@ NAME="${NAME:-heyuanpengpku}"
 
 git -c user.email="$EMAIL" -c user.name="$NAME" \
     commit -qm "chore: refresh Google Scholar stats $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-git remote add origin "$(cd "$REPO_DIR" && git config --get remote.origin.url)"
 git push -qf origin google-scholar-stats
 
 echo "[refresh] Pushed to google-scholar-stats. CDN may take 1-2 min to propagate."
