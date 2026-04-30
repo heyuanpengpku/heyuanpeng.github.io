@@ -9,7 +9,7 @@
 
 The 64th Annual Meeting of the Association for Computational Linguistics (2026)
 
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -21,10 +21,8 @@ The 64th Annual Meeting of the Association for Computational Linguistics (2026)
 
 Pattern Recognition (2026)
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -36,7 +34,7 @@ Pattern Recognition (2026)
 
 The Web Conference (2026)
 
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -48,7 +46,7 @@ The Web Conference (2026)
 
 The Fortieth AAAI Conference on Artificial Intelligence (2026)
 
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -60,7 +58,7 @@ The Fortieth AAAI Conference on Artificial Intelligence (2026)
 
 Fuzzy Sets and Systems (2026)
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+<span class="hyp-pill ccf-c">CCF C</span>
 
 </div>
 </div>
@@ -74,7 +72,7 @@ Fuzzy Sets and Systems (2026)
 
 Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025) V. 2, pp. 908-919.
 
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -87,10 +85,8 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 
 Pattern Recognition 166 (2025): 111639.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2
-)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -103,10 +99,8 @@ Pattern Recognition 166 (2025): 111639.
 
 IEEE Transactions on Mobile Computing (2025).
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-)
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D
-)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -119,8 +113,8 @@ IEEE Transactions on Mobile Computing (2025).
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -133,7 +127,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -146,7 +140,7 @@ The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
 ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -159,8 +153,8 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 IEEE Transactions on Multimedia (2025).
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-a">CCF A</span>
 
 </div>
 </div>
@@ -173,7 +167,7 @@ IEEE Transactions on Multimedia (2025).
 
 ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -197,8 +191,8 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 
 Pattern Recognition 152 (2024): 110439.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -211,7 +205,7 @@ Pattern Recognition 152 (2024): 110439.
 
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -224,7 +218,7 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -237,7 +231,7 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
 
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -250,8 +244,8 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 Information Sciences 621 (2023): 749-765.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -264,7 +258,7 @@ Information Sciences 621 (2023): 749-765.
 
 Soft Computing 27.11 (2023): 6973-6981.
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+<span class="hyp-pill ccf-c">CCF C</span>
 
 </div>
 </div>
@@ -277,8 +271,8 @@ Soft Computing 27.11 (2023): 6973-6981.
 
 IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-b">CCF B</span>
 
 </div>
 </div>
@@ -302,7 +296,7 @@ Remote Sensing 15.12 (2023): 2975.
 
 Applied Intelligence 52.4 (2022): 4473-4487.
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+<span class="hyp-pill ccf-c">CCF C</span>
 
 </div>
 </div>
@@ -337,7 +331,7 @@ Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
 
 International Conference on Knowledge Science, Engineering and Management (2022) (pp. 339-355).
 
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+<span class="hyp-pill ccf-c">CCF C</span>
 
 </div>
 </div>
@@ -350,8 +344,8 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
 
-![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700)
-![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A)
+<span class="hyp-pill casq-1">中科院一区</span>
+<span class="hyp-pill ccf-c">CCF C</span>
 
 </div>
 </div>

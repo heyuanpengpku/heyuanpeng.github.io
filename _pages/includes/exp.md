@@ -53,42 +53,31 @@
 <div class="art-box-glass reviewers-card" markdown="1">
 
 # ✍🏻 Reviewers
-- [Neural Information Processing Systems](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/conference/kdd/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [Annual Meeting of the Association for Computational Linguistics](https://aclanthology.org/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [Association for the Advancement of Artificial Intelligence](https://aaai.org/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [The IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [International Conference on Computer Vision](https://iccv.thecvf.com/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [ACM International Conference on Multimedia](https://dl.acm.org/conference/mm/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+- [Neural Information Processing Systems](https://nips.cc/) <span class="hyp-pill ccf-a">CCF A</span>
+- [SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/conference/kdd/) <span class="hyp-pill ccf-a">CCF A</span>
+- [Annual Meeting of the Association for Computational Linguistics](https://aclanthology.org/) <span class="hyp-pill ccf-a">CCF A</span>
+- [Association for the Advancement of Artificial Intelligence](https://aaai.org/) <span class="hyp-pill ccf-a">CCF A</span>
+- [The IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/) <span class="hyp-pill ccf-a">CCF A</span>
+- [International Conference on Computer Vision](https://iccv.thecvf.com/) <span class="hyp-pill ccf-a">CCF A</span>
+- [ACM International Conference on Multimedia](https://dl.acm.org/conference/mm/) <span class="hyp-pill ccf-a">CCF A</span>
 - [International Conference on Learning Representations](https://iclr.cc/)
-- [International Conference on Robotics & Automation](https://2026.ieee-icra.org/) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [International Conference on Acoustics, Speech, and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [International Conference on Multimedia and Expo](https://2025.ieeeicme.org) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
+- [International Conference on Robotics & Automation](https://2026.ieee-icra.org/) <span class="hyp-pill ccf-b">CCF B</span>
+- [International Conference on Acoustics, Speech, and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) <span class="hyp-pill ccf-b">CCF B</span>
+- [International Conference on Multimedia and Expo](https://2025.ieeeicme.org) <span class="hyp-pill ccf-b">CCF B</span>
 
 ---
 
-- [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [IEEE Transactions on Circuits and Systems for Video Technology](https://ieee-cas.org/publication/tcsvt) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [IEEE Transactions on Fuzzy Systems](https://cis.ieee.org/publications/t-fuzzy-systems) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [IEEE Transactions on Cybernetics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [Information Sciences](https://www.sciencedirect.com/journal/information-sciences) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [International Journal of Intelligent Systems](https://onlinelibrary.wiley.com/journal/ijis) ![Static Badge](https://img.shields.io/badge/%E4%B8%AD%E7%A7%91%E9%99%A2%E4%B8%80%E5%8C%BA-%23FFD700
-) ![Static Badge](https://img.shields.io/badge/CCF%20B-8A2BE2)
-- [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) ![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
-- [Applied Intelligence](https://link.springer.com/journal/10489) ![Static Badge](https://img.shields.io/badge/CCF%20C-%2300FA9A
-)
+- [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-a">CCF A</span>
+- [Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-a">CCF A</span>
+- [IEEE Transactions on Circuits and Systems for Video Technology](https://ieee-cas.org/publication/tcsvt) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Neural Networks and Learning Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Fuzzy Systems](https://cis.ieee.org/publications/t-fuzzy-systems) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE Transactions on Cybernetics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [Information Sciences](https://www.sciencedirect.com/journal/information-sciences) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [International Journal of Intelligent Systems](https://onlinelibrary.wiley.com/journal/ijis) <span class="hyp-pill casq-1">中科院一区</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) <span class="hyp-pill ccf-c">CCF C</span>
+- [Applied Intelligence](https://link.springer.com/journal/10489) <span class="hyp-pill ccf-c">CCF C</span>
 - [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
 - [The Visual Computer](https://link.springer.com/journal/371)
 
