@@ -55,7 +55,6 @@
 # ✍🏻 Reviewers
 - [Neural Information Processing Systems](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/conference/kdd/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
-- [Neural Information Processing Systems](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [Annual Meeting of the Association for Computational Linguistics](https://aclanthology.org/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [Association for the Advancement of Artificial Intelligence](https://aaai.org/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [The IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
