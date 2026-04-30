@@ -155,7 +155,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2025</div><img src='images/covers/2025-tsm-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Towards Structure-aware Model for Multi-modal Knowledge Graph Completion]()
+[Towards Structure-aware Model for Multi-modal Knowledge Graph Completion](https://ieeexplore.ieee.org/document/11275893)
 
 IEEE Transactions on Multimedia (2025).
 
