@@ -56,7 +56,7 @@ The Fortieth AAAI Conference on Artificial Intelligence (2026)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">FSS 2026</div><img src='images/covers/2026-fss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Ternary Coding Of Maximum Deng Entropy]()
+[Ternary Coding Of Maximum Deng Entropy](https://www.sciencedirect.com/science/article/pii/S016501142600151X)
 
 Fuzzy Sets and Systems (2026)
 
