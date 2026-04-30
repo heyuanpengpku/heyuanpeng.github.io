@@ -17,7 +17,7 @@ The 64th Annual Meeting of the Association for Computational Linguistics (2026)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR 2026</div><img src='images/covers/2026-pr-hyp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion]()
+[Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion](https://www.sciencedirect.com/science/article/pii/S003132032600292X)
 
 Pattern Recognition (2026)
 
