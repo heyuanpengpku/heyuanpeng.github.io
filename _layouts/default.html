@@ -399,6 +399,25 @@ layout: compress
          Tablet (≤1199px) tweaks
          ============================ */
       @media (max-width: 1199px) {
+        /* Force vertical stack: avatar on top, name/contact cards below */
+        .profile_box {
+          display: block !important;
+        }
+        .author__avatar,
+        .author__content,
+        .author__urls-wrapper {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          padding-left: 0 !important;
+        }
+        .author__avatar {
+          margin-bottom: 14px;
+        }
+        .author__avatar img {
+          max-width: 175px;
+        }
+
         .art-box-glass {
           padding: 22px 24px;
           margin: 16px 0;
