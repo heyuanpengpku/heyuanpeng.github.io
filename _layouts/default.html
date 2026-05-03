@@ -39,7 +39,9 @@ layout: compress
         transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
       }
 
-      .art-box-glass:hover {
+      .art-box-glass:hover,
+      .art-box-glass:active,
+      .art-box-glass:focus-within {
         transform: translate3d(0, -6px, 0);
         border-color: rgba(255, 255, 255, 0.82);
         box-shadow:
@@ -156,7 +158,11 @@ layout: compress
       }
 
       .author__content:hover,
-      .author__urls-wrapper:hover {
+      .author__content:active,
+      .author__content:focus-within,
+      .author__urls-wrapper:hover,
+      .author__urls-wrapper:active,
+      .author__urls-wrapper:focus-within {
         transform: translate3d(0, -4px, 0);
         border-color: rgba(255, 255, 255, 0.82);
         box-shadow:
@@ -283,7 +289,8 @@ layout: compress
         transition: transform 0.18s ease, box-shadow 0.18s ease;
       }
 
-      .hyp-pill:hover {
+      .hyp-pill:hover,
+      .hyp-pill:active {
         transform: translateY(-1px);
         box-shadow:
           0 4px 10px rgba(40, 60, 100, 0.24),
@@ -337,7 +344,8 @@ layout: compress
         transition: transform 0.22s ease, box-shadow 0.22s ease;
       }
 
-      .gs-metric:hover {
+      .gs-metric:hover,
+      .gs-metric:active {
         transform: translateY(-2px);
         box-shadow:
           0 10px 22px rgba(40, 60, 100, 0.16),
@@ -388,7 +396,8 @@ layout: compress
         transition: transform 0.2s ease, box-shadow 0.2s ease;
       }
 
-      .gs-link:hover {
+      .gs-link:hover,
+      .gs-link:active {
         transform: translateY(-1px);
         box-shadow:
           0 10px 22px rgba(0, 54, 159, 0.3),
