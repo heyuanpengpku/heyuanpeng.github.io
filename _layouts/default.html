@@ -395,6 +395,144 @@ layout: compress
           inset 0 1px 0 rgba(255, 255, 255, 0.45);
       }
 
+      /* ============================
+         Tablet (≤1199px) tweaks
+         ============================ */
+      @media (max-width: 1199px) {
+        .art-box-glass {
+          padding: 22px 24px;
+          margin: 16px 0;
+          border-radius: 22px;
+        }
+        .art-box-glass:hover {
+          transform: translate3d(0, -4px, 0);
+        }
+        .author__content,
+        .author__urls-wrapper {
+          padding: 14px 16px;
+          border-radius: 16px;
+        }
+        #main {
+          padding-top: 70px;
+        }
+        #main [id] {
+          padding-top: 70px;
+          margin-top: -70px;
+        }
+      }
+
+      /* ============================
+         Phone (≤767px) tweaks
+         ============================ */
+      @media (max-width: 767px) {
+        body {
+          font-size: 15px;
+          line-height: 1.55;
+        }
+        .art-box-glass {
+          padding: 16px 14px;
+          margin: 12px 0;
+          border-radius: 18px;
+          box-shadow:
+            0 12px 30px rgba(51, 80, 128, 0.14),
+            inset 0 1px 0 rgba(255, 255, 255, 0.65);
+        }
+        .art-box-glass:hover {
+          transform: none;
+          box-shadow:
+            0 12px 30px rgba(51, 80, 128, 0.14),
+            inset 0 1px 0 rgba(255, 255, 255, 0.65);
+        }
+        .page__content > .art-box-glass:first-child,
+        .page__content > p:first-child .art-box-glass:first-child {
+          margin-top: 12px;
+        }
+
+        .author__avatar img {
+          max-width: 140px !important;
+          min-width: 0 !important;
+        }
+        .author__content,
+        .author__urls-wrapper {
+          padding: 12px 14px;
+          margin-top: 10px;
+          border-radius: 14px;
+        }
+        .author__content:hover,
+        .author__urls-wrapper:hover {
+          transform: none;
+          box-shadow:
+            0 8px 22px rgba(51, 80, 128, 0.12),
+            inset 0 1px 0 rgba(255, 255, 255, 0.7);
+        }
+
+        .hyp-pill {
+          font-size: 0.7em;
+          padding: 0.14em 0.62em;
+          margin: 0.12em 0.12em;
+        }
+
+        .masthead .greedy-nav .visible-links a {
+          padding: 0.32rem 0.7rem;
+          font-size: 0.92em;
+        }
+
+        #main {
+          padding-top: 64px;
+          padding-left: 0.6em;
+          padding-right: 0.6em;
+        }
+        #main [id] {
+          padding-top: 64px;
+          margin-top: -64px;
+        }
+
+        .gs-metrics {
+          gap: 0.55rem;
+          margin-top: 1rem;
+          padding-top: 0.9rem;
+        }
+
+        /* Paper box: stack image and text vertically on phone */
+        .paper-box {
+          display: block !important;
+        }
+        .paper-box-image,
+        .paper-box-text {
+          display: block !important;
+          width: 100% !important;
+          float: none !important;
+          margin-bottom: 10px;
+        }
+        .paper-box-image img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        /* Compact contact list */
+        .author__urls li {
+          white-space: normal;
+          word-break: break-word;
+        }
+      }
+
+      /* ============================
+         Small phone (≤480px) tweaks
+         ============================ */
+      @media (max-width: 480px) {
+        .art-box-glass {
+          padding: 14px 12px;
+          border-radius: 16px;
+        }
+        .author__avatar img {
+          max-width: 120px !important;
+        }
+        .hyp-pill {
+          font-size: 0.66em;
+          padding: 0.12em 0.55em;
+        }
+      }
+
     </style>
   </head>
 
