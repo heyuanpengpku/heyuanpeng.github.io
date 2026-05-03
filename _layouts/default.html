@@ -82,7 +82,32 @@ layout: compress
       }
 
       .author__avatar img {
-        border-radius: 18px !important;
+        border-radius: 22px !important;
+      }
+
+      .author__content,
+      .author__urls-wrapper {
+        position: relative;
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.22));
+        border-radius: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.62);
+        backdrop-filter: blur(14px) saturate(170%);
+        -webkit-backdrop-filter: blur(14px) saturate(170%);
+        box-shadow:
+          0 8px 22px rgba(51, 80, 128, 0.12),
+          inset 0 1px 0 rgba(255, 255, 255, 0.7);
+        padding: 14px 18px;
+        margin-top: 14px;
+      }
+
+      .author__content .author__name,
+      .author__content .author__bio {
+        margin: 0.25em 0;
+      }
+
+      .author__urls-wrapper .author__urls {
+        margin-bottom: 0;
       }
 
       .masthead .greedy-nav .visible-links a {
