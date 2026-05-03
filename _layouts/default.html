@@ -449,40 +449,26 @@ layout: compress
         .author__urls-wrapper {
           text-align: center;
         }
-        /* Force .author__urls into normal flow on small screens.
-           By default it's absolute-positioned dropdown which JS toggles via
-           inline style="display:block" — that breaks centering. */
-        .author__urls {
-          position: static !important;
-          display: block !important;
-          margin: 0 !important;
-          padding: 0 !important;
-          border: 0 !important;
-          background: transparent !important;
-          box-shadow: none !important;
-          list-style: none !important;
-          z-index: auto !important;
-          text-align: center !important;
-        }
-        .author__urls::before,
-        .author__urls::after {
-          display: none !important;
-        }
-        .author__urls li {
-          display: block !important;
-          text-align: center !important;
-          list-style: none !important;
-          white-space: normal !important;
-        }
-        .author__urls li > a,
-        .author__urls li > div {
-          display: block !important;
-          text-align: center !important;
-          padding-right: 0 !important;
-        }
         .sidebar .author__name,
         .sidebar .author__bio {
           text-align: center !important;
+        }
+        /* On small screens use the icon-only contact strip (.author__urls_sm),
+           not the full text list. The full list (.author__urls) is the desktop
+           dropdown — keep it hidden here to avoid duplicate display. */
+        .author__urls {
+          display: none !important;
+        }
+        .author__urls_sm {
+          display: block !important;
+          text-align: center !important;
+          padding: 0.5em 0 !important;
+          font-size: 1.55em !important;
+        }
+        .author__urls_sm a {
+          display: inline-block;
+          margin: 0 0.3em;
+          color: inherit;
         }
 
         .art-box-glass {
