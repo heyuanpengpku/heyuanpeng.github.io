@@ -100,6 +100,22 @@ layout: compress
         padding: 0 !important;
         border: 0 !important;
         border-radius: 22px !important;
+        box-shadow:
+          0 8px 22px rgba(51, 80, 128, 0.16),
+          0 2px 6px rgba(51, 80, 128, 0.08);
+        transition:
+          transform 0.24s ease,
+          box-shadow 0.24s ease;
+        will-change: transform, box-shadow;
+      }
+
+      .author__avatar img:hover,
+      .author__avatar img:active,
+      .author__avatar img:focus {
+        transform: translate3d(0, -4px, 0);
+        box-shadow:
+          0 16px 34px rgba(51, 80, 128, 0.22),
+          0 6px 14px rgba(51, 80, 128, 0.12);
       }
 
       .masthead__menu-home-item {
