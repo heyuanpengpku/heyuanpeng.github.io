@@ -20,14 +20,13 @@ endif %}
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
+    {% if site.description %}
+    <div class="author__bio-quote">
+      {{ site.description }}
+    </div>
+    {% endif %}
     <ul class="author__urls social-icons">
-      {% if site.description %}
-      <li>
-        <div style="white-space: normal; margin-bottom: 1em">
-          {{ site.description }}
-        </div>
-      </li>
-      {% endif %} {% if author.location %}
+      {% if author.location %}
       <li>
         <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{
         author.location }}
