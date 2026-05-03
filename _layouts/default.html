@@ -174,6 +174,48 @@ layout: compress
         margin-bottom: 0;
       }
 
+      .author__urls > li {
+        background: rgba(255, 255, 255, 0.55);
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 12px;
+        padding: 0.45em 0.85em !important;
+        margin: 0.4em 0 !important;
+        white-space: normal !important;
+        box-shadow:
+          0 2px 6px rgba(40, 60, 100, 0.08),
+          inset 0 1px 0 rgba(255, 255, 255, 0.75);
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease,
+          background 0.2s ease,
+          border-color 0.2s ease;
+      }
+
+      .author__urls > li:hover {
+        transform: translateY(-1px);
+        background: rgba(255, 255, 255, 0.75);
+        border-color: rgba(255, 255, 255, 0.85);
+        box-shadow:
+          0 5px 14px rgba(40, 60, 100, 0.14),
+          inset 0 1px 0 rgba(255, 255, 255, 0.88);
+      }
+
+      .author__urls > li > a {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .author__urls > li:first-child,
+      .author__urls > li:first-child:hover {
+        background: none;
+        border: 0;
+        border-radius: 0;
+        padding: 0 !important;
+        margin: 0 0 0.7em 0 !important;
+        box-shadow: none;
+        transform: none;
+      }
+
       @media (min-width: 1200px) {
         .sidebar.sticky {
           width: 25% !important;
