@@ -99,13 +99,26 @@ layout: compress
       }
 
       @media (min-width: 1200px) {
+        .masthead__inner-wrap {
+          position: relative;
+        }
         .masthead__menu .visible-links li.masthead__menu-home-item {
+          position: absolute !important;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
           width: 25%;
+          text-align: center;
+          margin: 0 !important;
+          padding: 0 !important;
         }
         .masthead__menu .visible-links li.masthead__menu-home-item a {
           display: inline-block !important;
-          margin-left: 0 !important;
-          margin-right: 0 !important;
+          margin: 0 !important;
+        }
+        .masthead .greedy-nav {
+          padding-left: 25%;
+          box-sizing: border-box;
         }
       }
 
