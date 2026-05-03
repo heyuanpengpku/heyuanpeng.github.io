@@ -81,6 +81,55 @@ layout: compress
         background: none !important;
       }
 
+      .masthead .greedy-nav .visible-links a {
+        position: relative;
+        margin: 0 0.18rem;
+        padding: 0.42rem 0.95rem;
+        border-radius: 999px;
+        font-weight: 500;
+        color: #3a4a73;
+        transition:
+          color 0.22s ease,
+          background-color 0.22s ease,
+          transform 0.22s ease,
+          box-shadow 0.22s ease;
+      }
+
+      .masthead .greedy-nav .visible-links a::before {
+        display: none !important;
+      }
+
+      .masthead .greedy-nav .visible-links a::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0.18rem;
+        height: 2px;
+        width: 0;
+        background: linear-gradient(90deg, #6366f1, #8b5cf6);
+        border-radius: 999px;
+        transition: width 0.26s ease, left 0.26s ease, opacity 0.26s ease;
+        opacity: 0;
+      }
+
+      .masthead .greedy-nav .visible-links a:hover,
+      .masthead .greedy-nav .visible-links a:focus-visible {
+        color: #1a2647;
+        background: rgba(255, 255, 255, 0.55);
+        transform: translateY(-1px);
+        box-shadow:
+          0 4px 12px rgba(40, 60, 100, 0.12),
+          inset 0 1px 0 rgba(255, 255, 255, 0.85);
+        outline: none;
+      }
+
+      .masthead .greedy-nav .visible-links a:hover::after,
+      .masthead .greedy-nav .visible-links a:focus-visible::after {
+        width: 56%;
+        left: 22%;
+        opacity: 1;
+      }
+
       #main {
         padding-top: 80px;
       }
