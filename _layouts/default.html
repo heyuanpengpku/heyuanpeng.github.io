@@ -60,7 +60,7 @@ layout: compress
       }
 
       .masthead {
-        background: rgba(255, 255, 255, 0.42) !important;
+        background: rgba(255, 255, 255, 0.7) !important;
         backdrop-filter: blur(18px) saturate(180%);
         -webkit-backdrop-filter: blur(18px) saturate(180%);
         border-bottom: 1px solid rgba(255, 255, 255, 0.7);
@@ -393,6 +393,32 @@ layout: compress
         box-shadow:
           0 10px 22px rgba(0, 54, 159, 0.3),
           inset 0 1px 0 rgba(255, 255, 255, 0.45);
+      }
+
+      /* ============================
+         WeChat / X5 / older WebView fallbacks
+         When backdrop-filter is not supported (WeChat X5, older Android Chrome),
+         use a more opaque background so the glass cards stay readable.
+         ============================ */
+      html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+      a, button {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      @supports not ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))) {
+        .art-box-glass {
+          background: rgba(255, 255, 255, 0.92) !important;
+        }
+        .author__content,
+        .author__urls-wrapper {
+          background: rgba(255, 255, 255, 0.9) !important;
+        }
+        .masthead {
+          background: rgba(255, 255, 255, 0.96) !important;
+        }
       }
 
       /* ============================
