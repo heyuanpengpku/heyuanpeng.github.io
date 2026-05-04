@@ -1,6 +1,6 @@
 <div class="art-box-glass" markdown="1">
 
-# 📝 Publications
+<h1 id="publications"><span class="lang-en">📝 Publications</span><span class="lang-zh">📝 学术论文</span></h1>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/covers/2026-acl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

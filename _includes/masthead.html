@@ -7,16 +7,16 @@
           <li
             class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"
           >
-            <a href="#about-me" target="_self">Yuanpeng He's Homepage</a>
+            <a href="#about-me" target="_self"><span class="lang-en">Yuanpeng He's Homepage</span><span class="lang-zh">何垣鹏的个人主页</span></a>
           </li>
           {% for link in site.data.navigation.main %}
           <li class="masthead__menu-item">
             {% if link.url contains '#' %}
               <!-- 如果是页面内锚点链接，强制在当前页面跳转 -->
-              <a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}" target="_self"><span class="lang-en">{{ link.title }}</span>{% if link.title_zh %}<span class="lang-zh">{{ link.title_zh }}</span>{% endif %}</a>
             {% else %}
               <!-- 其他链接（外部链接）则遵循 base 标签的默认行为 -->
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}"><span class="lang-en">{{ link.title }}</span>{% if link.title_zh %}<span class="lang-zh">{{ link.title_zh }}</span>{% endif %}</a>
             {% endif %}
           </li>
           {% endfor %}

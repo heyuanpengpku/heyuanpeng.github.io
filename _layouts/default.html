@@ -622,11 +622,93 @@ layout: compress
         }
       }
 
+      /* ============================
+         Language toggle (EN / 中文)
+         ============================ */
+      .lang-zh,
+      .lang-en { display: revert; }
+      body.lang-en .lang-zh { display: none !important; }
+      body.lang-zh .lang-en { display: none !important; }
+
+      .lang-toggle-btn {
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 100;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 56px;
+        height: 44px;
+        padding: 0 18px;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 999px;
+        font-size: 0.92rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: #1a2647;
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.42)),
+          rgba(255, 255, 255, 0.35);
+        backdrop-filter: blur(14px) saturate(180%);
+        -webkit-backdrop-filter: blur(14px) saturate(180%);
+        box-shadow:
+          0 8px 22px rgba(51, 80, 128, 0.18),
+          inset 0 1px 0 rgba(255, 255, 255, 0.85);
+        cursor: pointer;
+        user-select: none;
+        transition:
+          transform 0.22s ease,
+          box-shadow 0.22s ease,
+          background 0.22s ease;
+      }
+      .lang-toggle-btn:hover,
+      .lang-toggle-btn:active,
+      .lang-toggle-btn:focus {
+        transform: translateY(-2px);
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.55)),
+          rgba(255, 255, 255, 0.5);
+        box-shadow:
+          0 14px 30px rgba(51, 80, 128, 0.22),
+          inset 0 1px 0 rgba(255, 255, 255, 0.95);
+        outline: none;
+      }
+      @supports not ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))) {
+        .lang-toggle-btn {
+          background: rgba(255, 255, 255, 0.95) !important;
+        }
+      }
+      @media (max-width: 480px) {
+        .lang-toggle-btn {
+          right: 14px;
+          bottom: 14px;
+          height: 40px;
+          padding: 0 14px;
+          font-size: 0.85rem;
+        }
+      }
+
     </style>
   </head>
 
-  <body>
-    
+  <body class="lang-en">
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('site-lang');
+          if (saved === 'zh' || saved === 'en') {
+            document.body.classList.remove('lang-en', 'lang-zh');
+            document.body.classList.add('lang-' + saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <button type="button" class="lang-toggle-btn" id="site-lang-toggle" aria-label="Switch language / 切换语言">
+      <span class="lang-en">中文</span><span class="lang-zh">EN</span>
+    </button>
+
     <!-- Particles.js container -->
     <div id="particles-js"></div>
 
@@ -647,6 +729,20 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+
+    <script>
+      (function() {
+        var btn = document.getElementById('site-lang-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function() {
+          var isZh = document.body.classList.contains('lang-zh');
+          var next = isZh ? 'en' : 'zh';
+          document.body.classList.remove('lang-en', 'lang-zh');
+          document.body.classList.add('lang-' + next);
+          try { localStorage.setItem('site-lang', next); } catch (e) {}
+        });
+      })();
+    </script>
 
   </body>
 </html>

@@ -1,19 +1,25 @@
 # main links links
 main:
   - title: "About Me"
+    title_zh: "关于我"
     url: "#about-me"
 
   - title: "Educations"
+    title_zh: "教育经历"
     url: "#educations"
 
   - title: "Honors"
+    title_zh: "荣誉奖励"
     url: "#honors"
 
   - title: "Reviewers"
+    title_zh: "学术审稿"
     url: "#reviewers"
 
   - title: "Research Projects"
+    title_zh: "科研项目"
     url: "#research-projects"
 
   - title: "Publications"
+    title_zh: "学术论文"
     url: "#publications"
