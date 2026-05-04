@@ -8,6 +8,7 @@
 # Site Settings
 title: "Yuanpeng He"
 description: "To recognize that what is past cannot be amended, and that what is to come may yet be pursued."
+description_zh: "悟已往之不谏,知来者之可追。"
 repository: "heyuanpengpku/heyuanpeng.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -22,9 +23,12 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 # Site Author
 author:
   name: "Yuanpeng He"
+  name_zh: "何垣鹏"
   avatar: "images/photos/hyp.png"
   bio: "Key Laboratory of High Confidence Software Technologies (Peking University), Ministry of Education, Beijing, 100871, China;\n School of Computer Science, Peking University, Beijing, 100871, China."
+  bio_zh: "高可信软件技术教育部重点实验室(北京大学),北京 100871;\n 北京大学计算机学院,北京 100871。"
   location: "Beijing, China"
+  location_zh: "中国 北京"
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=HaefBCQAAAAJ&hl=zh-CN&oi=ao"

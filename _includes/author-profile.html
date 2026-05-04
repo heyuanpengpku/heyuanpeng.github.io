@@ -12,9 +12,9 @@ endif %}
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name"><span class="lang-en">{{ author.name }}</span>{% if author.name_zh %}<span class="lang-zh">{{ author.name_zh }}</span>{% endif %}</h3>
     {% if author.bio %}
-    <p class="author__bio">{{ author.bio }}</p>
+    <p class="author__bio"><span class="lang-en">{{ author.bio }}</span>{% if author.bio_zh %}<span class="lang-zh">{{ author.bio_zh }}</span>{% endif %}</p>
     {% endif %}
   </div>
 
@@ -24,13 +24,12 @@ endif %}
       {% if site.description %}
       <li>
         <div style="white-space: normal; margin-bottom: 1em">
-          {{ site.description }}
+          <span class="lang-en">{{ site.description }}</span>{% if site.description_zh %}<span class="lang-zh">{{ site.description_zh }}</span>{% endif %}
         </div>
       </li>
       {% endif %} {% if author.location %}
       <li>
-        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{
-        author.location }}
+        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span class="lang-en">{{ author.location }}</span>{% if author.location_zh %}<span class="lang-zh">{{ author.location_zh }}</span>{% endif %}
       </li>
       {% endif %} {% if author.employer %}
       <li>
@@ -40,13 +39,13 @@ endif %}
       {% endif %} {% if author.uri %}
       <li>
         <a href="{{ author.uri }}"
-          ><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a
+          ><i class="fas fa-fw fa-link" aria-hidden="true"></i> <span class="lang-en">Website</span><span class="lang-zh">主页</span></a
         >
       </li>
       {% endif %} {% if author.email %}
       <li>
         <a href="mailto:{{ author.email }}"
-          ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a
+          ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <span class="lang-en">Email</span><span class="lang-zh">邮箱</span></a
         >
       </li>
       {% endif %} {% if author.keybase %}
@@ -92,7 +91,7 @@ endif %}
       {% endif %} {% if author.dblp %}
       <li>
         <a href="{{ author.dblp }}"
-          ><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a
+          ><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> <span class="lang-en">DBLP</span><span class="lang-zh">DBLP 主页</span></a
         >
       </li>
       {% endif %} {% if author.xing %}
@@ -166,7 +165,7 @@ endif %}
       {% endif %} {% if author.steam %}
       <li>
         <a href="https://steamcommunity.com/profiles/{{ author.steam }}"
-          ><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a
+          ><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> <span class="lang-en">Steam</span><span class="lang-zh">Steam 主页</span></a
         >
       </li>
       {% endif %} {% if author.youtube %}
@@ -209,7 +208,7 @@ endif %}
       {% endif %} {% if author.googlescholar %}
       <li>
         <a href="{{ author.googlescholar }}"
-          ><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a
+          ><i class="fas fa-fw fa-graduation-cap"></i> <span class="lang-en">Google Scholar</span><span class="lang-zh">谷歌学术</span></a
         >
       </li>
       {% endif %} {% if author.pubmed %}
@@ -221,7 +220,7 @@ endif %}
       {% endif %} {% if author.orcid %}
       <li>
         <a href="{{ author.orcid }}"
-          ><i class="ai ai-orcid-square ai-fw"></i> ORCID</a
+          ><i class="ai ai-orcid-square ai-fw"></i> <span class="lang-en">ORCID</span><span class="lang-zh">ORCID 主页</span></a
         >
       </li>
       {% endif %} {% if author.impactstory %}
