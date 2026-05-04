@@ -145,33 +145,33 @@
 
 <div class="lang-zh" markdown="1">
 
-- [Neural Information Processing Systems (NeurIPS)](https://nips.cc/) <span class="hyp-pill ccf-a">CCF A</span>
-- [SIGKDD 知识发现与数据挖掘大会](https://dl.acm.org/conference/kdd/) <span class="hyp-pill ccf-a">CCF A</span>
-- [国际计算语言学年会 (ACL)](https://aclanthology.org/) <span class="hyp-pill ccf-a">CCF A</span>
-- [人工智能促进协会会议 (AAAI)](https://aaai.org/) <span class="hyp-pill ccf-a">CCF A</span>
-- [IEEE/CVF 计算机视觉与模式识别大会 (CVPR)](https://cvpr.thecvf.com/) <span class="hyp-pill ccf-a">CCF A</span>
-- [国际计算机视觉大会 (ICCV)](https://iccv.thecvf.com/) <span class="hyp-pill ccf-a">CCF A</span>
-- [ACM 国际多媒体大会 (ACM MM)](https://dl.acm.org/conference/mm/) <span class="hyp-pill ccf-a">CCF A</span>
-- [国际表征学习大会 (ICLR)](https://iclr.cc/)
-- [国际机器人与自动化大会 (ICRA)](https://2026.ieee-icra.org/) <span class="hyp-pill ccf-b">CCF B</span>
-- [国际声学、语音与信号处理大会 (ICASSP)](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) <span class="hyp-pill ccf-b">CCF B</span>
-- [国际多媒体与博览会 (ICME)](https://2025.ieeeicme.org) <span class="hyp-pill ccf-b">CCF B</span>
+- [神经信息处理系统大会(Neural Information Processing Systems, NeurIPS)](https://nips.cc/) <span class="hyp-pill ccf-a">CCF A</span>
+- [SIGKDD 知识发现与数据挖掘大会(ACM SIGKDD Conference on Knowledge Discovery and Data Mining)](https://dl.acm.org/conference/kdd/) <span class="hyp-pill ccf-a">CCF A</span>
+- [国际计算语言学协会年会(Annual Meeting of the Association for Computational Linguistics, ACL)](https://aclanthology.org/) <span class="hyp-pill ccf-a">CCF A</span>
+- [人工智能促进协会会议(Association for the Advancement of Artificial Intelligence, AAAI)](https://aaai.org/) <span class="hyp-pill ccf-a">CCF A</span>
+- [IEEE/CVF 计算机视觉与模式识别大会(IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR)](https://cvpr.thecvf.com/) <span class="hyp-pill ccf-a">CCF A</span>
+- [国际计算机视觉大会(International Conference on Computer Vision, ICCV)](https://iccv.thecvf.com/) <span class="hyp-pill ccf-a">CCF A</span>
+- [ACM 国际多媒体大会(ACM International Conference on Multimedia, ACM MM)](https://dl.acm.org/conference/mm/) <span class="hyp-pill ccf-a">CCF A</span>
+- [国际表征学习大会(International Conference on Learning Representations, ICLR)](https://iclr.cc/)
+- [国际机器人与自动化大会(IEEE International Conference on Robotics and Automation, ICRA)](https://2026.ieee-icra.org/) <span class="hyp-pill ccf-b">CCF B</span>
+- [国际声学、语音与信号处理大会(IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP)](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) <span class="hyp-pill ccf-b">CCF B</span>
+- [国际多媒体与博览会(IEEE International Conference on Multimedia and Expo, ICME)](https://2025.ieeeicme.org) <span class="hyp-pill ccf-b">CCF B</span>
 
 ---
 
-- [IEEE 模式分析与机器智能汇刊 (TPAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-a">CCF A</span>
-- [人工智能 (Artificial Intelligence)](https://www.sciencedirect.com/journal/artificial-intelligence) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-a">CCF A</span>
-- [IEEE 视频技术电路与系统汇刊 (TCSVT)](https://ieee-cas.org/publication/tcsvt) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [IEEE 神经网络与学习系统汇刊 (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [IEEE 模糊系统汇刊 (TFS)](https://cis.ieee.org/publications/t-fuzzy-systems) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [IEEE 控制论汇刊 (T-Cybernetics)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [模式识别 (Pattern Recognition)](https://www.sciencedirect.com/journal/pattern-recognition) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [信息科学 (Information Sciences)](https://www.sciencedirect.com/journal/information-sciences) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [国际智能系统期刊 (IJIS)](https://onlinelibrary.wiley.com/journal/ijis) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
-- [神经计算 (Neurocomputing)](https://www.sciencedirect.com/journal/neurocomputing) <span class="hyp-pill ccf-c">CCF C</span>
-- [应用智能 (Applied Intelligence)](https://link.springer.com/journal/10489) <span class="hyp-pill ccf-c">CCF C</span>
-- [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
-- [The Visual Computer](https://link.springer.com/journal/371)
+- [IEEE 模式分析与机器智能汇刊(IEEE Transactions on Pattern Analysis and Machine Intelligence, TPAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-a">CCF A</span>
+- [人工智能(Artificial Intelligence, AIJ)](https://www.sciencedirect.com/journal/artificial-intelligence) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-a">CCF A</span>
+- [IEEE 视频技术电路与系统汇刊(IEEE Transactions on Circuits and Systems for Video Technology, TCSVT)](https://ieee-cas.org/publication/tcsvt) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE 神经网络与学习系统汇刊(IEEE Transactions on Neural Networks and Learning Systems, TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE 模糊系统汇刊(IEEE Transactions on Fuzzy Systems, TFS)](https://cis.ieee.org/publications/t-fuzzy-systems) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [IEEE 控制论汇刊(IEEE Transactions on Cybernetics, TCYB)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [模式识别(Pattern Recognition, PR)](https://www.sciencedirect.com/journal/pattern-recognition) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [信息科学(Information Sciences, INS)](https://www.sciencedirect.com/journal/information-sciences) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [国际智能系统期刊(International Journal of Intelligent Systems, IJIS)](https://onlinelibrary.wiley.com/journal/ijis) <span class="hyp-pill casq-1">CAS Q1</span> <span class="hyp-pill ccf-b">CCF B</span>
+- [神经计算(Neurocomputing)](https://www.sciencedirect.com/journal/neurocomputing) <span class="hyp-pill ccf-c">CCF C</span>
+- [应用智能(Applied Intelligence, APIN)](https://link.springer.com/journal/10489) <span class="hyp-pill ccf-c">CCF C</span>
+- [仪表与测控汇刊(ISA Transactions)](https://www.sciencedirect.com/journal/isa-transactions)
+- [视觉计算(The Visual Computer, TVC)](https://link.springer.com/journal/371)
 
 </div>
 
