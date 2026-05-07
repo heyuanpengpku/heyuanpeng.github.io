@@ -2,18 +2,6 @@
 
 <h1 id="publications"><span class="lang-en">📝 Publications</span><span class="lang-zh">📝 学术论文</span></h1>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC 2026</div><img src='images/covers/2026-icic-hyp.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[HEAF-Net with OALoss: A Hybrid Expert Attention Fusion Network for Ordinal Multi-Actuator Time Series Control: A Case Study of Building HVAC Valve Regulation](#)
-
-International Conference on Intelligent Computing (2026)
-
-<span class="hyp-pill ccf-c">CCF C</span>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/covers/2026-acl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -69,6 +57,18 @@ The Fortieth AAAI Conference on Artificial Intelligence (2026)
 [Ternary Coding Of Maximum Deng Entropy](https://www.sciencedirect.com/science/article/pii/S016501142600151X)
 
 Fuzzy Sets and Systems (2026)
+
+<span class="hyp-pill ccf-c">CCF C</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC 2026</div><img src='images/covers/2026-icic-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[HEAF-Net with OALoss: A Hybrid Expert Attention Fusion Network for Ordinal Multi-Actuator Time Series Control: A Case Study of Building HVAC Valve Regulation](#)
+
+International Conference on Intelligent Computing (2026)
 
 <span class="hyp-pill ccf-c">CCF C</span>
 
