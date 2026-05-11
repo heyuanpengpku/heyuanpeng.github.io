@@ -5,7 +5,7 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json?t=" + Date.now(), function (data) {
             var setIfExists = function (id, value) {
                 var el = document.getElementById(id);
                 if (el && value !== undefined && value !== null) el.innerHTML = value;
