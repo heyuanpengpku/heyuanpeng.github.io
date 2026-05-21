@@ -6,13 +6,19 @@
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json?t=" + Date.now(), function (data) {
-            var setIfExists = function (id, value) {
+            // Only overwrite metric placeholders when the Jekyll-baked value is
+            // missing (i.e., the span still shows the em-dash fallback).  When
+            // the bake at _data/gs.yml is populated the rendered HTML already
+            // holds the latest numbers; keeping them avoids stale CDN/proxy
+            // copies of gs_data.json from clobbering correct baked values.
+            var setIfBaked = function (id, value) {
                 var el = document.getElementById(id);
-                if (el && value !== undefined && value !== null) el.innerHTML = value;
+                if (!el || value === undefined || value === null) return;
+                if (el.textContent.trim() === '—') el.innerHTML = value;
             };
-            setIfExists('total_cit', data['citedby']);
-            setIfExists('h_index', data['hindex']);
-            setIfExists('i10_index', data['i10index']);
+            setIfBaked('total_cit', data['citedby']);
+            setIfBaked('h_index', data['hindex']);
+            setIfBaked('i10_index', data['i10index']);
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')

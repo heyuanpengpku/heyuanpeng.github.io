@@ -10,7 +10,8 @@
 #
 # Override defaults via env vars:
 #   GOOGLE_SCHOLAR_ID  scholar profile id (default: HaefBCQAAAAJ)
-#   GS_VENV            venv path (default: /tmp/gs_venv)
+#   GS_VENV            venv path (default: ~/.gs_venv — persistent so macOS
+#                                          /tmp cleanup does not eat it)
 #   GS_PUB_DIR         publish dir (default: ~/.gs_publish)
 
 set -euo pipefail
@@ -18,7 +19,7 @@ set -euo pipefail
 GS_ID="${GOOGLE_SCHOLAR_ID:-HaefBCQAAAAJ}"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 CRAWLER_DIR="$REPO_DIR/google_scholar_crawler"
-VENV_DIR="${GS_VENV:-/tmp/gs_venv}"
+VENV_DIR="${GS_VENV:-$HOME/.gs_venv}"
 
 # 1. Bootstrap venv if missing. httpx is pinned because scholarly 1.7.x
 #    is incompatible with httpx >= 0.28 (the `proxies` kwarg was removed).
@@ -83,3 +84,38 @@ git -c user.email="$EMAIL" -c user.name="$NAME" \
 git push -qf origin google-scholar-stats
 
 echo "[refresh] Pushed to google-scholar-stats. CDN may take 1-2 min to propagate."
+
+# 4. Bake the latest numbers into _data/gs.yml on main and push.  Jekyll
+#    renders these directly into the homepage HTML so the values do not
+#    depend on the visitor's network being able to bypass cached copies
+#    of gs_data.json (which some ISP/proxy layers refuse to revalidate).
+GS_VALUES="$("$VENV_DIR/bin/python" - <<PY
+import json
+with open("$CRAWLER_DIR/results/gs_data.json") as f:
+    d = json.load(f)
+print(d["citedby"], d["hindex"], d["i10index"], d["updated"], sep="\t")
+PY
+)"
+CITEDBY="$(echo "$GS_VALUES" | cut -f1)"
+HINDEX="$(echo "$GS_VALUES" | cut -f2)"
+I10INDEX="$(echo "$GS_VALUES" | cut -f3)"
+UPDATED="$(echo "$GS_VALUES" | cut -f4)"
+
+cd "$REPO_DIR"
+mkdir -p _data
+cat > _data/gs.yml <<YML
+citedby: $CITEDBY
+hindex: $HINDEX
+i10index: $I10INDEX
+updated: "$UPDATED"
+YML
+
+if git diff --quiet -- _data/gs.yml; then
+  echo "[refresh] _data/gs.yml unchanged; skipping main-branch commit."
+else
+  git add _data/gs.yml
+  git -c user.email="$EMAIL" -c user.name="$NAME" \
+      commit -qm "chore: bake Scholar stats ($CITEDBY / $HINDEX / $I10INDEX)"
+  git push -q origin HEAD:main
+  echo "[refresh] Baked $CITEDBY / $HINDEX / $I10INDEX into _data/gs.yml on main."
+fi

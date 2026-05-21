@@ -16,15 +16,15 @@ I am currently pursuing my Ph.D. at the School of Computer Science, Peking Unive
 
 <div class="gs-metrics">
   <div class="gs-metric">
-    <span class="gs-num" id="total_cit">—</span>
+    <span class="gs-num" id="total_cit">{{ site.data.gs.citedby | default: "—" }}</span>
     <span class="gs-label"><span class="lang-en">Citations</span><span class="lang-zh">引用</span></span>
   </div>
   <div class="gs-metric">
-    <span class="gs-num" id="h_index">—</span>
+    <span class="gs-num" id="h_index">{{ site.data.gs.hindex | default: "—" }}</span>
     <span class="gs-label">h-index</span>
   </div>
   <div class="gs-metric">
-    <span class="gs-num" id="i10_index">—</span>
+    <span class="gs-num" id="i10_index">{{ site.data.gs.i10index | default: "—" }}</span>
     <span class="gs-label">i10-index</span>
   </div>
   <a class="gs-link" href="https://scholar.google.com/citations?user=HaefBCQAAAAJ" target="_blank" rel="noopener"><span class="lang-en">Google Scholar →</span><span class="lang-zh">谷歌学术 →</span></a>
