@@ -2,6 +2,66 @@
 
 <h1 id="publications"><span class="lang-en">📝 Publications</span><span class="lang-zh">📝 学术论文</span></h1>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='images/covers/2026-tkde-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Consensus-Guided Multi-Match Adaptation with Uncertainty-Calibrated Thresholding for Test-Time Cross-Modal Retrieval](#)
+
+IEEE Transactions on Knowledge and Data Engineering (2026).
+
+<span class="hyp-pill ccf-a">CCF A</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2026</div><img src='images/covers/2026-taslp-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A²DA: Alignment-Distillation Synergistic Data Augmentation for Multilingual Knowledge Graph Completion](#)
+
+IEEE Transactions on Audio, Speech and Language Processing (2026).
+
+<span class="hyp-pill ccf-b">CCF B</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2026</div><img src='images/covers/2026-tse-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Needle in a Haystack: Intent-driven Reusable Artifacts Recommendation with LLMs](#)
+
+IEEE Transactions on Software Engineering (2026).
+
+<span class="hyp-pill ccf-a">CCF A</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RE 2026</div><img src='images/covers/2026-re-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[From Chat to Interview: Agentic Requirements Elicitation with an Experience Ontology](#)
+
+IEEE International Requirements Engineering Conference (2026).
+
+<span class="hyp-pill ccf-b">CCF B</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2026</div><img src='images/covers/2026-mm-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[When modalities remember: Continual learning for multimodal knowledge graphs](#)
+
+ACM International Conference on Multimedia (2026).
+
+<span class="hyp-pill ccf-a">CCF A</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/covers/2026-acl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
