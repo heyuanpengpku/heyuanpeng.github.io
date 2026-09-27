@@ -26,6 +26,11 @@
 
 <div class="lang-en" markdown="1">
 
+- Huawei Scholarship for PhD Students (2026, School of Computer Science, Peking University, ￥20000)
+- Merit Student Award (2026, Peking University)
+
+---
+
 - <span style="color:#d32f2f;font-weight:600;">**National Scholarship**</span> of P. R. China for Graduate Students (2025, Peking University, ￥30000, ~Top 2%)
 - Merit Student Award (2025, Peking University)
 
@@ -65,6 +70,11 @@
 </div>
 
 <div class="lang-zh" markdown="1">
+
+- 计算机学院华为奖学金(博士,2026,北京大学,￥20000)
+- 三好学生(2026,北京大学)
+
+---
 
 - <span style="color:#d32f2f;font-weight:600;">**国家奖学金**</span>(研究生,2025,北京大学,￥30000,约前 2%)
 - 三好学生(2025,北京大学)
