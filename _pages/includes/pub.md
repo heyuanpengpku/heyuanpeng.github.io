@@ -17,7 +17,7 @@ Advances in Neural Information Processing Systems (2026).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='images/covers/2026-tkde-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Consensus-Guided Multi-Match Adaptation with Uncertainty-Calibrated Thresholding for Test-Time Cross-Modal Retrieval](#)
+[Consensus-Guided Multi-Match Adaptation with Uncertainty-Calibrated Thresholding for Test-Time Cross-Modal Retrieval](https://ieeexplore.ieee.org/abstract/document/11682761)
 
 IEEE Transactions on Knowledge and Data Engineering (2026).
 
@@ -29,7 +29,7 @@ IEEE Transactions on Knowledge and Data Engineering (2026).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TASLP 2026</div><img src='images/covers/2026-taslp-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A²DA: Alignment-Distillation Synergistic Data Augmentation for Multilingual Knowledge Graph Completion](#)
+[A²DA: Alignment-Distillation Synergistic Data Augmentation for Multilingual Knowledge Graph Completion](https://ieeexplore.ieee.org/document/11623696)
 
 IEEE Transactions on Audio, Speech and Language Processing (2026).
 
@@ -41,7 +41,7 @@ IEEE Transactions on Audio, Speech and Language Processing (2026).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2026</div><img src='images/covers/2026-tse-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Needle in a Haystack: Intent-driven Reusable Artifacts Recommendation with LLMs](#)
+[A Needle in a Haystack: Intent-driven Reusable Artifacts Recommendation with LLMs](https://ieeexplore.ieee.org/document/11661709)
 
 IEEE Transactions on Software Engineering (2026).
 
@@ -53,7 +53,7 @@ IEEE Transactions on Software Engineering (2026).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RE 2026</div><img src='images/covers/2026-re-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[From Chat to Interview: Agentic Requirements Elicitation with an Experience Ontology](#)
+[From Chat to Interview: Agentic Requirements Elicitation with an Experience Ontology](https://arxiv.org/abs/2605.05828)
 
 IEEE International Requirements Engineering Conference (2026).
 
@@ -65,7 +65,7 @@ IEEE International Requirements Engineering Conference (2026).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2026</div><img src='images/covers/2026-mm-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[When modalities remember: Continual learning for multimodal knowledge graphs](#)
+[When modalities remember: Continual learning for multimodal knowledge graphs](https://arxiv.org/abs/2604.02778)
 
 ACM International Conference on Multimedia (2026).
 
