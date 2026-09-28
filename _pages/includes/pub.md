@@ -2,6 +2,18 @@
 
 <h1 id="publications"><span class="lang-en">📝 Publications</span><span class="lang-zh">📝 学术论文</span></h1>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/covers/2026-neurips-bat3r-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[BAT3R: Robust Online 3D Reconstruction with Bayesian Adaptive State Updates](#)
+
+Advances in Neural Information Processing Systems (2026).
+
+<span class="hyp-pill ccf-a">CCF A</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/covers/2026-neurips-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
