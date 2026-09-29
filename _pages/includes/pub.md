@@ -2,7 +2,7 @@
 
 <h1 id="publications"><span class="lang-en">📝 Publications</span><span class="lang-zh">📝 学术论文</span></h1>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI 2026</div><img src='images/covers/2026-tpami-hyp.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2026</div><img src='images/covers/2026-tpami-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Dual Uncertainty-Aware Guidance for Test-Time Visual Retrieval under Distributional Variations](#)
