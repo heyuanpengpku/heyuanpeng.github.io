@@ -150,6 +150,9 @@
 - [Applied Intelligence](https://link.springer.com/journal/10489) <span class="hyp-pill ccf-c">CCF C</span>
 - [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
 - [The Visual Computer](https://link.springer.com/journal/371)
+- [Biomedical Signal Processing and Control](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control)
+- [Computerized Medical Imaging and Graphics](https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics)
+- [Journal of Experimental & Theoretical Artificial Intelligence](https://www.tandfonline.com/journals/teta20)
 
 </div>
 
@@ -182,6 +185,9 @@
 - [应用智能(Applied Intelligence, APIN)](https://link.springer.com/journal/10489) <span class="hyp-pill ccf-c">CCF C</span>
 - [仪表与测控汇刊(ISA Transactions)](https://www.sciencedirect.com/journal/isa-transactions)
 - [视觉计算(The Visual Computer, TVC)](https://link.springer.com/journal/371)
+- [生物医学信号处理与控制(Biomedical Signal Processing and Control, BSPC)](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control)
+- [计算机化医学成像与图形(Computerized Medical Imaging and Graphics, CMIG)](https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics)
+- [实验与理论人工智能(Journal of Experimental & Theoretical Artificial Intelligence, JETAI)](https://www.tandfonline.com/journals/teta20)
 
 </div>
 
