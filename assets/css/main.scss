@@ -111,7 +111,10 @@
     }
 
     &:hover .paper-box-image img {
-        box-shadow: 0 18px 34px rgba(37, 53, 86, 0.28);
+        transform: translate3d(0, -6px, 0);
+        box-shadow:
+            0 24px 48px rgba(37, 53, 86, 0.30),
+            0 12px 24px rgba(37, 53, 86, 0.18);
     }
 
     .paper-box-text {
@@ -181,7 +184,10 @@ h1:before, .anchor:before {
 }
 
 .paper-box:hover .badge {
-    box-shadow: 0 14px 28px rgba(0, 54, 159, 0.34);
+    transform: translate3d(0, -6px, 0);
+    box-shadow:
+        0 24px 48px rgba(0, 54, 159, 0.34),
+        0 12px 24px rgba(0, 54, 159, 0.20);
 }
 
 .reviewers-card a,
