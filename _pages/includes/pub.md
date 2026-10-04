@@ -104,7 +104,7 @@ ACM International Conference on Multimedia (2026).
 
 [Your Inference Request will become a black box: Confidential Inference for Cloud-based Large Language Models](https://arxiv.org/abs/2603.00196)
 
-The 64th Annual Meeting of the Association for Computational Linguistics (2026)
+Annual Meeting of the Association for Computational Linguistics (2026).
 
 <span class="hyp-pill ccf-a">CCF A</span>
 
@@ -116,7 +116,7 @@ The 64th Annual Meeting of the Association for Computational Linguistics (2026)
 
 [Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion](https://www.sciencedirect.com/science/article/pii/S003132032600292X)
 
-Pattern Recognition (2026)
+Pattern Recognition (2026).
 
 <span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
@@ -129,7 +129,7 @@ Pattern Recognition (2026)
 
 [Learning to Evolve: Bayesian-Guided Continual Knowledge Graph Embedding](https://arxiv.org/abs/2508.02426)
 
-The Web Conference (2026)
+The Web Conference (2026).
 
 <span class="hyp-pill ccf-a">CCF A</span>
 
@@ -141,7 +141,7 @@ The Web Conference (2026)
 
 [DEFNet: Multitasks-based Deep Evidential Fusion Network for Blind Image Quality Assessment](https://arxiv.org/abs/2507.19418)
 
-The Fortieth AAAI Conference on Artificial Intelligence (2026)
+AAAI Conference on Artificial Intelligence (2026).
 
 <span class="hyp-pill ccf-a">CCF A</span>
 
@@ -153,7 +153,7 @@ The Fortieth AAAI Conference on Artificial Intelligence (2026)
 
 [Ternary Coding Of Maximum Deng Entropy](https://www.sciencedirect.com/science/article/pii/S016501142600151X)
 
-Fuzzy Sets and Systems (2026)
+Fuzzy Sets and Systems (2026).
 
 <span class="hyp-pill ccf-c">CCF C</span>
 
@@ -165,7 +165,7 @@ Fuzzy Sets and Systems (2026)
 
 [HEAF-Net with OALoss: A Hybrid Expert Attention Fusion Network for Ordinal Multi-Actuator Time Series Control: A Case Study of Building HVAC Valve Regulation](#)
 
-International Conference on Intelligent Computing (2026)
+International Conference on Intelligent Computing (2026).
 
 <span class="hyp-pill ccf-c">CCF C</span>
 
@@ -179,7 +179,7 @@ International Conference on Intelligent Computing (2026)
 [Evidential Prototype Learning for Semi-supervised Medical Image Segmentation](https://dl.acm.org/doi/abs/10.1145/3711896.3736944)
 
 
-Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025) V. 2, pp. 908-919.
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025).
 
 <span class="hyp-pill ccf-a">CCF A</span>
 
@@ -192,7 +192,7 @@ Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mi
 
 [Co-evidential fusion with information volume for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0031320325002997)
 
-Pattern Recognition 166 (2025): 111639.
+Pattern Recognition (2025).
 
 <span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
@@ -234,7 +234,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 [Revisit Self-Debugging with Self-Generated Tests for Code Generation](https://aclanthology.org/2025.acl-long.881/)
 
-The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
+Annual Meeting of the Association for Computational Linguistics (2025).
 
 <span class="hyp-pill ccf-a">CCF A</span>
 
@@ -247,7 +247,7 @@ The 63rd Annual Meeting of the Association for Computational Linguistics (2025).
 
 [An Adaptive Framework for Multi-View Clustering Leveraging Conditional Entropy Optimization](https://ieeexplore.ieee.org/abstract/document/10888088)
 
-ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
+IEEE International Conference on Acoustics, Speech and Signal Processing (2025).
 
 <span class="hyp-pill ccf-b">CCF B</span>
 
@@ -274,7 +274,7 @@ IEEE Transactions on Multimedia (2025).
 
 [Multi-Prototype-based Embedding Refinement for Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/10889249)
 
-ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (2025) pp. 1-5.
+IEEE International Conference on Acoustics, Speech and Signal Processing (2025).
 
 <span class="hyp-pill ccf-b">CCF B</span>
 
@@ -287,7 +287,7 @@ ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal P
 
 [Transfer Graph in the Context of Evidence Theory](https://link.springer.com/article/10.1007/s40314-025-03293-w)
 
-Computational and Applied Mathematics 44.7 (2025): 345.
+Computational and Applied Mathematics (2025).
 
 </div>
 </div>
@@ -298,7 +298,7 @@ Computational and Applied Mathematics 44.7 (2025): 345.
 
 [Residual Feature-Reutilization Inception Network](https://www.sciencedirect.com/science/article/pii/S0031320324001900)
 
-Pattern Recognition 152 (2024): 110439.
+Pattern Recognition (2024).
 
 <span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
@@ -312,7 +312,7 @@ Pattern Recognition 152 (2024): 110439.
 
 [Mutual Evidential Deep Learning for Semi-supervised Medical Image Segmentation](https://www.computer.org/csdl/proceedings-article/bibm/2024/10822008/23ooxNRj6W4)
 
-IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
+IEEE International Conference on Bioinformatics and Biomedicine (2024).
 
 <span class="hyp-pill ccf-b">CCF B</span>
 
@@ -325,7 +325,7 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 [Generalized Uncertainty-Based Evidential Fusion with Hybrid Multi-Head Attention for Weak-Supervised Temporal Action Localization](https://ieeexplore.ieee.org/abstract/document/10446799)
 
-ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (2024) (pp. 3855-3859).
+IEEE International Conference on Acoustics, Speech and Signal Processing (2024).
 
 <span class="hyp-pill ccf-b">CCF B</span>
 
@@ -338,7 +338,7 @@ ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal P
 
 [Efficient Prototype Consistency Learning in Semi-Supervised Medical Image Segmentation via Joint Uncertainty and Data Augmentation](https://ieeexplore.ieee.org/document/10821789)
 
-IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010-2017).
+IEEE International Conference on Bioinformatics and Biomedicine (2024).
 
 <span class="hyp-pill ccf-b">CCF B</span>
 
@@ -351,7 +351,7 @@ IEEE International Conference on Bioinformatics and Biomedicine (2024) (pp. 2010
 
 [TDQMF: Two-Dimensional Quantum Mass Function](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013238)
 
-Information Sciences 621 (2023): 749-765.
+Information Sciences (2023).
 
 <span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
@@ -365,7 +365,7 @@ Information Sciences 621 (2023): 749-765.
 
 [Ordinal belief entropy](https://link.springer.com/article/10.1007/s00500-023-07947-x)
 
-Soft Computing 27.11 (2023): 6973-6981.
+Soft Computing (2023).
 
 <span class="hyp-pill ccf-c">CCF C</span>
 
@@ -378,7 +378,7 @@ Soft Computing 27.11 (2023): 6973-6981.
 
 [Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/)
 
-IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
+IEEE Transactions on Fuzzy Systems (2023).
 
 <span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-b">CCF B</span>
@@ -392,7 +392,7 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
 [Spatio-Temporal Variability Analysis of Vegetation Dynamics in China from 2000 to 2022 Based on Leaf Area Index: A Multi-Temporal Image Classification Perspective](https://www.mdpi.com/2072-4292/15/12/2975)
 
-Remote Sensing 15.12 (2023): 2975.
+Remote Sensing (2023).
 
 </div>
 </div>
@@ -403,7 +403,7 @@ Remote Sensing 15.12 (2023): 2975.
 
 [A new base function in basic probability assignment for conflict management](https://link.springer.com/article/10.1007/s10489-021-02525-w)
 
-Applied Intelligence 52.4 (2022): 4473-4487.
+Applied Intelligence (2022).
 
 <span class="hyp-pill ccf-c">CCF C</span>
 
@@ -416,7 +416,7 @@ Applied Intelligence 52.4 (2022): 4473-4487.
 
 [MMGET: a Markov model for generalized evidence theory](https://link.springer.com/article/10.1007/s40314-021-01697-y)
 
-Computational and Applied Mathematics 41.1 (2022): 9.
+Computational and Applied Mathematics (2022).
 
 </div>
 </div>
@@ -427,7 +427,7 @@ Computational and Applied Mathematics 41.1 (2022): 9.
 
 [Ordinal fuzzy entropy](https://ijfs.usb.ac.ir/article_6950.html)
 
-Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
+Iranian Journal of Fuzzy Systems (2022).
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Iranian Journal of Fuzzy Systems 19.3 (2022): 171-186.
 
 [NNDF: A new neural detection network for aspect-category sentiment analysis](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_27)
 
-International Conference on Knowledge Science, Engineering and Management (2022) (pp. 339-355).
+International Conference on Knowledge Science, Engineering and Management (2022).
 
 <span class="hyp-pill ccf-c">CCF C</span>
 
@@ -451,7 +451,7 @@ International Conference on Knowledge Science, Engineering and Management (2022)
 
 [Conflicting management of evidence combination from the point of improvement of basic probability assignment](https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22366)
 
-International Journal of Intelligent Systems (2021), 36(5), pp.1914-1942.
+International Journal of Intelligent Systems (2021).
 
 <span class="hyp-pill casq-1">CAS Q1</span>
 <span class="hyp-pill ccf-c">CCF C</span>
