@@ -25,7 +25,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 16px/1.65 var(--sans);
+  font: 18px/1.65 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
 button,
@@ -137,7 +137,7 @@ html[data-language="zh"] .lang-en {
 }
 .wordmark {
   font-family: var(--serif);
-  font-size: 31px;
+  font-size: 33px;
   font-weight: 700;
   letter-spacing: -2px;
 }
@@ -150,7 +150,7 @@ html[data-language="zh"] .lang-en {
   margin-left: auto;
 }
 .desktop-nav a {
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 500;
   padding: 10px 0;
   position: relative;
@@ -179,7 +179,7 @@ html[data-language="zh"] .lang-en {
   background: transparent;
   border: 1px solid var(--line);
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 13.5px;
   min-width: 48px;
   min-height: 40px;
   color: var(--ink);
@@ -204,7 +204,7 @@ html[data-language="zh"] .lang-en {
 .mobile-nav a {
   display: block;
   padding: 10px;
-  font-size: 15px;
+  font-size: 17px;
 }
 .hero {
   padding-top: 88px;
@@ -215,7 +215,7 @@ html[data-language="zh"] .lang-en {
   align-items: center;
 }
 .eyebrow {
-  font-size: 11px;
+  font-size: 12.5px;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-weight: 600;
@@ -232,7 +232,7 @@ html[data-language="zh"] .lang-en {
 }
 .hero h1 {
   font-family: var(--serif);
-  font-size: clamp(52px, 5.6vw, 80px);
+  font-size: clamp(55px, 5.94vw, 85px);
   font-weight: 400;
   line-height: 1.13;
   letter-spacing: -3.8px;
@@ -244,10 +244,10 @@ html[data-language="zh"] .lang-en {
 }
 html[data-language="zh"] .hero h1 {
   letter-spacing: 0.05em;
-  font-size: 76px;
+  font-size: 81px;
 }
 .name-secondary {
-  font-size: 17px;
+  font-size: 19px;
   margin-top: 12px;
   color: var(--muted);
 }
@@ -259,7 +259,7 @@ html[data-language="zh"] .hero h1 {
   max-width: 665px;
   margin-top: 28px;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.85;
 }
 .hero-bio p + p {
@@ -267,7 +267,7 @@ html[data-language="zh"] .hero h1 {
 }
 .hero-bio p:first-child,
 .hero-bio p.lang-zh:nth-child(2) {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.7;
   color: var(--ink);
 }
@@ -295,7 +295,7 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
   padding: 12px 20px;
   min-height: 46px;
   border-radius: 4px;
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 500;
   line-height: 1.45;
   transition:
@@ -314,7 +314,7 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
   color: #fff;
 }
 .text-link {
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 500;
   display: inline-flex;
   align-items: center;
@@ -346,7 +346,7 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
   filter: saturate(0.88);
 }
 .portrait figcaption {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
   display: flex;
   gap: 8px;
@@ -356,7 +356,7 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
 }
 .portrait figcaption > span:last-child {
   margin-left: auto;
-  font-size: 9px;
+  font-size: 11px;
   font-variant-numeric: tabular-nums;
 }
 .portrait-line {
@@ -372,7 +372,7 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
   padding-block: 27px;
 }
 .small-label {
-  font-size: 10px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
@@ -382,7 +382,7 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
 }
 .research-note p {
   font-family: var(--serif);
-  font-size: 19px;
+  font-size: 21.5px;
   line-height: 1.45;
   margin-top: 5px;
 }
@@ -397,20 +397,20 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
 }
 .metric-number {
   font-family: var(--serif);
-  font-size: 40px;
+  font-size: 42px;
   line-height: 1.1;
   letter-spacing: -1px;
   font-variant-numeric: tabular-nums;
 }
 .metric-label {
-  font-size: 11px;
+  font-size: 12.5px;
   color: var(--muted);
 }
 .strip-link {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: 11px;
+  font-size: 12.5px;
   padding-left: 45px;
   border-left: 1px solid var(--line);
 }
@@ -426,20 +426,20 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
   margin-bottom: 32px;
 }
 .section-index {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.16em;
   color: var(--accent);
   gap: 8px;
 }
 .section h2,
 .contact-section h2 {
-  font: 400 43px/1.2 var(--serif);
+  font: 400 46px/1.2 var(--serif);
   letter-spacing: -1.5px;
   margin-top: 12px;
 }
 html[data-language="zh"] .section h2,
 html[data-language="zh"] .contact-section h2 {
-  font-size: 36px;
+  font-size: 38px;
   letter-spacing: 0.025em;
 }
 .section-heading > .text-link {
@@ -483,7 +483,7 @@ html[data-language="zh"] .contact-section h2 {
   display: grid;
   place-items: center;
   border: 1px solid var(--line);
-  font-size: 15px;
+  font-size: 17px;
 }
 .featured-meta {
   display: flex;
@@ -491,7 +491,7 @@ html[data-language="zh"] .contact-section h2 {
   justify-content: space-between;
   gap: 5px;
   margin: 19px 0 9px;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
 }
 .featured-meta > span:first-child {
@@ -501,7 +501,7 @@ html[data-language="zh"] .contact-section h2 {
   letter-spacing: 0.05em;
 }
 .featured-paper h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-family: var(--serif);
   font-weight: 400;
   line-height: 1.25;
@@ -509,7 +509,7 @@ html[data-language="zh"] .contact-section h2 {
 }
 .featured-paper > p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14.5px;
   margin-top: 12px;
   line-height: 1.75;
   margin-bottom: 18px;
@@ -518,7 +518,7 @@ html[data-language="zh"] .contact-section h2 {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--accent);
 }
@@ -534,7 +534,7 @@ html[data-language="zh"] .contact-section h2 {
   padding-top: 14px;
 }
 .heading-count {
-  font: 400 13px var(--sans);
+  font: 400 14.5px var(--sans);
   vertical-align: top;
   margin-left: 12px;
   color: var(--muted);
@@ -547,7 +547,7 @@ html[data-language="zh"] .contact-section h2 {
   letter-spacing: 0;
 }
 .section-note {
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.65;
   color: var(--muted);
   text-align: right;
@@ -568,7 +568,7 @@ html[data-language="zh"] .contact-section h2 {
   border: 1px solid transparent;
   background: transparent;
   padding: 8px 11px;
-  font-size: 12px;
+  font-size: 13.5px;
   color: var(--muted);
   min-height: 38px;
   border-radius: 3px;
@@ -591,7 +591,7 @@ html[data-language="zh"] .contact-section h2 {
   max-width: 250px;
 }
 .paper-search > span[aria-hidden] {
-  font-size: 23px;
+  font-size: 26px;
   line-height: 1;
 }
 .paper-search input {
@@ -599,7 +599,7 @@ html[data-language="zh"] .contact-section h2 {
   min-width: 0;
   background: transparent;
   color: var(--ink);
-  font-size: 12px;
+  font-size: 13.5px;
   width: 185px;
   padding: 5px;
 }
@@ -607,7 +607,7 @@ html[data-language="zh"] .contact-section h2 {
   color: var(--muted);
 }
 .publication-status {
-  font-size: 11px;
+  font-size: 12.5px;
   color: var(--muted);
   padding-bottom: 12px;
 }
@@ -622,10 +622,10 @@ html[data-language="zh"] .contact-section h2 {
 .publication-year {
   font-family: var(--serif);
   color: var(--muted);
-  font-size: 18px;
+  font-size: 20px;
 }
 .publication-venue {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--accent);
   letter-spacing: 0.065em;
@@ -633,7 +633,7 @@ html[data-language="zh"] .contact-section h2 {
   margin-bottom: 6px;
 }
 .publication-content h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.55;
   text-wrap: pretty;
@@ -643,7 +643,7 @@ html[data-language="zh"] .contact-section h2 {
   text-underline-offset: 4px;
 }
 .venue-full {
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.6;
   color: var(--muted);
   margin-top: 6px;
@@ -659,7 +659,7 @@ html[data-language="zh"] .contact-section h2 {
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
 }
 .publication-tags span {
@@ -708,7 +708,7 @@ html[data-language="zh"] .contact-section h2 {
   gap: 90px;
 }
 .subsection-heading {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 25px;
   display: flex;
@@ -716,7 +716,7 @@ html[data-language="zh"] .contact-section h2 {
   gap: 12px;
 }
 .small-count {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 400;
   color: var(--muted);
 }
@@ -746,23 +746,23 @@ html[data-language="zh"] .contact-section h2 {
   background: var(--accent);
 }
 .education-date {
-  font-size: 11px;
+  font-size: 12.5px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 .current-label {
   color: var(--accent);
   margin-left: 8px;
-  font-size: 9px;
+  font-size: 11px;
   border-bottom: 1px solid #d2b4b9;
 }
 .education-item h4 {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 500;
   margin: 7px 0 3px;
 }
 .education-item > p:last-child {
-  font-size: 12px;
+  font-size: 13.5px;
   color: var(--muted);
 }
 .project-list,
@@ -775,7 +775,7 @@ html[data-language="zh"] .contact-section h2 {
 .project-list li {
   border-top: 1px solid var(--line);
   padding: 13px 0;
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.8;
   color: var(--muted);
 }
@@ -795,7 +795,7 @@ html[data-language="zh"] .contact-section h2 {
 }
 .honor-list li {
   position: relative;
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1.85;
   padding-left: 18px;
   margin-bottom: 15px;
@@ -807,13 +807,13 @@ html[data-language="zh"] .contact-section h2 {
   left: 0;
   top: 0;
   color: var(--accent);
-  font-size: 11px;
+  font-size: 12.5px;
 }
 .honor-list strong {
   color: var(--ink);
 }
 .service-intro {
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1.85;
   color: var(--muted);
 }
@@ -823,7 +823,7 @@ html[data-language="zh"] .contact-section h2 {
   gap: 20px 15px;
   margin: 28px 0;
   font-family: var(--serif);
-  font-size: 21px;
+  font-size: 23.5px;
   color: #464d43;
 }
 .more-details {
@@ -835,7 +835,7 @@ html[data-language="zh"] .contact-section h2 {
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  font-size: 12px;
+  font-size: 13.5px;
   font-weight: 500;
   padding: 15px 0;
   cursor: pointer;
@@ -848,7 +848,7 @@ html[data-language="zh"] .contact-section h2 {
   color: var(--accent);
 }
 .details-icon {
-  font-size: 19px;
+  font-size: 21.5px;
   font-weight: 400;
   transition: transform 0.2s;
 }
@@ -861,7 +861,7 @@ html[data-language="zh"] .contact-section h2 {
 .service-list li {
   padding: 10px 0;
   border-top: 1px solid var(--line);
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.8;
   color: var(--muted);
 }
@@ -871,7 +871,7 @@ html[data-language="zh"] .contact-section h2 {
 }
 .hyp-pill {
   display: inline-block;
-  font-size: 9px;
+  font-size: 11px;
   padding: 0 4px;
   margin: 0 2px;
   border: 1px solid var(--line);
@@ -886,13 +886,13 @@ html[data-language="zh"] .contact-section h2 {
   padding-block: 70px 60px;
 }
 .contact-section h2 {
-  font-size: 49px;
+  font-size: 52px;
 }
 .contact-email {
   display: inline-flex;
   gap: 15px;
   align-items: center;
-  font-size: 19px;
+  font-size: 21.5px;
   margin-top: 24px;
   color: var(--accent);
   border-bottom: 1px solid #d6bdc1;
@@ -900,7 +900,7 @@ html[data-language="zh"] .contact-section h2 {
   overflow-wrap: anywhere;
 }
 .contact-address {
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.8;
   color: var(--muted);
   margin-top: 18px;
@@ -909,14 +909,14 @@ html[data-language="zh"] .contact-section h2 {
   padding-top: 28px;
 }
 .contact-aside blockquote {
-  font: italic 22px/1.7 var(--serif);
+  font: italic 25px/1.7 var(--serif);
   color: var(--muted);
   max-width: 370px;
 }
 .social-links {
   display: flex;
   gap: 25px;
-  font-size: 11px;
+  font-size: 12.5px;
   margin-top: 26px;
 }
 .site-footer {
@@ -926,11 +926,11 @@ html[data-language="zh"] .contact-section h2 {
   align-items: center;
   padding-block: 24px;
   border-top: 1px solid var(--line);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
 }
 .footer-name {
-  font-size: 12px;
+  font-size: 13.5px;
   color: var(--ink);
 }
 .footer-name span {
@@ -938,7 +938,7 @@ html[data-language="zh"] .contact-section h2 {
   color: var(--muted);
 }
 .back-top {
-  font-size: 11px;
+  font-size: 12.5px;
 }
 
 @media (min-width: 1500px) {
@@ -947,7 +947,7 @@ html[data-language="zh"] .contact-section h2 {
     padding-bottom: 85px;
   }
   .hero h1 {
-    font-size: 84px;
+    font-size: 89px;
   }
 }
 
@@ -961,7 +961,7 @@ html[data-language="zh"] .contact-section h2 {
     gap: 55px;
   }
   .hero h1 {
-    font-size: 62px;
+    font-size: 66px;
   }
   .desktop-nav {
     gap: 22px;
@@ -984,10 +984,10 @@ html[data-language="zh"] .contact-section h2 {
     gap: 55px;
   }
   .featured-meta {
-    font-size: 9px;
+    font-size: 11px;
   }
   .featured-paper h3 {
-    font-size: 20px;
+    font-size: 22.5px;
   }
   .paper-search {
     max-width: 210px;
@@ -1008,7 +1008,7 @@ html[data-language="zh"] .contact-section h2 {
     gap: 16px;
   }
   .desktop-nav a {
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .hero {
     padding-top: 60px;
@@ -1017,18 +1017,18 @@ html[data-language="zh"] .contact-section h2 {
     gap: 35px;
   }
   .hero h1 {
-    font-size: 49px;
+    font-size: 52px;
     letter-spacing: -2px;
   }
   html[data-language="zh"] .hero h1 {
-    font-size: 60px;
+    font-size: 64px;
   }
   .hero-bio {
-    font-size: 13px;
+    font-size: 14.5px;
   }
   .hero-bio p:first-child,
   .hero-bio p.lang-zh:nth-child(2) {
-    font-size: 16px;
+    font-size: 18px;
   }
   .portrait figcaption > span:last-child {
     display: none;
@@ -1037,24 +1037,24 @@ html[data-language="zh"] .contact-section h2 {
     gap: 18px;
   }
   .hero-links .text-link {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .hero-links .button {
     padding: 11px 14px;
     gap: 16px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .research-strip {
     gap: 25px;
   }
   .research-note p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .metrics {
     gap: 23px;
   }
   .metric-number {
-    font-size: 34px;
+    font-size: 36px;
   }
   .strip-link {
     display: none;
@@ -1063,7 +1063,7 @@ html[data-language="zh"] .contact-section h2 {
     padding-block: 55px;
   }
   .section h2 {
-    font-size: 37px;
+    font-size: 39px;
   }
   .featured-grid {
     gap: 18px;
@@ -1076,10 +1076,10 @@ html[data-language="zh"] .contact-section h2 {
     gap: 3px 10px;
   }
   .featured-paper h3 {
-    font-size: 21px;
+    font-size: 23.5px;
   }
   .featured-paper > p {
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .publication-controls {
     flex-wrap: wrap;
@@ -1100,14 +1100,14 @@ html[data-language="zh"] .contact-section h2 {
     height: 75px;
   }
   .publication-content h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .experience-grid,
   .recognition-grid {
     gap: 35px;
   }
   .education-date {
-    font-size: 10px;
+    font-size: 11px;
   }
   .current-label {
     display: block;
@@ -1116,17 +1116,17 @@ html[data-language="zh"] .contact-section h2 {
   }
   .service-wordmarks {
     grid-template-columns: repeat(3, 1fr);
-    font-size: 20px;
+    font-size: 22.5px;
     gap: 14px;
   }
   .contact-section {
     gap: 40px;
   }
   .contact-email {
-    font-size: 15px;
+    font-size: 17px;
   }
   .contact-aside blockquote {
-    font-size: 19px;
+    font-size: 21.5px;
   }
 }
 
@@ -1143,7 +1143,7 @@ html[data-language="zh"] .contact-section h2 {
     gap: 15px;
   }
   .wordmark {
-    font-size: 28px;
+    font-size: 31.5px;
   }
   .desktop-nav {
     display: none;
@@ -1153,7 +1153,7 @@ html[data-language="zh"] .contact-section h2 {
   }
   .menu-button {
     display: flex;
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .language-button {
     padding: 5px 10px;
@@ -1170,13 +1170,13 @@ html[data-language="zh"] .contact-section h2 {
     display: contents;
   }
   .hero .eyebrow {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.08em;
     grid-column: 1;
   }
   .hero h1 {
     grid-column: 1;
-    font-size: 54px;
+    font-size: 57px;
     letter-spacing: -2.5px;
     margin-top: 0;
     line-height: 1.1;
@@ -1188,12 +1188,12 @@ html[data-language="zh"] .contact-section h2 {
     max-width: 220px;
   }
   html[data-language="zh"] .hero h1 {
-    font-size: 48px;
+    font-size: 51px;
     margin-top: 16px;
     max-width: calc(100% - 110px);
   }
   .name-secondary {
-    font-size: 13px;
+    font-size: 14.5px;
     margin-top: -17px;
     max-width: calc(100% - 110px);
   }
@@ -1217,7 +1217,7 @@ html[data-language="zh"] .contact-section h2 {
     left: 7px;
   }
   .portrait figcaption {
-    font-size: 9px;
+    font-size: 11px;
     margin-top: 10px;
     gap: 6px;
   }
@@ -1226,13 +1226,13 @@ html[data-language="zh"] .contact-section h2 {
   }
   .hero-bio {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.85;
     grid-column: 1;
   }
   .hero-bio p:first-child,
   .hero-bio p.lang-zh:nth-child(2) {
-    font-size: 17px;
+    font-size: 19px;
   }
   .hero-links {
     margin-top: -6px;
@@ -1243,7 +1243,7 @@ html[data-language="zh"] .contact-section h2 {
     padding: 11px 15px;
   }
   .hero-links .text-link {
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .research-strip {
     padding-block: 23px;
@@ -1258,11 +1258,11 @@ html[data-language="zh"] .contact-section h2 {
     gap: 20px;
   }
   .research-note p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
   }
   .research-note .small-label {
-    font-size: 9px;
+    font-size: 11px;
     max-width: 90px;
   }
   .metrics {
@@ -1273,10 +1273,10 @@ html[data-language="zh"] .contact-section h2 {
     padding-top: 20px;
   }
   .metric-number {
-    font-size: 36px;
+    font-size: 38px;
   }
   .metric-label {
-    font-size: 10px;
+    font-size: 11px;
   }
   .section {
     padding-block: 44px;
@@ -1287,19 +1287,19 @@ html[data-language="zh"] .contact-section h2 {
     align-items: flex-end;
   }
   .section h2 {
-    font-size: 34px;
+    font-size: 36px;
     letter-spacing: -1.1px;
   }
   html[data-language="zh"] .section h2 {
-    font-size: 29px;
+    font-size: 32.5px;
   }
   .section-heading > .text-link {
-    font-size: 11px;
+    font-size: 12.5px;
     gap: 3px;
     white-space: nowrap;
   }
   .section-index {
-    font-size: 9px;
+    font-size: 11px;
   }
   .featured-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -1318,25 +1318,25 @@ html[data-language="zh"] .contact-section h2 {
   }
   .featured-meta {
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 15px;
   }
   .featured-paper h3 {
-    font-size: 25px;
+    font-size: 28px;
   }
   .featured-paper > p {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 9px;
     margin-bottom: 10px;
   }
   .paper-links {
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .section-note {
     display: none;
   }
   .heading-count {
-    font-size: 11px;
+    font-size: 12.5px;
     width: 24px;
     height: 24px;
     margin-left: 9px;
@@ -1348,7 +1348,7 @@ html[data-language="zh"] .contact-section h2 {
     gap: 2px;
   }
   .year-filters button {
-    font-size: 11px;
+    font-size: 12.5px;
     padding: 8px 9px;
   }
   .publication-row {
@@ -1363,23 +1363,23 @@ html[data-language="zh"] .contact-section h2 {
     display: none;
   }
   .publication-content h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .venue-full {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .publication-bottom {
     gap: 10px;
   }
   .publication-tags {
-    font-size: 9px;
+    font-size: 11px;
   }
   .publication-status {
-    font-size: 10px;
+    font-size: 11px;
   }
   .show-publications {
     width: 100%;
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .experience-grid,
   .recognition-grid {
@@ -1388,30 +1388,30 @@ html[data-language="zh"] .contact-section h2 {
   }
   .subsection-heading {
     margin-bottom: 22px;
-    font-size: 15px;
+    font-size: 17px;
   }
   .education-date {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .current-label {
     display: inline;
     margin-left: 8px;
   }
   .education-item h4 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .education-item > p:last-child {
-    font-size: 13px;
+    font-size: 14.5px;
   }
   .project-list li {
-    font-size: 13px;
+    font-size: 14.5px;
   }
   .honor-list li {
-    font-size: 13px;
+    font-size: 14.5px;
   }
   .service-wordmarks {
     grid-template-columns: repeat(4, 1fr);
-    font-size: 20px;
+    font-size: 22.5px;
   }
   .contact-section {
     grid-template-columns: 1fr;
@@ -1419,10 +1419,10 @@ html[data-language="zh"] .contact-section h2 {
     padding-block: 44px;
   }
   .contact-section h2 {
-    font-size: 43px;
+    font-size: 46px;
   }
   .contact-email {
-    font-size: clamp(14px, 4.6vw, 19px);
+    font-size: clamp(16px, 4.88vw, 21.5px);
     gap: 8px;
   }
   .contact-aside {
@@ -1431,12 +1431,12 @@ html[data-language="zh"] .contact-section h2 {
     padding-top: 25px;
   }
   .contact-aside blockquote {
-    font-size: 21px;
+    font-size: 23.5px;
     max-width: 100%;
   }
   .social-links {
     margin-top: 22px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
   .site-footer {
     flex-wrap: wrap;
@@ -1446,10 +1446,10 @@ html[data-language="zh"] .contact-section h2 {
   .site-footer p {
     order: 3;
     width: 100%;
-    font-size: 10px;
+    font-size: 11px;
   }
   .footer-name {
-    font-size: 11px;
+    font-size: 12.5px;
   }
 }
 
@@ -1465,23 +1465,23 @@ html[data-language="zh"] .contact-section h2 {
     width: 88px;
   }
   .name-secondary {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .hero .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
   }
   .hero-links {
     gap: 12px;
   }
   .hero-links .text-link {
-    font-size: 11px;
+    font-size: 12.5px;
   }
   .year-filters button {
     padding: 8px 7px;
   }
   .service-wordmarks {
     gap: 14px 8px;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -1569,7 +1569,7 @@ html[data-language="zh"] .contact-section h2 {
 }
 .scholar-updated {
   margin-top: 12px;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
   line-height: 1.6;
 }
@@ -1585,6 +1585,6 @@ html[data-language="zh"] .contact-section h2 {
   }
   .scholar-updated {
     margin-top: 15px;
-    font-size: 9px;
+    font-size: 11px;
   }
 }

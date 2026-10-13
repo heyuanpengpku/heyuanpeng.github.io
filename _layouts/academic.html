@@ -17,7 +17,7 @@
   <script>
     try { var language = localStorage.getItem('site-lang'); if (language === 'zh') { document.documentElement.dataset.language = 'zh'; document.documentElement.lang = 'zh-CN'; } } catch (e) {}
   </script>
-  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Yuanpeng He","alternateName":"何垣鹏","url":"https://www.hyppyh.top/","image":"https://www.hyppyh.top/images/photos/hyp.png","affiliation":{"@type":"CollegeOrUniversity","name":"Peking University"},"sameAs":["https://scholar.google.com/citations?user=HaefBCQAAAAJ","https://orcid.org/0000-0001-9071-2260","https://github.com/heyuanpengpku"]}</script>
