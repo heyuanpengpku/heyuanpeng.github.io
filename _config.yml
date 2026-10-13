@@ -7,6 +7,8 @@
 
 # Site Settings
 title: "Yuanpeng He"
+url: "https://www.hyppyh.top"
+baseurl: ""
 description: "To recognize that what is past cannot be amended, and that what is to come may yet be pursued."
 description_zh: "悟已往之不谏,知来者之可追。"
 repository: "heyuanpengpku/heyuanpeng.github.io"

@@ -1,0 +1,19 @@
+<section class="section publications-section wrap" id="publications" aria-labelledby="publications-heading">
+  <div class="section-heading"><div><p class="eyebrow section-index">02 / <span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></p><h2 id="publications-heading"><span class="lang-en">Research archive</span><span class="lang-zh">论文集</span><span class="heading-count">{{ site.data.publications.size }}</span></h2></div><p class="section-note"><span class="lang-en">An evolving body of work.<br>2021 — 2026</span><span class="lang-zh">持续探索，积累新知。<br>2021 — 2026</span></p></div>
+  <div class="publication-controls" hidden>
+    <div class="year-filters" role="group" aria-label="Filter publications by year"><button type="button" data-year="all" aria-pressed="true"><span class="lang-en">All years</span><span class="lang-zh">全部年份</span></button>{% assign years = site.data.publications | map: 'year' | uniq %}{% for year in years %}<button type="button" data-year="{{ year }}" aria-pressed="false">{{ year }}</button>{% endfor %}</div>
+    <label class="paper-search"><span aria-hidden="true">⌕</span><span class="sr-only lang-en">Search publications</span><span class="sr-only lang-zh">搜索论文</span><input type="search" id="paper-search" placeholder="Search title or venue…" autocomplete="off"></label>
+  </div>
+  <p id="publication-status" class="publication-status" role="status" aria-live="polite" hidden></p>
+  <div id="publication-list" class="publication-list">
+    {% for paper in site.data.publications %}
+    <article class="publication-row" id="{{ paper.id }}" data-year="{{ paper.year }}" data-search="{{ paper.title | append: ' ' | append: paper.venue | append: ' ' | append: paper.badge | escape }}">
+      <div class="publication-year">{{ paper.year }}</div>
+      <div class="publication-content"><p class="publication-venue">{{ paper.badge }}</p><h3>{% if paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3><p class="venue-full">{{ paper.venue }}</p><div class="publication-bottom"><div class="publication-tags">{% for tag in paper.tags %}<span>{{ tag }}</span>{% endfor %}</div><div class="paper-links">{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener noreferrer">Project ↗</a><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">Paper ↗</a><a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">Code ↗</a>{% elsif paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">Paper ↗</a>{% endif %}</div></div></div>
+      <a class="publication-thumbnail" href="{{ paper.image | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View figure: {{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" width="320" height="200" alt="Research figure for {{ paper.title | escape }}" loading="lazy" decoding="async"></a>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="publication-empty" hidden><p><span class="lang-en">No publications match your search.</span><span class="lang-zh">没有找到匹配的论文。</span></p><button type="button" class="button button-secondary" id="reset-search"><span class="lang-en">Reset filters</span><span class="lang-zh">重置筛选</span></button></div>
+  <button type="button" class="button button-secondary show-publications" aria-expanded="false" aria-controls="publication-list" hidden></button>
+</section>

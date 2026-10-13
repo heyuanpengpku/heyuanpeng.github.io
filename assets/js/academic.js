@@ -1,0 +1,219 @@
+(() => {
+  "use strict";
+  const root = document.documentElement;
+  const languageButton = document.getElementById("site-lang-toggle");
+  const search = document.getElementById("paper-search");
+  const rows = Array.from(document.querySelectorAll(".publication-row"));
+  const yearButtons = Array.from(
+    document.querySelectorAll(".year-filters button"),
+  );
+  const showButton = document.querySelector(".show-publications");
+  const status = document.getElementById("publication-status");
+  const emptyState = document.querySelector(".publication-empty");
+  const previewCount = 6;
+  let selectedYear = "all";
+  let expanded = false;
+  const isChinese = () => root.dataset.language === "zh";
+
+  function filterPublications() {
+    const query = search.value.trim().toLocaleLowerCase();
+    const matches = rows.filter(
+      (row) =>
+        (selectedYear === "all" || row.dataset.year === selectedYear) &&
+        row.dataset.search.toLocaleLowerCase().includes(query),
+    );
+    const filtered = selectedYear !== "all" || query !== "";
+    const visible = new Set(
+      expanded || filtered ? matches : matches.slice(0, previewCount),
+    );
+    rows.forEach((row) => {
+      row.hidden = !visible.has(row);
+    });
+    yearButtons.forEach((button) =>
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.year === selectedYear),
+      ),
+    );
+    emptyState.hidden = matches.length !== 0;
+    showButton.hidden = filtered || matches.length <= previewCount;
+    showButton.setAttribute("aria-expanded", String(expanded));
+    showButton.textContent = isChinese()
+      ? expanded
+        ? "收起列表 ↑"
+        : `查看全部 ${rows.length} 篇论文 ↓`
+      : expanded
+        ? "Show fewer publications ↑"
+        : `View all ${rows.length} publications ↓`;
+    status.hidden = false;
+    status.textContent = isChinese()
+      ? `显示 ${visible.size} 篇，共 ${matches.length} 篇${filtered ? "符合筛选条件" : "论文"}`
+      : `Showing ${visible.size} of ${matches.length} ${filtered ? "matching " : ""}publications`;
+  }
+
+  function updateLanguage() {
+    const zh = isChinese();
+    root.lang = zh ? "zh-CN" : "en";
+    languageButton.setAttribute(
+      "aria-label",
+      zh ? "Switch to English" : "切换到中文",
+    );
+    search.placeholder = zh
+      ? "搜索论文标题或会议期刊…"
+      : "Search title or venue…";
+    document
+      .querySelector(".year-filters")
+      .setAttribute(
+        "aria-label",
+        zh ? "按年份筛选论文" : "Filter publications by year",
+      );
+    filterPublications();
+  }
+  languageButton.addEventListener("click", () => {
+    root.dataset.language = isChinese() ? "en" : "zh";
+    try {
+      localStorage.setItem("site-lang", root.dataset.language);
+    } catch (error) {
+      /* Storage is optional. */
+    }
+    updateLanguage();
+  });
+  yearButtons.forEach((button) =>
+    button.addEventListener("click", () => {
+      selectedYear = button.dataset.year;
+      expanded = false;
+      filterPublications();
+    }),
+  );
+  search.addEventListener("input", filterPublications);
+  showButton.addEventListener("click", () => {
+    expanded = !expanded;
+    filterPublications();
+    if (!expanded)
+      document
+        .getElementById("publications")
+        .scrollIntoView({ block: "start" });
+  });
+  document.getElementById("reset-search").addEventListener("click", () => {
+    search.value = "";
+    selectedYear = "all";
+    expanded = false;
+    filterPublications();
+    search.focus({ preventScroll: true });
+  });
+  document.querySelector(".publication-controls").hidden = false;
+  updateLanguage();
+
+  // Keep direct links to individual publications usable, including older work.
+  function revealLinkedPublication() {
+    const id = location.hash.slice(1);
+    if (!/^paper-\d+$/.test(id)) return;
+    const row = document.getElementById(id);
+    if (!row) return;
+    selectedYear = "all";
+    search.value = "";
+    expanded = true;
+    filterPublications();
+    requestAnimationFrame(() => row.scrollIntoView({ block: "start" }));
+  }
+  window.addEventListener("hashchange", revealLinkedPublication);
+  revealLinkedPublication();
+
+  const menuButton = document.querySelector(".menu-button");
+  const mobileNav = document.getElementById("mobile-nav");
+  function closeMenu() {
+    menuButton.setAttribute("aria-expanded", "false");
+    mobileNav.hidden = true;
+  }
+  menuButton.addEventListener("click", () => {
+    const open = menuButton.getAttribute("aria-expanded") !== "true";
+    menuButton.setAttribute("aria-expanded", String(open));
+    mobileNav.hidden = !open;
+  });
+  mobileNav
+    .querySelectorAll("a")
+    .forEach((link) => link.addEventListener("click", closeMenu));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !mobileNav.hidden) {
+      closeMenu();
+      menuButton.focus();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".site-header")) closeMenu();
+  });
+  window
+    .matchMedia("(min-width: 641px)")
+    .addEventListener("change", (event) => {
+      if (event.matches) closeMenu();
+    });
+
+  // Navigation follows the section being read without changing browser history.
+  if ("IntersectionObserver" in window) {
+    const navLinks = Array.from(document.querySelectorAll(".desktop-nav a"));
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          navLinks.forEach((link) => {
+            if (link.hash === `#${entry.target.id}`)
+              link.setAttribute("aria-current", "location");
+            else link.removeAttribute("aria-current");
+          });
+        });
+      },
+      { rootMargin: "-10% 0px -65% 0px", threshold: 0 },
+    );
+    navLinks.forEach((link) => {
+      const section = document.querySelector(link.hash);
+      if (section) observer.observe(section);
+    });
+  }
+
+  // A printed copy includes the complete CV and publication list.
+  let previouslyClosed = [];
+  window.addEventListener("beforeprint", () => {
+    previouslyClosed = Array.from(
+      document.querySelectorAll("details:not([open])"),
+    );
+    previouslyClosed.forEach((details) => {
+      details.open = true;
+    });
+  });
+  window.addEventListener("afterprint", () => {
+    previouslyClosed.forEach((details) => {
+      details.open = false;
+    });
+    previouslyClosed = [];
+  });
+
+  // Preserve the baked Scholar metrics; a network fallback only fills missing values.
+  const metrics = document.querySelector(".metrics");
+  const ids = {
+    total_cit: "citedby",
+    h_index: "hindex",
+    i10_index: "i10index",
+  };
+  if (
+    metrics.dataset.statsUrl &&
+    Object.keys(ids).some(
+      (id) => document.getElementById(id).textContent.trim() === "—",
+    )
+  ) {
+    fetch(metrics.dataset.statsUrl)
+      .then((response) => {
+        if (!response.ok) throw new Error("Scholar statistics unavailable");
+        return response.json();
+      })
+      .then((data) => {
+        Object.entries(ids).forEach(([id, key]) => {
+          const element = document.getElementById(id);
+          if (element.textContent.trim() === "—" && Number.isFinite(data[key]))
+            element.textContent = String(data[key]);
+        });
+      })
+      .catch(() => {
+        /* The readable static fallback remains in place. */
+      });
+  }
+})();

@@ -1,0 +1,393 @@
+[
+  {
+    "id": "paper-01",
+    "title": "Dual Uncertainty-Aware Guidance for Test-Time Visual Retrieval under Distributional Variations",
+    "url": null,
+    "image": "images/covers/2026-tpami-hyp.jpg",
+    "year": 2026,
+    "badge": "TPAMI 2026",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (2026).",
+    "tags": ["CAS Q1", "CCF A"],
+    "featured": true,
+    "short_title": "Dual Uncertainty-Aware Guidance",
+    "summary_en": "Test-time visual retrieval under distributional variations.",
+    "summary_zh": "面向分布变化下测试时视觉检索的双重不确定性感知引导。",
+    "category_en": "Visual retrieval",
+    "category_zh": "视觉检索"
+  },
+  {
+    "id": "paper-02",
+    "title": "BAT3R: Robust Online 3D Reconstruction with Bayesian Adaptive State Updates",
+    "url": "https://llj110.github.io/bat3r/",
+    "image": "images/covers/2026-neurips-bat3r-hyp.jpg",
+    "year": 2026,
+    "badge": "NeurIPS 2026",
+    "venue": "Advances in Neural Information Processing Systems (2026).",
+    "tags": ["CCF A"],
+    "project": "https://llj110.github.io/bat3r/",
+    "paper": "https://openreview.net/forum?id=MP758ZsHYv",
+    "code": "https://github.com/llj110/BAT3R"
+  },
+  {
+    "id": "paper-03",
+    "title": "KVFocus: A Perturbation-Theoretic Token-Risk Score for Selective KV Cache Reuse in RAG",
+    "url": null,
+    "image": "images/covers/2026-neurips-hyp.jpg",
+    "year": 2026,
+    "badge": "NeurIPS 2026",
+    "venue": "Advances in Neural Information Processing Systems (2026).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-04",
+    "title": "Consensus-Guided Multi-Match Adaptation with Uncertainty-Calibrated Thresholding for Test-Time Cross-Modal Retrieval",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11682761",
+    "image": "images/covers/2026-tkde-hyp.jpg",
+    "year": 2026,
+    "badge": "TKDE 2026",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering (2026).",
+    "tags": ["CCF A"],
+    "featured": true,
+    "short_title": "Consensus-Guided Adaptation",
+    "summary_en": "Multi-match adaptation with uncertainty-calibrated thresholds for test-time cross-modal retrieval.",
+    "summary_zh": "通过共识引导的多匹配适应与不确定性校准阈值，开展测试时跨模态检索。",
+    "category_en": "Cross-modal learning",
+    "category_zh": "跨模态学习"
+  },
+  {
+    "id": "paper-05",
+    "title": "A²DA: Alignment-Distillation Synergistic Data Augmentation for Multilingual Knowledge Graph Completion",
+    "url": "https://ieeexplore.ieee.org/document/11623696",
+    "image": "images/covers/2026-taslp-hyp.jpg",
+    "year": 2026,
+    "badge": "TASLP 2026",
+    "venue": "IEEE Transactions on Audio, Speech and Language Processing (2026).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-06",
+    "title": "A Needle in a Haystack: Intent-driven Reusable Artifacts Recommendation with LLMs",
+    "url": "https://ieeexplore.ieee.org/document/11661709",
+    "image": "images/covers/2026-tse-hyp.jpg",
+    "year": 2026,
+    "badge": "TSE 2026",
+    "venue": "IEEE Transactions on Software Engineering (2026).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-07",
+    "title": "From Chat to Interview: Agentic Requirements Elicitation with an Experience Ontology",
+    "url": "https://arxiv.org/abs/2605.05828",
+    "image": "images/covers/2026-re-hyp.jpg",
+    "year": 2026,
+    "badge": "RE 2026",
+    "venue": "IEEE International Requirements Engineering Conference (2026).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-08",
+    "title": "When modalities remember: Continual learning for multimodal knowledge graphs",
+    "url": "https://arxiv.org/abs/2604.02778",
+    "image": "images/covers/2026-mm-hyp.jpg",
+    "year": 2026,
+    "badge": "MM 2026",
+    "venue": "ACM International Conference on Multimedia (2026).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-09",
+    "title": "Your Inference Request will become a black box: Confidential Inference for Cloud-based Large Language Models",
+    "url": "https://arxiv.org/abs/2603.00196",
+    "image": "images/covers/2026-acl.png",
+    "year": 2026,
+    "badge": "ACL 2026",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (2026).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-10",
+    "title": "Complementarity-driven Representation Learning for Multi-modal Knowledge Graph Completion",
+    "url": "https://www.sciencedirect.com/science/article/pii/S003132032600292X",
+    "image": "images/covers/2026-pr-hyp.png",
+    "year": 2026,
+    "badge": "PR 2026",
+    "venue": "Pattern Recognition (2026).",
+    "tags": ["CAS Q1", "CCF B"]
+  },
+  {
+    "id": "paper-11",
+    "title": "Learning to Evolve: Bayesian-Guided Continual Knowledge Graph Embedding",
+    "url": "https://arxiv.org/abs/2508.02426",
+    "image": "images/covers/2026-www.png",
+    "year": 2026,
+    "badge": "WWW 2026",
+    "venue": "The Web Conference (2026).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-12",
+    "title": "DEFNet: Multitasks-based Deep Evidential Fusion Network for Blind Image Quality Assessment",
+    "url": "https://arxiv.org/abs/2507.19418",
+    "image": "images/covers/2026-aaai-hyp.png",
+    "year": 2026,
+    "badge": "AAAI 2026",
+    "venue": "AAAI Conference on Artificial Intelligence (2026).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-13",
+    "title": "Ternary Coding Of Maximum Deng Entropy",
+    "url": "https://www.sciencedirect.com/science/article/pii/S016501142600151X",
+    "image": "images/covers/2026-fss.png",
+    "year": 2026,
+    "badge": "FSS 2026",
+    "venue": "Fuzzy Sets and Systems (2026).",
+    "tags": ["CCF C"]
+  },
+  {
+    "id": "paper-14",
+    "title": "HEAF-Net with OALoss: A Hybrid Expert Attention Fusion Network for Ordinal Multi-Actuator Time Series Control: A Case Study of Building HVAC Valve Regulation",
+    "url": null,
+    "image": "images/covers/2026-icic-hyp.jpg",
+    "year": 2026,
+    "badge": "ICIC 2026",
+    "venue": "International Conference on Intelligent Computing (2026).",
+    "tags": ["CCF C"]
+  },
+  {
+    "id": "paper-15",
+    "title": "Evidential Prototype Learning for Semi-supervised Medical Image Segmentation",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3711896.3736944",
+    "image": "images/covers/2025-kdd-hyp.png",
+    "year": 2025,
+    "badge": "KDD 2025",
+    "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2025).",
+    "tags": ["CCF A"],
+    "featured": true,
+    "short_title": "Evidential Prototype Learning",
+    "summary_en": "Evidential prototype learning for semi-supervised medical image segmentation.",
+    "summary_zh": "面向半监督医学图像分割的证据原型学习。",
+    "category_en": "Medical image analysis",
+    "category_zh": "医学影像分析"
+  },
+  {
+    "id": "paper-16",
+    "title": "Co-evidential fusion with information volume for semi-supervised medical image segmentation",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320325002997",
+    "image": "images/covers/2025-pr-hyp.jpg",
+    "year": 2025,
+    "badge": "PR 2025",
+    "venue": "Pattern Recognition (2025).",
+    "tags": ["CAS Q1", "CCF B"]
+  },
+  {
+    "id": "paper-17",
+    "title": "UniTrans A Unified Vertical Federated Knowledge Transfer Framework for Enhancing Edge Healthcare Collaboration",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11086401",
+    "image": "images/covers/2025-tmc-hyp.png",
+    "year": 2025,
+    "badge": "TMC 2025",
+    "venue": "IEEE Transactions on Mobile Computing (2025).",
+    "tags": ["CAS Q1", "CCF A"]
+  },
+  {
+    "id": "paper-18",
+    "title": "Time evidence fusion network: Multi-source view in long-term time series forecasting",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11120455/",
+    "image": "images/covers/2025-pami.png",
+    "year": 2025,
+    "badge": "IEEE TPAMI 2025",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).",
+    "tags": ["CAS Q1", "CCF A"]
+  },
+  {
+    "id": "paper-19",
+    "title": "Revisit Self-Debugging with Self-Generated Tests for Code Generation",
+    "url": "https://aclanthology.org/2025.acl-long.881/",
+    "image": "images/covers/2025-acl-hyp.png",
+    "year": 2025,
+    "badge": "ACL 2025",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (2025).",
+    "tags": ["CCF A"]
+  },
+  {
+    "id": "paper-20",
+    "title": "An Adaptive Framework for Multi-View Clustering Leveraging Conditional Entropy Optimization",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10888088",
+    "image": "images/covers/2025-icassp-hyp1.jpg",
+    "year": 2025,
+    "badge": "ICASSP 2025",
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (2025).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-21",
+    "title": "Towards Structure-aware Model for Multi-modal Knowledge Graph Completion",
+    "url": "https://ieeexplore.ieee.org/document/11275893",
+    "image": "images/covers/2025-tsm-hyp.png",
+    "year": 2025,
+    "badge": "TMM 2025",
+    "venue": "IEEE Transactions on Multimedia (2025).",
+    "tags": ["CAS Q1", "CCF A"]
+  },
+  {
+    "id": "paper-22",
+    "title": "Multi-Prototype-based Embedding Refinement for Medical Image Segmentation",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10889249",
+    "image": "images/covers/2025-icassp-hyp2.png",
+    "year": 2025,
+    "badge": "ICASSP 2025",
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (2025).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-23",
+    "title": "Transfer Graph in the Context of Evidence Theory",
+    "url": "https://link.springer.com/article/10.1007/s40314-025-03293-w",
+    "image": "images/covers/2025-coam-hyp.png",
+    "year": 2025,
+    "badge": "COAM 2025",
+    "venue": "Computational and Applied Mathematics (2025).",
+    "tags": []
+  },
+  {
+    "id": "paper-24",
+    "title": "Residual Feature-Reutilization Inception Network",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0031320324001900",
+    "image": "images/covers/2024-pr-hyp.png",
+    "year": 2024,
+    "badge": "PR 2024",
+    "venue": "Pattern Recognition (2024).",
+    "tags": ["CAS Q1", "CCF B"]
+  },
+  {
+    "id": "paper-25",
+    "title": "Mutual Evidential Deep Learning for Semi-supervised Medical Image Segmentation",
+    "url": "https://www.computer.org/csdl/proceedings-article/bibm/2024/10822008/23ooxNRj6W4",
+    "image": "images/covers/2024-bibm-hyp.jpg",
+    "year": 2024,
+    "badge": "BIBM 2024",
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine (2024).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-26",
+    "title": "Generalized Uncertainty-Based Evidential Fusion with Hybrid Multi-Head Attention for Weak-Supervised Temporal Action Localization",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10446799",
+    "image": "images/covers/2024-icassp-hyp.png",
+    "year": 2024,
+    "badge": "ICASSP 2024",
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (2024).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-27",
+    "title": "Efficient Prototype Consistency Learning in Semi-Supervised Medical Image Segmentation via Joint Uncertainty and Data Augmentation",
+    "url": "https://ieeexplore.ieee.org/document/10821789",
+    "image": "images/covers/2024-bibm-llj.jpg",
+    "year": 2024,
+    "badge": "BIBM 2024",
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine (2024).",
+    "tags": ["CCF B"]
+  },
+  {
+    "id": "paper-28",
+    "title": "TDQMF: Two-Dimensional Quantum Mass Function",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025522013238",
+    "image": "images/covers/2023-tqdmf.jpg",
+    "year": 2023,
+    "badge": "INS 2023",
+    "venue": "Information Sciences (2023).",
+    "tags": ["CAS Q1", "CCF B"]
+  },
+  {
+    "id": "paper-29",
+    "title": "Ordinal belief entropy",
+    "url": "https://link.springer.com/article/10.1007/s00500-023-07947-x",
+    "image": "images/covers/2023-obe.jpg",
+    "year": 2023,
+    "badge": "SOCO 2023",
+    "venue": "Soft Computing (2023).",
+    "tags": ["CCF C"]
+  },
+  {
+    "id": "paper-30",
+    "title": "Differential convolutional fuzzy time series forecasting",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10234022/",
+    "image": "images/covers/2023-tfs.png",
+    "year": 2023,
+    "badge": "TFS 2023",
+    "venue": "IEEE Transactions on Fuzzy Systems (2023).",
+    "tags": ["CAS Q1", "CCF B"]
+  },
+  {
+    "id": "paper-31",
+    "title": "Spatio-Temporal Variability Analysis of Vegetation Dynamics in China from 2000 to 2022 Based on Leaf Area Index: A Multi-Temporal Image Classification Perspective",
+    "url": "https://www.mdpi.com/2072-4292/15/12/2975",
+    "image": "images/covers/2023-stva.jpg",
+    "year": 2023,
+    "badge": "RS 2023",
+    "venue": "Remote Sensing (2023).",
+    "tags": []
+  },
+  {
+    "id": "paper-32",
+    "title": "A new base function in basic probability assignment for conflict management",
+    "url": "https://link.springer.com/article/10.1007/s10489-021-02525-w",
+    "image": "images/covers/2021-nbf.jpg",
+    "year": 2022,
+    "badge": "APIN 2022",
+    "venue": "Applied Intelligence (2022).",
+    "tags": ["CCF C"]
+  },
+  {
+    "id": "paper-33",
+    "title": "MMGET: a Markov model for generalized evidence theory",
+    "url": "https://link.springer.com/article/10.1007/s40314-021-01697-y",
+    "image": "images/covers/2021-mmget.jpg",
+    "year": 2022,
+    "badge": "COAM 2022",
+    "venue": "Computational and Applied Mathematics (2022).",
+    "tags": []
+  },
+  {
+    "id": "paper-34",
+    "title": "Ordinal fuzzy entropy",
+    "url": "https://ijfs.usb.ac.ir/article_6950.html",
+    "image": "images/covers/2022-odf.jpg",
+    "year": 2022,
+    "badge": "IJFS 2022",
+    "venue": "Iranian Journal of Fuzzy Systems (2022).",
+    "tags": []
+  },
+  {
+    "id": "paper-35",
+    "title": "NNDF: A new neural detection network for aspect-category sentiment analysis",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-10989-8_27",
+    "image": "images/covers/2022-nndf.jpg",
+    "year": 2022,
+    "badge": "KSEM 2022",
+    "venue": "International Conference on Knowledge Science, Engineering and Management (2022).",
+    "tags": ["CCF C"]
+  },
+  {
+    "id": "paper-36",
+    "title": "Conflicting management of evidence combination from the point of improvement of basic probability assignment",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22366",
+    "image": "images/covers/2021-cmec.jpg",
+    "year": 2021,
+    "badge": "IJIS 2021",
+    "venue": "International Journal of Intelligent Systems (2021).",
+    "tags": ["CAS Q1", "CCF C"]
+  },
+  {
+    "id": "paper-37",
+    "title": "A Matrix-based Distance of Pythagorean Fuzzy Set and its Application in Medical Diagnosis",
+    "url": "https://arxiv.org/abs/2102.01538",
+    "image": "images/covers/2021-MDP.jpg",
+    "year": 2021,
+    "badge": "arXiv 2021",
+    "venue": "arXiv (2021).",
+    "tags": []
+  }
+]
