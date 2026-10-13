@@ -1485,6 +1485,42 @@ html[data-language="zh"] .contact-section h2 {
   }
 }
 
+/* Mobile English names and portraits occupy separate grid columns. */
+@media (max-width: 640px) {
+  html[data-language="en"] .hero {
+    grid-template-columns: minmax(0, 1fr) 102px;
+    column-gap: 20px;
+  }
+  html[data-language="en"] .hero .eyebrow,
+  html[data-language="en"] .hero-bio,
+  html[data-language="en"] .hero-links {
+    grid-column: 1 / -1;
+  }
+  html[data-language="en"] .hero h1 {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: none;
+    font-size: clamp(40px, 12.5vw, 57px);
+  }
+  html[data-language="en"] .name-secondary {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: none;
+  }
+  html[data-language="en"] .portrait {
+    position: static;
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    align-self: start;
+  }
+}
+@media (max-width: 370px) {
+  html[data-language="en"] .hero {
+    grid-template-columns: minmax(0, 1fr) 88px;
+    column-gap: 16px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
