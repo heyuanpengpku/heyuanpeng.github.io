@@ -16,9 +16,12 @@ and an editorial layout. It has no front-end framework or JavaScript dependencie
   links instead of `#`; use `featured: true` to feature a publication.
 - `_data/profile.json`: bilingual honors, reviewing, and research projects. The
   education timeline is in `_includes/academic-experience.html`.
-- `_data/gs.yml`: baked Scholar statistics, still maintained by the existing workflow.
+- `_data/gs.yml`: last verified fallback snapshot embedded into the initial HTML.
+  Scheduled updates publish fresh JSON to the `google-scholar-stats` branch.
 - `assets/css/academic.css` and `assets/js/academic.js`: responsive styling,
   language selection, publication search/year filtering, and mobile navigation.
+- `assets/js/scholar-stats.js`: validated live snapshot loading, timestamp display,
+  and last-successful-value caching.
 - `_config.yml`: personal details and Jekyll configuration.
 
 All 37 original publication records, 22 honors, 27 reviewing records, seven
@@ -56,3 +59,39 @@ To restore it online, first preserve any later work, restore the old files in a
 separate branch, and publish a normal restoration commit. Do not force-push or
 remove history. An offline source ZIP, full-history Git bundle, and original
 screenshot were also saved outside this repository during the redesign.
+
+## Automatic Google Scholar synchronization
+
+The `Update Google Scholar Stats` workflow runs daily at **08:30 Asia/Shanghai**
+(00:30 UTC). GitHub can delay scheduled jobs. It also runs when crawler code
+changes and supports **Run workflow** in the Actions tab.
+
+The standard-library Python crawler fetches the public profile's **All** column
+for citations, h-index, and i10-index. The public profile ID defaults to
+`HaefBCQAAAAJ`; no secret or paid API is required. Only a complete, validated
+snapshot is published to `google-scholar-stats`. Access denials, CAPTCHA pages,
+network failures, and invalid values fail the job without changing published data.
+The branch keeps its history; neither the workflow nor manual refresh force-pushes.
+
+The homepage reads the latest JSON on opening and every 15 minutes while visible.
+It tries GitHub Raw first, with jsDelivr as a delivery fallback. Only a snapshot
+with the matching profile ID, valid counters, and a newer successful-fetch timestamp
+can replace the displayed values. A newer correction can legitimately reduce a
+counter. Browser storage retains the latest good snapshot when available; on errors,
+the previous numbers and timestamp remain visible. The displayed synchronization
+time is in UTC+8 and is also visible on phones. This is daily synchronization,
+not a guarantee of instantaneous updates from Google Scholar.
+
+Manual refresh (uses the same parser and the local machine's normal connection):
+
+```sh
+bash google_scholar_crawler/refresh_local.sh
+```
+
+This publishes only the data branch, without modifying the working tree or `main`.
+No Python package installation is needed. Check the workflow logs if a scheduled
+refresh fails. To validate the parser and failure handling locally:
+
+```sh
+python3 -m unittest discover -s google_scholar_crawler -p 'test_*.py'
+```

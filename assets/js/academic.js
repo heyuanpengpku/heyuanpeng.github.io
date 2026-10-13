@@ -68,6 +68,7 @@
         zh ? "按年份筛选论文" : "Filter publications by year",
       );
     filterPublications();
+    document.dispatchEvent(new Event("site-language-change"));
   }
   languageButton.addEventListener("click", () => {
     root.dataset.language = isChinese() ? "en" : "zh";
@@ -186,34 +187,4 @@
     });
     previouslyClosed = [];
   });
-
-  // Preserve the baked Scholar metrics; a network fallback only fills missing values.
-  const metrics = document.querySelector(".metrics");
-  const ids = {
-    total_cit: "citedby",
-    h_index: "hindex",
-    i10_index: "i10index",
-  };
-  if (
-    metrics.dataset.statsUrl &&
-    Object.keys(ids).some(
-      (id) => document.getElementById(id).textContent.trim() === "—",
-    )
-  ) {
-    fetch(metrics.dataset.statsUrl)
-      .then((response) => {
-        if (!response.ok) throw new Error("Scholar statistics unavailable");
-        return response.json();
-      })
-      .then((data) => {
-        Object.entries(ids).forEach(([id, key]) => {
-          const element = document.getElementById(id);
-          if (element.textContent.trim() === "—" && Number.isFinite(data[key]))
-            element.textContent = String(data[key]);
-        });
-      })
-      .catch(() => {
-        /* The readable static fallback remains in place. */
-      });
-  }
 })();

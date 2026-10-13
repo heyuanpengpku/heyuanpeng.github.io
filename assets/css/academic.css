@@ -1561,3 +1561,29 @@ html[data-language="zh"] .contact-section h2 {
     break-inside: avoid;
   }
 }
+
+/* The timestamp always belongs to the displayed snapshot, including on phones. */
+.scholar-metrics {
+  flex-shrink: 0;
+}
+.scholar-updated {
+  margin-top: 12px;
+  font-size: 10px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.scholar-updated > span {
+  margin-right: 5px;
+}
+.scholar-updated time {
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 640px) {
+  .scholar-metrics {
+    width: 100%;
+  }
+  .scholar-updated {
+    margin-top: 15px;
+    font-size: 9px;
+  }
+}

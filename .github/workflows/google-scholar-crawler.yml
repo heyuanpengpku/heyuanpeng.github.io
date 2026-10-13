@@ -2,6 +2,7 @@ name: Update Google Scholar Stats
 
 on:
   schedule:
+    # Daily at 08:30 Asia/Shanghai (GitHub may delay scheduled runs).
     - cron: "30 0 * * *"
   push:
     branches: [main]
@@ -13,10 +14,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,21 +31,18 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        working-directory: google_scholar_crawler
-        run: pip install -r requirements.txt
+      - name: Check parser and failure handling
+        run: python -m unittest discover -s google_scholar_crawler -p 'test_*.py'
 
-      - name: Run crawler
-        working-directory: google_scholar_crawler
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        run: python main.py
+      - name: Fetch and validate public Scholar metrics
+        run: python google_scholar_crawler/main.py
 
-      - name: Deploy to google-scholar-stats branch
+      # This step runs only after a successful fetch. The data branch is served
+      # directly as JSON; no homepage rebuild or visitor-side Scholar request.
+      - name: Publish successful snapshot
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./google_scholar_crawler/results
           publish_branch: google-scholar-stats
-          force_orphan: true
-          commit_message: "chore: update Google Scholar stats"
+          commit_message: "chore: update verified Google Scholar stats"

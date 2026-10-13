@@ -4,3 +4,5 @@ _site/
 .bundle/
 vendor/
 .DS_Store
+google_scholar_crawler/results/
+__pycache__/
