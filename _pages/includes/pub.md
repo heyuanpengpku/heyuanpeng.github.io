@@ -18,7 +18,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2026).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/covers/2026-neurips-bat3r-hyp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[BAT3R: Robust Online 3D Reconstruction with Bayesian Adaptive State Updates](#)
+[BAT3R: Robust Online 3D Reconstruction with Bayesian Adaptive State Updates](https://llj110.github.io/bat3r/)
 
 Advances in Neural Information Processing Systems (2026).
 
