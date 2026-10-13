@@ -62,9 +62,15 @@ screenshot were also saved outside this repository during the redesign.
 
 ## Automatic Google Scholar synchronization
 
-The `Update Google Scholar Stats` workflow runs daily at **08:30 Asia/Shanghai**
-(00:30 UTC). GitHub can delay scheduled jobs. It also runs when crawler code
-changes and supports **Run workflow** in the Actions tab.
+Daily synchronization runs in the owner's local Codex task at **08:30
+Asia/Shanghai**. Keep that computer powered on, online, and Codex running. The
+local script was verified to fetch and publish successfully. The in-chat scheduled
+task is named `个人主页 Scholar 每日同步` (automation ID: `scholar`).
+
+GitHub's cloud runner passed the parser tests but failed the real Scholar fetch
+in the October 14, 2026 validation. Its automatic schedule was therefore removed;
+the `Update Google Scholar Stats` workflow remains manual-only for diagnostics
+via **Run workflow**. Daily synchronization does not depend on that cloud runner.
 
 The standard-library Python crawler fetches the public profile's **All** column
 for citations, h-index, and i10-index. The public profile ID defaults to
@@ -89,7 +95,7 @@ bash google_scholar_crawler/refresh_local.sh
 ```
 
 This publishes only the data branch, without modifying the working tree or `main`.
-No Python package installation is needed. Check the workflow logs if a scheduled
+No Python package installation is needed. Check the local scheduled task results if a daily
 refresh fails. To validate the parser and failure handling locally:
 
 ```sh

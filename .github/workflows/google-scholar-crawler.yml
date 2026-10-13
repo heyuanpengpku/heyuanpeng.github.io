@@ -1,14 +1,9 @@
 name: Update Google Scholar Stats
 
+# Cloud fetching failed in the verified runner environment. Daily publishing is
+# handled by the owner's local Codex task at 08:30 Asia/Shanghai. Keep this
+# workflow available for explicit cloud diagnostics without daily failed runs.
 on:
-  schedule:
-    # Daily at 08:30 Asia/Shanghai (GitHub may delay scheduled runs).
-    - cron: "30 0 * * *"
-  push:
-    branches: [main]
-    paths:
-      - "google_scholar_crawler/**"
-      - ".github/workflows/google-scholar-crawler.yml"
   workflow_dispatch:
 
 permissions:
