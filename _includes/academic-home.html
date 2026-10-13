@@ -35,9 +35,9 @@
     {% assign featured = site.data.publications | where: 'featured', true %}
     {% for paper in featured %}
     <article class="featured-paper">
-      <a class="featured-image" href="{% if paper.url %}{{ paper.url }}{% else %}{{ paper.image | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="{% unless paper.url %}View figure: {% endunless %}{{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.short_title | escape }} — research overview" width="640" height="360" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a>
+      <a class="featured-image" href="{% if paper.url %}{{ paper.url }}{% else %}{{ paper.image | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="{% unless paper.url %}View figure: {% endunless %}{{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.title | escape }} — research overview" width="640" height="360" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a>
       <div class="featured-meta"><span>{{ paper.badge }}</span><span class="lang-en">{{ paper.category_en }}</span><span class="lang-zh">{{ paper.category_zh }}</span></div>
-      <h3>{% if paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.short_title }}</a>{% else %}{{ paper.short_title }}{% endif %}</h3>
+      <h3>{% if paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
       <p><span class="lang-en">{{ paper.summary_en }}</span><span class="lang-zh">{{ paper.summary_zh }}</span></p>
       <div class="paper-links">{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener noreferrer">Project ↗</a><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">Paper ↗</a><a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">Code ↗</a>{% elsif paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">Paper ↗</a>{% endif %}</div>
     </article>
