@@ -29,7 +29,7 @@
     "paper": "https://openreview.net/forum?id=MP758ZsHYv",
     "code": "https://github.com/llj110/BAT3R",
     "featured": true,
-    "featured_order": 4,
+    "featured_order": 3,
     "category_en": "Spatial intelligence",
     "category_zh": "空间智能"
   },
@@ -175,7 +175,7 @@
     "summary_zh": "面向半监督医学图像分割的证据原型学习。",
     "category_en": "Medical image analysis",
     "category_zh": "医学影像分析",
-    "featured_order": 3
+    "featured_order": 4
   },
   {
     "id": "paper-16",
