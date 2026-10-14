@@ -12,14 +12,16 @@ and an editorial layout. It has no front-end framework or JavaScript dependencie
 - `_layouts/academic.html`: document metadata, responsive navigation, and footer.
 - `_includes/academic-*.html`: hero, selected research, publication archive, and CV.
 - `_data/publications.json`: all publications, image paths, existing resource links,
-  venue labels, and optional selected-work summaries. Use `null` for unavailable
-  links instead of `#`; use `featured: true` to feature a publication.
+  venue labels, and selected-work order. Use `null` for unavailable
+  links instead of `#`; use `featured: true` and `featured_order` to feature a publication.
 - `_data/profile.json`: bilingual honors, reviewing, and research projects. The
   education timeline is in `_includes/academic-experience.html`.
 - `_data/gs.yml`: last verified fallback snapshot embedded into the initial HTML.
   Scheduled updates publish fresh JSON to the `google-scholar-stats` branch.
 - `assets/css/academic.css` and `assets/js/academic.js`: responsive styling,
   language selection, publication search/year filtering, and mobile navigation.
+- `assets/js/selected-work.js`: arrow and keyboard navigation for the native
+  horizontal selected-work carousel; touch scrolling works without JavaScript.
 - `assets/js/scholar-stats.js`: validated live snapshot loading, timestamp display,
   and last-successful-value caching.
 - `_config.yml`: personal details and Jekyll configuration.

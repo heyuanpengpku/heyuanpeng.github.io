@@ -13,7 +13,8 @@
     "summary_en": "Test-time visual retrieval under distributional variations.",
     "summary_zh": "面向分布变化下测试时视觉检索的双重不确定性感知引导。",
     "category_en": "Visual retrieval",
-    "category_zh": "视觉检索"
+    "category_zh": "视觉检索",
+    "featured_order": 1
   },
   {
     "id": "paper-02",
@@ -26,7 +27,11 @@
     "tags": ["CCF A"],
     "project": "https://llj110.github.io/bat3r/",
     "paper": "https://openreview.net/forum?id=MP758ZsHYv",
-    "code": "https://github.com/llj110/BAT3R"
+    "code": "https://github.com/llj110/BAT3R",
+    "featured": true,
+    "featured_order": 4,
+    "category_en": "Spatial intelligence",
+    "category_zh": "空间智能"
   },
   {
     "id": "paper-03",
@@ -52,7 +57,8 @@
     "summary_en": "Multi-match adaptation with uncertainty-calibrated thresholds for test-time cross-modal retrieval.",
     "summary_zh": "通过共识引导的多匹配适应与不确定性校准阈值，开展测试时跨模态检索。",
     "category_en": "Cross-modal learning",
-    "category_zh": "跨模态学习"
+    "category_zh": "跨模态学习",
+    "featured_order": 2
   },
   {
     "id": "paper-05",
@@ -168,7 +174,8 @@
     "summary_en": "Evidential prototype learning for semi-supervised medical image segmentation.",
     "summary_zh": "面向半监督医学图像分割的证据原型学习。",
     "category_en": "Medical image analysis",
-    "category_zh": "医学影像分析"
+    "category_zh": "医学影像分析",
+    "featured_order": 3
   },
   {
     "id": "paper-16",
