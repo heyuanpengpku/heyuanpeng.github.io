@@ -78,30 +78,32 @@
     refreshing = true;
     lastAttempt = Date.now();
     try {
-      for (const address of [
+      const addresses = [
         metrics.dataset.statsUrl,
+        metrics.dataset.statsRawUrl,
         metrics.dataset.statsFallbackUrl,
-      ]) {
-        if (!address) continue;
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 8000);
-        try {
-          const url = new URL(address);
-          url.searchParams.set("t", String(Date.now()));
-          const response = await fetch(url, {
-            cache: "no-store",
-            signal: controller.signal,
-          });
-          if (!response.ok) throw new Error("Scholar snapshot unavailable");
-          applySnapshot(await response.json());
-          break;
-        } catch (error) {
-          // Try the alternate delivery host. If both fail, leave both the
-          // previous values and their truthful successful-sync time untouched.
-        } finally {
-          clearTimeout(timeout);
-        }
-      }
+      ].filter(Boolean);
+      // Read all available sources: a successful response can still be an old
+      // CDN copy. applySnapshot accepts only newer verified timestamps, so a
+      // slow old response can never overwrite a fresher result.
+      await Promise.allSettled(
+        addresses.map(async (address) => {
+          const controller = new AbortController();
+          const timeout = setTimeout(() => controller.abort(), 8000);
+          try {
+            const url = new URL(address, window.location.href);
+            url.searchParams.set("t", String(Date.now()));
+            const response = await fetch(url, {
+              cache: "no-store",
+              signal: controller.signal,
+            });
+            if (!response.ok) throw new Error("Scholar snapshot unavailable");
+            applySnapshot(await response.json());
+          } finally {
+            clearTimeout(timeout);
+          }
+        }),
+      );
     } finally {
       refreshing = false;
     }

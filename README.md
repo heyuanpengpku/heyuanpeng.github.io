@@ -17,7 +17,8 @@ and an editorial layout. It has no front-end framework or JavaScript dependencie
 - `_data/profile.json`: bilingual honors, reviewing, and research projects. The
   education timeline is in `_includes/academic-experience.html`.
 - `_data/gs.yml`: last verified fallback snapshot embedded into the initial HTML.
-  Scheduled updates publish fresh JSON to the `google-scholar-stats` branch.
+  Scheduled updates refresh this file and `assets/data/scholar.json`, and publish
+  fresh JSON to the `google-scholar-stats` branch.
 - `assets/css/academic.css` and `assets/js/academic.js`: responsive styling,
   language selection, publication search/year filtering, and mobile navigation.
 - `assets/js/selected-work.js`: arrow and keyboard navigation for the native
@@ -82,7 +83,9 @@ network failures, and invalid values fail the job without changing published dat
 The branch keeps its history; neither the workflow nor manual refresh force-pushes.
 
 The homepage reads the latest JSON on opening and every 15 minutes while visible.
-It tries GitHub Raw first, with jsDelivr as a delivery fallback. Only a snapshot
+It reads the same-origin `assets/data/scholar.json`, GitHub Raw, and jsDelivr in
+parallel and selects the newest valid successful-fetch timestamp. A successful
+HTTP response containing old data does not prevent checking the other sources. Only a snapshot
 with the matching profile ID, valid counters, and a newer successful-fetch timestamp
 can replace the displayed values. A newer correction can legitimately reduce a
 counter. Browser storage retains the latest good snapshot when available; on errors,
@@ -96,7 +99,11 @@ Manual refresh (uses the same parser and the local machine's normal connection):
 bash google_scholar_crawler/refresh_local.sh
 ```
 
-This publishes only the data branch, without modifying the working tree or `main`.
+This uses temporary checkouts to update the data branch and **only** the generated
+`_data/gs.yml` and `assets/data/scholar.json` files on `main`. That normal commit
+triggers a Pages rebuild, keeping the initial HTML current even without browser
+JavaScript or external delivery hosts. The user checkout is never changed; a
+concurrent main-branch edit is handled with one rebase, never a force-push.
 No Python package installation is needed. Check the local scheduled task results if a daily
 refresh fails. To validate the parser and failure handling locally:
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Manually publish a validated snapshot using the same parser as GitHub Actions.
-# No force-push, dependencies, or changes to the working tree/main branch.
+# Updates the data branch and two generated fallback files on main using temporary
+# checkouts. Never changes the user checkout or force-pushes.
 set -euo pipefail
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 REMOTE_URL="$(git -C "$REPO_DIR" remote get-url origin)"
@@ -16,6 +17,26 @@ else
 fi
 cp "$TEMP_DIR/results/gs_data.json" "$TEMP_DIR/results/gs_data_shieldsio.json" "$TEMP_DIR/publish/"
 git -C "$TEMP_DIR/publish" add gs_data.json gs_data_shieldsio.json
-git -C "$TEMP_DIR/publish" -c user.name='heyuanpengpku' -c user.email='heyuanpeng@stu.pku.edu.cn' commit --quiet -m 'chore: refresh verified Google Scholar stats'
+if ! git -C "$TEMP_DIR/publish" diff --cached --quiet; then
+  git -C "$TEMP_DIR/publish" -c user.name='heyuanpengpku' -c user.email='heyuanpeng@stu.pku.edu.cn' commit --quiet -m 'chore: refresh verified Google Scholar stats'
+fi
 git -C "$TEMP_DIR/publish" push --quiet origin HEAD:google-scholar-stats
-echo 'Published a verified Scholar snapshot; the homepage will read it automatically.'
+echo 'Published the verified Scholar data snapshot.'
+
+# Refresh the server-rendered numbers and same-origin JSON as well, so visitors
+# do not depend on being able to reach GitHub Raw or jsDelivr from their network.
+git clone --quiet --depth 1 --single-branch --branch main "$REMOTE_URL" "$TEMP_DIR/homepage"
+python3 "$REPO_DIR/google_scholar_crawler/publish_fallback.py" \
+  --snapshot-file "$TEMP_DIR/results/gs_data.json" --root "$TEMP_DIR/homepage"
+git -C "$TEMP_DIR/homepage" add _data/gs.yml assets/data/scholar.json
+if ! git -C "$TEMP_DIR/homepage" diff --cached --quiet; then
+  git -C "$TEMP_DIR/homepage" -c user.name='heyuanpengpku' -c user.email='heyuanpeng@stu.pku.edu.cn' \
+    commit --quiet -m 'chore: refresh homepage Scholar fallback snapshot'
+  # A concurrent homepage edit must never be overwritten. Rebase the isolated
+  # data-only commit once; a conflict fails safely without force-pushing.
+  if ! git -C "$TEMP_DIR/homepage" push --quiet origin HEAD:main; then
+    git -C "$TEMP_DIR/homepage" -c user.name='heyuanpengpku' -c user.email='heyuanpeng@stu.pku.edu.cn' pull --rebase --quiet origin main
+    git -C "$TEMP_DIR/homepage" push --quiet origin HEAD:main
+  fi
+fi
+echo 'Published the homepage fallback snapshot; GitHub Pages will rebuild automatically.'

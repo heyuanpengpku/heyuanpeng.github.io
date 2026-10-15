@@ -21,7 +21,7 @@
 <div class="research-strip wrap">
   <div class="research-note"><span class="small-label lang-en">Research interests</span><span class="small-label lang-zh">研究方向</span><p><span class="lang-en">Learning across modalities.<br>Reasoning under uncertainty.</span><span class="lang-zh">跨越模态的学习。<br>面向不确定性的推理。</span></p></div>
   <div class="scholar-metrics" aria-live="polite">
-  <div class="metrics" data-scholar-id="{{ site.data.gs.scholar_id }}" data-stats-url="https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json" data-stats-fallback-url="https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json" aria-label="Google Scholar metrics">
+  <div class="metrics" data-scholar-id="{{ site.data.gs.scholar_id }}" data-stats-url="{{ '/assets/data/scholar.json' | relative_url }}" data-stats-raw-url="https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json" data-stats-fallback-url="https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json" aria-label="Google Scholar metrics">
     <div><span class="metric-number" id="total_cit">{{ site.data.gs.citedby | default: '—' }}</span><span class="metric-label"><span class="lang-en">Citations</span><span class="lang-zh">引用次数</span></span></div>
     <div><span class="metric-number" id="h_index">{{ site.data.gs.hindex | default: '—' }}</span><span class="metric-label">h-index</span></div>
     <div><span class="metric-number" id="i10_index">{{ site.data.gs.i10index | default: '—' }}</span><span class="metric-label">i10-index</span></div>
