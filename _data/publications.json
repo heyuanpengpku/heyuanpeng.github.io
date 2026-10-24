@@ -51,7 +51,7 @@
     "year": 2026,
     "badge": "TKDE 2026",
     "venue": "IEEE Transactions on Knowledge and Data Engineering (2026).",
-    "tags": ["CCF A"],
+    "tags": ["CAS Q1", "CCF A"],
     "featured": true,
     "short_title": "Consensus-Guided Adaptation",
     "summary_en": "Multi-match adaptation with uncertainty-calibrated thresholds for test-time cross-modal retrieval.",
