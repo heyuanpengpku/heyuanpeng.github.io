@@ -962,7 +962,8 @@ html[data-language="zh"] .contact-section h2 {
   margin-top: 18px;
 }
 .contact-aside {
-  padding-top: 28px;
+  align-self: center;
+  padding-top: 0;
 }
 .contact-aside blockquote {
   font: italic 25px/1.7 var(--serif);
