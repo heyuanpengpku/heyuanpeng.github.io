@@ -938,8 +938,23 @@ html[data-language="zh"] .contact-section h2 {
 .contact-section {
   display: grid;
   grid-template-columns: 1.15fr 1fr;
-  gap: 90px;
+  grid-template-areas: "heading ." "details aside";
+  column-gap: 90px;
+  row-gap: 24px;
   padding-block: 70px 60px;
+}
+.contact-heading {
+  grid-area: heading;
+}
+.contact-details {
+  grid-area: details;
+  align-self: center;
+}
+.contact-details .contact-email {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 0;
 }
 .contact-section h2 {
   font-size: 52px;
@@ -962,6 +977,7 @@ html[data-language="zh"] .contact-section h2 {
   margin-top: 18px;
 }
 .contact-aside {
+  grid-area: aside;
   align-self: center;
   padding-top: 0;
 }
@@ -1036,9 +1052,11 @@ html[data-language="zh"] .contact-section h2 {
     padding-left: 25px;
   }
   .experience-grid,
-  .recognition-grid,
-  .contact-section {
+  .recognition-grid {
     gap: 55px;
+  }
+  .contact-section {
+    column-gap: 55px;
   }
   .featured-meta {
     font-size: 11px;
@@ -1178,7 +1196,7 @@ html[data-language="zh"] .contact-section h2 {
     gap: 14px;
   }
   .contact-section {
-    gap: 40px;
+    column-gap: 40px;
   }
   .contact-email {
     font-size: 17px;
@@ -1468,6 +1486,7 @@ html[data-language="zh"] .contact-section h2 {
   }
   .contact-section {
     grid-template-columns: 1fr;
+    grid-template-areas: "heading" "details" "aside";
     gap: 32px;
     padding-block: 44px;
   }
