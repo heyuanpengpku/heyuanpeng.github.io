@@ -23,7 +23,18 @@ html {
 }
 body {
   margin: 0;
-  background: var(--paper);
+  background:
+    radial-gradient(
+      ellipse 850px 550px at 88% 180px,
+      rgba(139, 40, 56, 0.055),
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 700px 450px at 5% 720px,
+      rgba(107, 122, 99, 0.04),
+      transparent 75%
+    ),
+    var(--paper);
   color: var(--ink);
   font: 18px/1.65 var(--sans);
   -webkit-font-smoothing: antialiased;
@@ -123,8 +134,31 @@ html[data-language="zh"] .lang-en {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--paper);
-  border-bottom: 1px solid var(--line);
+  background: rgba(248, 247, 244, 0.97);
+  border-bottom: 1px solid rgba(220, 222, 214, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  transition:
+    background-color 240ms ease,
+    box-shadow 240ms ease,
+    border-color 240ms ease;
+}
+.site-header.is-scrolled {
+  border-bottom-color: rgba(220, 222, 214, 0.65);
+  box-shadow:
+    0 8px 28px rgba(36, 41, 37, 0.065),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+@supports (
+  (backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px))
+) {
+  .site-header {
+    background: rgba(248, 247, 244, 0.72);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    backdrop-filter: blur(20px) saturate(150%);
+  }
+  .site-header.is-scrolled {
+    background: rgba(248, 247, 244, 0.82);
+  }
 }
 .header-inner {
   height: 82px;
@@ -160,7 +194,7 @@ html[data-language="zh"] .lang-en {
 .desktop-nav a[aria-current] {
   color: var(--accent);
 }
-.desktop-nav a[aria-current]::after {
+.desktop-nav a::after {
   content: "";
   height: 2px;
   background: var(--accent);
@@ -168,6 +202,14 @@ html[data-language="zh"] .lang-en {
   bottom: 2px;
   left: 0;
   right: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms ease;
+}
+.desktop-nav a:hover::after,
+.desktop-nav a:focus-visible::after,
+.desktop-nav a[aria-current]::after {
+  transform: scaleX(1);
 }
 .header-actions {
   display: flex;
@@ -458,6 +500,7 @@ html[data-language="zh"] .contact-section h2 {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: var(--line) transparent;
+  padding-top: 6px;
   padding-bottom: 16px;
 }
 .featured-grid:focus-visible {
@@ -1597,7 +1640,168 @@ html[data-language="zh"] .contact-section h2 {
   }
 }
 
+/* Restrained material and interaction effects; layout dimensions stay stable. */
+.desktop-nav a {
+  color: #414740;
+  isolation: isolate;
+  transition: color 180ms ease;
+}
+.desktop-nav a::before {
+  content: "";
+  position: absolute;
+  inset: 3px -10px;
+  z-index: -1;
+  border-radius: 7px;
+  background: rgba(139, 40, 56, 0.055);
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+.desktop-nav a:hover::before,
+.desktop-nav a:focus-visible::before {
+  opacity: 1;
+}
+.mobile-nav {
+  background: rgba(248, 247, 244, 0.45);
+}
+.button,
+.language-button,
+.work-nav button {
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+.button-primary {
+  background: linear-gradient(135deg, #983448, #7b2434);
+  box-shadow: 0 6px 16px rgba(139, 40, 56, 0.12);
+}
+.button > span[aria-hidden],
+.text-link > span[aria-hidden] {
+  display: inline-block;
+  transition: transform 180ms ease;
+}
+.language-button,
+.work-nav button {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+.portrait-frame {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.65);
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 14px 38px rgba(36, 41, 37, 0.085);
+  transition:
+    box-shadow 260ms ease,
+    border-color 260ms ease;
+}
+.portrait-frame::before {
+  border-radius: 14px;
+  background: linear-gradient(145deg, #e8e3df, #e9e9e3);
+}
+.portrait-frame img {
+  border-radius: 7px;
+}
+.featured-image {
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(36, 41, 37, 0.025);
+  transition:
+    transform 240ms ease,
+    box-shadow 240ms ease,
+    border-color 240ms ease;
+}
+.featured-image:focus-visible {
+  outline-offset: -4px;
+}
+.image-arrow {
+  border-radius: 50%;
+  background: rgba(248, 247, 244, 0.94);
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease;
+}
+.publication-row {
+  border-radius: 6px;
+  transition: background-color 180ms ease;
+}
+.publication-row:focus-within {
+  background-color: rgba(139, 40, 56, 0.025);
+}
+.publication-thumbnail {
+  border-radius: 6px;
+  transition: border-color 180ms ease;
+}
+.publication-content h3 a,
+.paper-links a,
+.social-links a {
+  transition: color 180ms ease;
+}
+.more-details summary {
+  transition: color 180ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .button:not(:disabled):hover,
+  .language-button:hover,
+  .work-nav button:not(:disabled):hover {
+    transform: translateY(-2px);
+  }
+  .button-primary:hover {
+    box-shadow: 0 9px 23px rgba(139, 40, 56, 0.2);
+  }
+  .button:hover > span[aria-hidden],
+  .text-link:hover > span[aria-hidden] {
+    transform: translate(2px, -2px);
+  }
+  .button:not(:disabled):active,
+  .language-button:active,
+  .work-nav button:not(:disabled):active {
+    transform: translateY(0);
+  }
+  .portrait-frame:hover {
+    box-shadow: 0 18px 45px rgba(36, 41, 37, 0.12);
+  }
+  .featured-image:hover {
+    transform: translateY(-3px);
+    border-color: rgba(139, 40, 56, 0.32);
+    box-shadow: 0 9px 18px rgba(36, 41, 37, 0.09);
+  }
+  .featured-image:hover .image-arrow {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+  .publication-row:hover {
+    background-color: rgba(139, 40, 56, 0.025);
+  }
+  .publication-row:hover .publication-thumbnail {
+    border-color: rgba(139, 40, 56, 0.25);
+  }
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .site-header,
+  .site-header.is-scrolled,
+  .mobile-nav {
+    background: var(--paper);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .featured-grid {
+    scroll-behavior: auto;
+  }
+  .button,
+  .language-button,
+  .work-nav button,
+  .featured-image,
+  .featured-image img,
+  .button > span[aria-hidden],
+  .text-link > span[aria-hidden] {
+    transform: none !important;
+  }
   html {
     scroll-behavior: auto;
   }
@@ -1610,6 +1814,11 @@ html[data-language="zh"] .contact-section h2 {
 }
 
 @media print {
+  .portrait-frame,
+  .featured-image,
+  .button {
+    box-shadow: none;
+  }
   .site-header,
   .hero-links,
   .publication-controls,

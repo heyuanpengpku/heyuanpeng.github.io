@@ -21,6 +21,8 @@ and an editorial layout. It has no front-end framework or JavaScript dependencie
   fresh JSON to the `google-scholar-stats` branch.
 - `assets/css/academic.css` and `assets/js/academic.js`: responsive styling,
   language selection, publication search/year filtering, and mobile navigation.
+- `assets/js/appearance.js`: scroll-aware glass navigation and one-time section
+  entrance motion, with reduced-motion and print support.
 - `assets/js/selected-work.js`: arrow and keyboard navigation for the native
   horizontal selected-work carousel; touch scrolling works without JavaScript.
 - `assets/js/scholar-stats.js`: validated live snapshot loading, timestamp display,
