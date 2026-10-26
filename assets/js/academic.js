@@ -167,32 +167,14 @@
     const anchorOffset =
       parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) ||
       0;
-    const anchorThreshold = Math.max(
+    const threshold = Math.max(
       (header ? header.getBoundingClientRect().height : 0) + 32,
       anchorOffset + 2,
     );
-    // Near the page end, later sections cannot reach the sticky header.
-    // Move the reading line down through the viewport over the final screenful
-    // so short closing sections still become active before Contact.
-    const remainingScroll = Math.max(
-      0,
-      document.documentElement.scrollHeight -
-        window.innerHeight -
-        window.scrollY,
-    );
-    const endProgress = Math.max(0, 1 - remainingScroll / window.innerHeight);
-    const threshold =
-      anchorThreshold + (window.innerHeight - anchorThreshold) * endProgress;
     let active = navigation[0];
     navigation.forEach((item) => {
       if (item.section.getBoundingClientRect().top <= threshold) active = item;
     });
-    if (
-      window.scrollY + window.innerHeight >=
-      document.documentElement.scrollHeight - 2
-    ) {
-      active = navigation[navigation.length - 1];
-    }
     document
       .querySelectorAll(".desktop-nav a, .mobile-nav a")
       .forEach((link) => {
