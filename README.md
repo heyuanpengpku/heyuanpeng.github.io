@@ -27,6 +27,7 @@ and an editorial layout. It has no front-end framework or JavaScript dependencie
   horizontal selected-work carousel; touch scrolling works without JavaScript.
 - `assets/js/scholar-stats.js`: validated live snapshot loading, timestamp display,
   and last-successful-value caching.
+- `_data/navigation.yml`: shared English/Chinese navigation and main-section labels.
 - `_config.yml`: personal details and Jekyll configuration.
 
 All 37 original publication records, 22 honors, 27 reviewing records, seven

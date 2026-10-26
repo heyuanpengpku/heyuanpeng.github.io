@@ -23,7 +23,7 @@
   <script src="{{ '/assets/js/appearance.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Yuanpeng He","alternateName":"何垣鹏","url":"https://www.hyppyh.top/","image":"https://www.hyppyh.top/images/photos/hyp.png","affiliation":{"@type":"CollegeOrUniversity","name":"Peking University"},"sameAs":["https://scholar.google.com/citations?user=HaefBCQAAAAJ","https://orcid.org/0000-0001-9071-2260","https://github.com/heyuanpengpku"]}</script>
-<noscript><style>.menu-button,.language-button{display:none}#mobile-nav[hidden]{display:block!important}@media(min-width:641px){#mobile-nav[hidden]{display:none!important}}</style></noscript>
+<noscript><style>.menu-button,.language-button{display:none}#mobile-nav[hidden]{display:block!important}@media(min-width:901px){#mobile-nav[hidden]{display:none!important}}</style></noscript>
 </head>
 <body>
   <a class="skip-link" href="#main"><span class="lang-en">Skip to content</span><span class="lang-zh">跳转到正文</span></a>
@@ -31,11 +31,9 @@
     <div class="header-inner">
       <a class="wordmark" href="#about-me" aria-label="Yuanpeng He · Home">YH<span>.</span></a>
       <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="#about-me"><span class="lang-en">About</span><span class="lang-zh">关于</span></a>
-        <a href="#selected-work"><span class="lang-en">Research</span><span class="lang-zh">研究</span></a>
-        <a href="#publications"><span class="lang-en">Publications</span><span class="lang-zh">论文</span></a>
-        <a href="#educations"><span class="lang-en">Experience</span><span class="lang-zh">经历</span></a>
-        <a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系</span></a>
+        {% for item in site.data.navigation.main %}
+        <a href="{{ item.url }}"><span class="lang-en">{{ item.title | escape }}</span><span class="lang-zh">{{ item.title_zh }}</span></a>
+        {% endfor %}
       </nav>
       <div class="header-actions">
         <button class="language-button" id="site-lang-toggle" type="button" aria-label="Switch to Chinese"><span class="lang-en">中文</span><span class="lang-zh">EN</span></button>
@@ -43,13 +41,10 @@
       </div>
     </div>
     <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
-      <a href="#about-me"><span class="lang-en">About</span><span class="lang-zh">关于我</span></a>
-      <a href="#selected-work"><span class="lang-en">Research</span><span class="lang-zh">代表作</span></a>
-      <a href="#publications"><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></a>
-      <a href="#educations"><span class="lang-en">Experience</span><span class="lang-zh">教育经历</span></a>
-      <a href="#honors"><span class="lang-en">Honors & service</span><span class="lang-zh">荣誉与学术服务</span></a>
-      <a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系我</span></a>
-    </nav>
+        {% for item in site.data.navigation.main %}
+        <a href="{{ item.url }}"><span class="lang-en">{{ item.title | escape }}</span><span class="lang-zh">{{ item.title_zh }}</span></a>
+        {% endfor %}
+      </nav>
   </header>
   <main id="main" class="site-main">{{ content }}</main>
   <footer class="site-footer wrap">

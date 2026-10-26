@@ -149,7 +149,7 @@
     if (!event.target.closest(".site-header")) closeMenu();
   });
   window
-    .matchMedia("(min-width: 641px)")
+    .matchMedia("(min-width: 901px)")
     .addEventListener("change", (event) => {
       if (event.matches) closeMenu();
     });
@@ -164,7 +164,13 @@
     navigationFrame = 0;
     if (!navigation.length) return;
     const header = document.querySelector(".site-header");
-    const threshold = (header ? header.getBoundingClientRect().height : 0) + 32;
+    const anchorOffset =
+      parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) ||
+      0;
+    const threshold = Math.max(
+      (header ? header.getBoundingClientRect().height : 0) + 32,
+      anchorOffset + 2,
+    );
     let active = navigation[0];
     navigation.forEach((item) => {
       if (item.section.getBoundingClientRect().top <= threshold) active = item;

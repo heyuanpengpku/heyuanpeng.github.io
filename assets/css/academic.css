@@ -1143,6 +1143,20 @@ html[data-language="zh"] .contact-section h2 {
   }
 }
 
+/* Full section names move into the menu before the desktop row gets crowded. */
+@media (max-width: 900px) {
+  .desktop-nav {
+    display: none;
+  }
+  .header-actions {
+    margin-left: auto;
+  }
+  .menu-button {
+    display: flex;
+    font-size: 13.5px;
+  }
+}
+
 @media (max-width: 800px) {
   .header-inner {
     height: 72px;
