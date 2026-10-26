@@ -152,12 +152,12 @@ html[data-language="zh"] .lang-en {
   (backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px))
 ) {
   .site-header {
-    background: rgba(248, 247, 244, 0.72);
-    -webkit-backdrop-filter: blur(20px) saturate(150%);
-    backdrop-filter: blur(20px) saturate(150%);
+    background: rgba(248, 247, 244, 0.52);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    backdrop-filter: blur(24px) saturate(180%);
   }
   .site-header.is-scrolled {
-    background: rgba(248, 247, 244, 0.82);
+    background: rgba(248, 247, 244, 0.62);
   }
 }
 .header-inner {
@@ -346,12 +346,18 @@ html[data-language="zh"] .hero-bio p.lang-zh + p.lang-en + p.lang-zh {
     border-color 0.18s;
 }
 .button-primary {
-  background: var(--accent);
+  background-color: var(--accent);
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.07),
+    rgba(0, 0, 0, 0.12)
+  );
   color: #fff;
   border: 1px solid var(--accent);
 }
-.button-primary:hover {
-  background: #6c1e2b;
+.button-primary:hover,
+.button-primary:focus-visible {
+  background-color: #742333;
   border-color: #6c1e2b;
   color: #fff;
 }
@@ -569,9 +575,6 @@ html[data-language="zh"] .contact-section h2 {
   padding: 18px;
   transition: transform 0.25s;
 }
-.featured-image:hover img {
-  transform: scale(1.04);
-}
 .image-arrow {
   position: absolute;
   bottom: 8px;
@@ -754,9 +757,14 @@ html[data-language="zh"] .contact-section h2 {
 .publication-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px 14px;
   margin-top: 10px;
+}
+.publication-tags:empty,
+.paper-links:empty {
+  display: none;
 }
 .publication-tags {
   display: flex;
@@ -771,6 +779,8 @@ html[data-language="zh"] .contact-section h2 {
   padding: 1px 6px;
 }
 .publication-thumbnail {
+  position: relative;
+  overflow: hidden;
   background: #fff;
   border: 1px solid var(--line);
   align-self: center;
@@ -780,6 +790,17 @@ html[data-language="zh"] .contact-section h2 {
   width: 100%;
   height: 88px;
   object-fit: contain;
+  transition: transform 250ms ease;
+}
+.publication-thumbnail .image-arrow {
+  width: 24px;
+  height: 24px;
+  right: 5px;
+  bottom: 5px;
+  font-size: 14px;
+}
+.publication-thumbnail:focus-visible {
+  outline-offset: -4px;
 }
 .publication-empty {
   border-top: 1px solid var(--line);
@@ -1642,7 +1663,7 @@ html[data-language="zh"] .contact-section h2 {
 
 /* Restrained material and interaction effects; layout dimensions stay stable. */
 .desktop-nav a {
-  color: #414740;
+  color: var(--ink);
   isolation: isolate;
   transition: color 180ms ease;
 }
@@ -1652,13 +1673,18 @@ html[data-language="zh"] .contact-section h2 {
   inset: 3px -10px;
   z-index: -1;
   border-radius: 7px;
-  background: rgba(139, 40, 56, 0.055);
-  opacity: 0;
-  transition: opacity 180ms ease;
+  background: rgba(248, 247, 244, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  opacity: 1;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
 }
 .desktop-nav a:hover::before,
-.desktop-nav a:focus-visible::before {
-  opacity: 1;
+.desktop-nav a:focus-visible::before,
+.desktop-nav a[aria-current]::before {
+  background: rgba(255, 255, 255, 0.45);
+  border-color: rgba(255, 255, 255, 0.6);
 }
 .mobile-nav {
   background: rgba(248, 247, 244, 0.45);
@@ -1674,13 +1700,34 @@ html[data-language="zh"] .contact-section h2 {
     box-shadow 180ms ease;
 }
 .button-primary {
-  background: linear-gradient(135deg, #983448, #7b2434);
   box-shadow: 0 6px 16px rgba(139, 40, 56, 0.12);
 }
-.button > span[aria-hidden],
-.text-link > span[aria-hidden] {
+.link-arrow {
+  --arrow-x: 2px;
+  --arrow-y: -2px;
   display: inline-block;
+  flex-shrink: 0;
   transition: transform 180ms ease;
+}
+.arrow-up {
+  --arrow-x: 0px;
+  --arrow-y: -3px;
+}
+.arrow-down {
+  --arrow-x: 0px;
+  --arrow-y: 3px;
+}
+.arrow-left {
+  --arrow-x: -3px;
+  --arrow-y: 0px;
+}
+.arrow-right {
+  --arrow-x: 3px;
+  --arrow-y: 0px;
+}
+a:focus-visible .link-arrow,
+button:focus-visible .link-arrow {
+  transform: translate(var(--arrow-x), var(--arrow-y));
 }
 .language-button,
 .work-nav button {
@@ -1731,7 +1778,9 @@ html[data-language="zh"] .contact-section h2 {
 }
 .publication-thumbnail {
   border-radius: 6px;
-  transition: border-color 180ms ease;
+  transition:
+    border-color 240ms ease,
+    box-shadow 240ms ease;
 }
 .publication-content h3 a,
 .paper-links a,
@@ -1742,41 +1791,37 @@ html[data-language="zh"] .contact-section h2 {
   transition: color 180ms ease;
 }
 @media (hover: hover) and (pointer: fine) {
-  .button:not(:disabled):hover,
-  .language-button:hover,
-  .work-nav button:not(:disabled):hover {
-    transform: translateY(-2px);
+  .featured-image:hover img,
+  .publication-thumbnail:hover img {
+    transform: scale(1.04);
   }
   .button-primary:hover {
     box-shadow: 0 9px 23px rgba(139, 40, 56, 0.2);
   }
-  .button:hover > span[aria-hidden],
-  .text-link:hover > span[aria-hidden] {
-    transform: translate(2px, -2px);
+  a:hover .link-arrow,
+  button:not(:disabled):hover .link-arrow {
+    transform: translate(var(--arrow-x), var(--arrow-y));
   }
-  .button:not(:disabled):active,
-  .language-button:active,
-  .work-nav button:not(:disabled):active {
-    transform: translateY(0);
+  .language-button:hover,
+  .work-nav button:not(:disabled):hover {
+    box-shadow: 0 4px 12px rgba(36, 41, 37, 0.08);
   }
   .portrait-frame:hover {
     box-shadow: 0 18px 45px rgba(36, 41, 37, 0.12);
   }
-  .featured-image:hover {
-    transform: translateY(-3px);
+  .featured-image:hover,
+  .publication-thumbnail:hover {
     border-color: rgba(139, 40, 56, 0.32);
     box-shadow: 0 9px 18px rgba(36, 41, 37, 0.09);
   }
-  .featured-image:hover .image-arrow {
+  .featured-image:hover .image-arrow,
+  .publication-thumbnail:hover .image-arrow {
     background: var(--accent);
     border-color: var(--accent);
     color: white;
   }
   .publication-row:hover {
     background-color: rgba(139, 40, 56, 0.025);
-  }
-  .publication-row:hover .publication-thumbnail {
-    border-color: rgba(139, 40, 56, 0.25);
   }
 }
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
@@ -1798,8 +1843,9 @@ html[data-language="zh"] .contact-section h2 {
   .work-nav button,
   .featured-image,
   .featured-image img,
-  .button > span[aria-hidden],
-  .text-link > span[aria-hidden] {
+  .publication-thumbnail,
+  .publication-thumbnail img,
+  .link-arrow {
     transform: none !important;
   }
   html {

@@ -18,7 +18,7 @@
     try { var language = localStorage.getItem('site-lang'); if (language === 'zh') { document.documentElement.dataset.language = 'zh'; document.documentElement.lang = 'zh-CN'; } } catch (e) {}
   </script>
   <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-  <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/academic.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   <script src="{{ '/assets/js/selected-work.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/appearance.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   <script src="{{ '/assets/js/scholar-stats.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
@@ -55,7 +55,7 @@
   <footer class="site-footer wrap">
     <a href="#about-me" class="footer-name">Yuanpeng He <span>何垣鹏</span></a>
     <p><span class="lang-en">Beijing, China · Peking University</span><span class="lang-zh">中国 · 北京 · 北京大学</span></p>
-    <a href="#about-me" class="back-top"><span class="lang-en">Back to top</span><span class="lang-zh">返回顶部</span> ↑</a>
+    <a href="#about-me" class="back-top"><span class="lang-en">Back to top</span><span class="lang-zh">返回顶部</span> <span class="link-arrow arrow-up" aria-hidden="true">↑</span></a>
   </footer>
   {% if site.google_analytics_id and site.google_analytics_id != '' %}{% include analytics.html %}{% endif %}
 </body>

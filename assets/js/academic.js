@@ -38,13 +38,18 @@
     emptyState.hidden = matches.length !== 0;
     showButton.hidden = filtered || matches.length <= previewCount;
     showButton.setAttribute("aria-expanded", String(expanded));
-    showButton.textContent = isChinese()
+    const showLabel = isChinese()
       ? expanded
-        ? "收起列表 ↑"
-        : `查看全部 ${rows.length} 篇论文 ↓`
+        ? "收起列表"
+        : `查看全部 ${rows.length} 篇论文`
       : expanded
-        ? "Show fewer publications ↑"
-        : `View all ${rows.length} publications ↓`;
+        ? "Show fewer publications"
+        : `View all ${rows.length} publications`;
+    const showArrow = document.createElement("span");
+    showArrow.className = `link-arrow ${expanded ? "arrow-up" : "arrow-down"}`;
+    showArrow.setAttribute("aria-hidden", "true");
+    showArrow.textContent = expanded ? "↑" : "↓";
+    showButton.replaceChildren(document.createTextNode(showLabel), showArrow);
     status.hidden = false;
     status.textContent = isChinese()
       ? `显示 ${visible.size} 篇，共 ${matches.length} 篇${filtered ? "符合筛选条件" : "论文"}`
@@ -149,27 +154,47 @@
       if (event.matches) closeMenu();
     });
 
-  // Navigation follows the section being read without changing browser history.
-  if ("IntersectionObserver" in window) {
-    const navLinks = Array.from(document.querySelectorAll(".desktop-nav a"));
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          navLinks.forEach((link) => {
-            if (link.hash === `#${entry.target.id}`)
-              link.setAttribute("aria-current", "location");
-            else link.removeAttribute("aria-current");
-          });
-        });
-      },
-      { rootMargin: "-10% 0px -65% 0px", threshold: 0 },
-    );
-    navLinks.forEach((link) => {
-      const section = document.querySelector(link.hash);
-      if (section) observer.observe(section);
+  // Resolve the current section from its position, including large scroll jumps
+  // and section resizing. Intersection-only updates can retain an old selection.
+  const navigation = Array.from(document.querySelectorAll(".desktop-nav a"))
+    .map((link) => ({ link, section: document.querySelector(link.hash) }))
+    .filter((item) => item.section);
+  let navigationFrame = 0;
+  function updateNavigation() {
+    navigationFrame = 0;
+    if (!navigation.length) return;
+    const header = document.querySelector(".site-header");
+    const threshold = (header ? header.getBoundingClientRect().height : 0) + 32;
+    let active = navigation[0];
+    navigation.forEach((item) => {
+      if (item.section.getBoundingClientRect().top <= threshold) active = item;
+    });
+    if (
+      window.scrollY + window.innerHeight >=
+      document.documentElement.scrollHeight - 2
+    ) {
+      active = navigation[navigation.length - 1];
+    }
+    navigation.forEach((item) => {
+      if (item === active) item.link.setAttribute("aria-current", "location");
+      else item.link.removeAttribute("aria-current");
     });
   }
+  function scheduleNavigationUpdate() {
+    if (!navigationFrame)
+      navigationFrame = requestAnimationFrame(updateNavigation);
+  }
+  window.addEventListener("scroll", scheduleNavigationUpdate, {
+    passive: true,
+  });
+  window.addEventListener("resize", scheduleNavigationUpdate);
+  document.addEventListener("site-language-change", scheduleNavigationUpdate);
+  if ("ResizeObserver" in window) {
+    new ResizeObserver(scheduleNavigationUpdate).observe(
+      document.getElementById("main"),
+    );
+  }
+  updateNavigation();
 
   // A printed copy includes the complete CV and publication list.
   let previouslyClosed = [];

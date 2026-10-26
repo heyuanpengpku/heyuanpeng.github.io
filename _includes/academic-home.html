@@ -10,7 +10,7 @@
       <p class="lang-zh">我目前在北京大学计算机学院攻读博士学位，师从<strong>焦文品</strong>教授与<strong>金芝</strong>教授，所在实验室为高可信软件技术教育部重点实验室。本科毕业于西南大学软件工程专业。</p>
     </div>
     <div class="hero-links">
-      <a class="button button-primary" href="mailto:{{ site.author.email }}"><span class="lang-en">Get in touch</span><span class="lang-zh">联系我</span><span aria-hidden="true">↗</span></a>
+      <a class="button button-primary" href="mailto:{{ site.author.email }}"><span class="lang-en">Get in touch</span><span class="lang-zh">联系我</span><span class="link-arrow" aria-hidden="true">↗</span></a>
     </div>
   </div>
   <figure class="portrait">
@@ -28,27 +28,27 @@
   </div>
   <p class="scholar-updated"><span class="lang-en">Last synced</span><span class="lang-zh">最近同步</span> <time id="scholar-updated" datetime="{{ site.data.gs.updated }}">{{ site.data.gs.updated | date: '%Y.%m.%d %H:%M %Z' }}</time></p>
   </div>
-  <a class="strip-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer"><span>Google Scholar ↗</span></a>
+  <a class="strip-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer"><span>Google Scholar <span class="link-arrow" aria-hidden="true">↗</span></span></a>
 </div>
 <section class="section wrap" id="selected-work" aria-labelledby="selected-heading">
-  <div class="section-heading"><div><p class="eyebrow section-index">01 / <span class="lang-en">Research</span><span class="lang-zh">研究</span></p><h2 id="selected-heading"><span class="lang-en">Selected work</span><span class="lang-zh">代表性研究</span></h2></div><a class="text-link" href="#publications"><span class="lang-en">All publications</span><span class="lang-zh">全部论文</span> <span aria-hidden="true">↗</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow section-index">01 / <span class="lang-en">Research</span><span class="lang-zh">研究</span></p><h2 id="selected-heading"><span class="lang-en">Selected work</span><span class="lang-zh">代表性研究</span></h2></div><a class="text-link" href="#publications"><span class="lang-en">All publications</span><span class="lang-zh">全部论文</span> <span class="link-arrow" aria-hidden="true">↗</span></a></div>
   <div class="featured-grid" id="selected-work-track" tabindex="0" role="region" aria-roledescription="carousel" aria-labelledby="selected-heading">
     {% assign featured = site.data.publications | where: 'featured', true | sort: 'featured_order' %}
     {% for paper in featured %}
     <article class="featured-paper">
-      <a class="featured-image" href="{% if paper.url %}{{ paper.url }}{% else %}{{ paper.image | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="{% unless paper.url %}View figure: {% endunless %}{{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.title | escape }} — research overview" width="640" height="360" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a>
+      <a class="featured-image" href="{% if paper.url %}{{ paper.url }}{% else %}{{ paper.image | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="{% unless paper.url %}View figure: {% endunless %}{{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.title | escape }} — research overview" width="640" height="360" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true"><span class="link-arrow">↗</span></span></a>
       <div class="featured-meta"><span>{{ paper.badge }}</span><span class="lang-en">{{ paper.category_en }}</span><span class="lang-zh">{{ paper.category_zh }}</span></div>
       <div class="featured-tags publication-tags">{% for tag in paper.tags %}{% if tag == 'CAS Q1' %}<span class="lang-en">CAS Q1</span><span class="lang-zh">中科院一区</span>{% else %}<span>{{ tag | replace: 'CCF ', 'CCF-' }}</span>{% endif %}{% endfor %}</div>
       <h3>{% if paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
-      <div class="paper-links">{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener noreferrer">Project ↗</a><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">Paper ↗</a><a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">Code ↗</a>{% elsif paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">Paper ↗</a>{% endif %}</div>
+      <div class="paper-links">{% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noopener noreferrer">Project <span class="link-arrow" aria-hidden="true">↗</span></a><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">Paper <span class="link-arrow" aria-hidden="true">↗</span></a><a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">Code <span class="link-arrow" aria-hidden="true">↗</span></a>{% elsif paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">Paper <span class="link-arrow" aria-hidden="true">↗</span></a>{% endif %}</div>
     </article>
     {% endfor %}
   </div>
   <div class="work-footer">
     <p><span class="lang-en">{{ featured.size }} selected papers<span class="work-swipe-hint"> · Swipe to explore</span></span><span class="lang-zh">{{ featured.size }} 篇代表作<span class="work-swipe-hint"> · 左右滑动查看</span></span></p>
     <div class="work-nav" hidden>
-      <button type="button" id="work-previous" aria-label="Previous papers" aria-controls="selected-work-track" disabled><span aria-hidden="true">←</span></button>
-      <button type="button" id="work-next" aria-label="Next papers" aria-controls="selected-work-track"><span aria-hidden="true">→</span></button>
+      <button type="button" id="work-previous" aria-label="Previous papers" aria-controls="selected-work-track" disabled><span class="link-arrow arrow-left" aria-hidden="true">←</span></button>
+      <button type="button" id="work-next" aria-label="Next papers" aria-controls="selected-work-track"><span class="link-arrow arrow-right" aria-hidden="true">→</span></button>
     </div>
   </div>
 </section>
@@ -56,6 +56,6 @@
 {% include academic-experience.html %}
 <section class="contact-section wrap" id="contact" aria-labelledby="contact-heading">
   <div class="contact-heading"><p class="eyebrow section-index">05 / <span class="lang-en">Contact</span><span class="lang-zh">联系</span></p><h2 id="contact-heading"><span class="lang-en">Let’s connect.</span><span class="lang-zh">保持联系。</span></h2></div>
-  <div class="contact-details"><a class="contact-email" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a><p class="contact-address"><span class="lang-en">School of Computer Science, Peking University<br>Beijing, 100871, China</span><span class="lang-zh">北京大学计算机学院<br>中国北京市，100871</span></p><p class="contact-address"><span class="lang-en">Key Laboratory of High Confidence Software Technologies<br>(Peking University), Ministry of Education<br>Beijing, 100871, China</span><span class="lang-zh">高可信软件技术教育部重点实验室</span></p></div>
-  <div class="contact-aside"><blockquote><span class="lang-en">To recognize that what is past cannot be amended, and that what is to come may yet be pursued.</span><span class="lang-zh">悟已往之不谏，<br>知来者之可追。</span></blockquote><div class="social-links"><a href="{{ site.author.dblp }}" target="_blank" rel="noopener noreferrer">DBLP ↗</a><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://steamcommunity.com/profiles/{{ site.author.steam }}" target="_blank" rel="noopener noreferrer">Steam ↗</a></div></div>
+  <div class="contact-details"><a class="contact-email" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span class="link-arrow" aria-hidden="true">↗</span></a><p class="contact-address"><span class="lang-en">School of Computer Science, Peking University<br>Beijing, 100871, China</span><span class="lang-zh">北京大学计算机学院<br>中国北京市，100871</span></p><p class="contact-address"><span class="lang-en">Key Laboratory of High Confidence Software Technologies<br>(Peking University), Ministry of Education<br>Beijing, 100871, China</span><span class="lang-zh">高可信软件技术教育部重点实验室</span></p></div>
+  <div class="contact-aside"><blockquote><span class="lang-en">To recognize that what is past cannot be amended, and that what is to come may yet be pursued.</span><span class="lang-zh">悟已往之不谏，<br>知来者之可追。</span></blockquote><div class="social-links"><a href="{{ site.author.dblp }}" target="_blank" rel="noopener noreferrer">DBLP <span class="link-arrow" aria-hidden="true">↗</span></a><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID <span class="link-arrow" aria-hidden="true">↗</span></a><a href="https://steamcommunity.com/profiles/{{ site.author.steam }}" target="_blank" rel="noopener noreferrer">Steam <span class="link-arrow" aria-hidden="true">↗</span></a></div></div>
 </section>
