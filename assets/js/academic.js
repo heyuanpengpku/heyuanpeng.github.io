@@ -167,10 +167,22 @@
     const anchorOffset =
       parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) ||
       0;
-    const threshold = Math.max(
+    const anchorThreshold = Math.max(
       (header ? header.getBoundingClientRect().height : 0) + 32,
       anchorOffset + 2,
     );
+    // Near the page end, later sections cannot reach the sticky header.
+    // Move the reading line down through the viewport over the final screenful
+    // so short closing sections still become active before Contact.
+    const remainingScroll = Math.max(
+      0,
+      document.documentElement.scrollHeight -
+        window.innerHeight -
+        window.scrollY,
+    );
+    const endProgress = Math.max(0, 1 - remainingScroll / window.innerHeight);
+    const threshold =
+      anchorThreshold + (window.innerHeight - anchorThreshold) * endProgress;
     let active = navigation[0];
     navigation.forEach((item) => {
       if (item.section.getBoundingClientRect().top <= threshold) active = item;
@@ -181,10 +193,13 @@
     ) {
       active = navigation[navigation.length - 1];
     }
-    navigation.forEach((item) => {
-      if (item === active) item.link.setAttribute("aria-current", "location");
-      else item.link.removeAttribute("aria-current");
-    });
+    document
+      .querySelectorAll(".desktop-nav a, .mobile-nav a")
+      .forEach((link) => {
+        if (link.hash === active.link.hash)
+          link.setAttribute("aria-current", "location");
+        else link.removeAttribute("aria-current");
+      });
   }
   function scheduleNavigationUpdate() {
     if (!navigationFrame)
