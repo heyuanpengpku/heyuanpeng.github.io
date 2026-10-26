@@ -171,9 +171,29 @@
       (header ? header.getBoundingClientRect().height : 0) + 32,
       anchorOffset + 2,
     );
+    const maxScroll = Math.max(
+      0,
+      document.documentElement.scrollHeight - window.innerHeight,
+    );
+    const starts = navigation.map(
+      (item) =>
+        item.section.getBoundingClientRect().top + window.scrollY - threshold,
+    );
+    const firstUnreachable = starts.findIndex((start) => start > maxScroll);
+    if (firstUnreachable !== -1) {
+      // Keep ordinary section boundaries unchanged. Only headings that cannot
+      // reach the header share a small tail of the available scroll range.
+      // Contact activates at the bottom, without adding empty page height.
+      const count = navigation.length - firstUnreachable;
+      const previousStart = Math.max(0, starts[firstUnreachable - 1] || 0);
+      const step = Math.min(96, (maxScroll - previousStart) / count);
+      for (let index = firstUnreachable; index < starts.length; index++) {
+        starts[index] = maxScroll - step * (starts.length - 1 - index);
+      }
+    }
     let active = navigation[0];
-    navigation.forEach((item) => {
-      if (item.section.getBoundingClientRect().top <= threshold) active = item;
+    navigation.forEach((item, index) => {
+      if (window.scrollY >= starts[index] - 1) active = item;
     });
     document
       .querySelectorAll(".desktop-nav a, .mobile-nav a")

@@ -1006,9 +1006,6 @@ html[data-language="zh"] .contact-section h2 {
 }
 .contact-section {
   display: grid;
-  /* Leave enough scroll room for every section to reach the same nav threshold. */
-  min-height: calc(100vh - var(--section-anchor-offset));
-  min-height: calc(100svh - var(--section-anchor-offset));
   align-content: start;
   grid-template-columns: 1.15fr 1fr;
   grid-template-areas: "heading ." "details aside";
@@ -1937,7 +1934,6 @@ button:focus-visible .link-arrow {
     break-inside: avoid;
   }
   .contact-section {
-    min-height: 0;
     padding: 25px 0;
   }
   .publication-thumbnail {
