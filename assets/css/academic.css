@@ -308,6 +308,9 @@ html[data-language="zh"] .hero h1 {
 .hero-bio p + p {
   margin-top: 14px;
 }
+.hero-bio-details {
+  text-wrap: balance;
+}
 .hero-bio p:first-child,
 .hero-bio p.lang-zh:nth-child(2) {
   font-size: 20px;
