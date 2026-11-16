@@ -579,6 +579,22 @@ html[data-language="zh"] .contact-section h2 {
   padding: 18px;
   transition: transform 0.25s;
 }
+.paper-cover {
+  display: grid;
+  place-items: center;
+  padding: 26px;
+  background: linear-gradient(145deg, #f1e7e7, #f8f7f4 70%);
+  color: var(--accent);
+  text-align: center;
+}
+.paper-cover > span {
+  max-width: 12ch;
+  font: 400 34px/1.15 var(--serif);
+  text-wrap: balance;
+}
+.publication-thumbnail.paper-cover > span {
+  font-size: 22px;
+}
 .image-arrow {
   position: absolute;
   bottom: 8px;

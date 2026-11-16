@@ -38,7 +38,11 @@
     {% assign featured = site.data.publications | where: 'featured', true | sort: 'featured_order' %}
     {% for paper in featured %}
     <article class="featured-paper">
+      {% if paper.image %}
       <a class="featured-image" href="{% if paper.url %}{{ paper.url }}{% else %}{{ paper.image | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="{% unless paper.url %}View figure: {% endunless %}{{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="{{ paper.title | escape }} — research overview" width="640" height="360" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true"><span class="link-arrow">↗</span></span></a>
+      {% else %}
+      <div class="featured-image paper-cover" aria-hidden="true"><span>{{ paper.cover_title | escape }}</span></div>
+      {% endif %}
       <div class="featured-meta"><span>{{ paper.badge }}</span><span class="lang-en">{{ paper.category_en }}</span><span class="lang-zh">{{ paper.category_zh }}</span></div>
       <div class="featured-tags publication-tags">{% for tag in paper.tags %}{% if tag == 'CAS Q1' %}<span class="lang-en">CAS Q1</span><span class="lang-zh">中科院一区</span>{% else %}<span>{{ tag | replace: 'CCF ', 'CCF-' }}</span>{% endif %}{% endfor %}</div>
       <h3>{% if paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
