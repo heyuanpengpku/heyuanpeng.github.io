@@ -12,7 +12,7 @@
       "CCF A"
     ],
     "featured": true,
-    "featured_order": 0,
+    "featured_order": 4,
     "category_en": "Spaceborne lidar",
     "category_zh": "星载激光雷达"
   },
@@ -192,7 +192,7 @@
     "summary_zh": "面向半监督医学图像分割的证据原型学习。",
     "category_en": "Medical image analysis",
     "category_zh": "医学影像分析",
-    "featured_order": 4
+    "featured_order": 5
   },
   {
     "id": "paper-16",
