@@ -17,6 +17,28 @@
     "category_zh": "星载激光雷达"
   },
   {
+    "id": "paper-39",
+    "title": "Hypergraph-based analysis of toponym co-occurrence in web documents",
+    "url": "https://doi.org/10.1080/17538947.2026.2761199",
+    "image": null,
+    "cover_title": "Toponym co-occurrence",
+    "year": 2026,
+    "badge": "IJDE 2026",
+    "venue": "International Journal of Digital Earth 19(2), 2761199 (2026).",
+    "tags": []
+  },
+  {
+    "id": "paper-40",
+    "title": "Next-location prediction from sparse tourist trajectories with long-tailed destination distributions",
+    "url": "https://www.nature.com/articles/s41598-026-79172-z",
+    "image": null,
+    "cover_title": "Tourist trajectories",
+    "year": 2026,
+    "badge": "Scientific Reports 2026",
+    "venue": "Scientific Reports (2026).",
+    "tags": []
+  },
+  {
     "id": "paper-01",
     "title": "Dual Uncertainty-Aware Guidance for Test-Time Visual Retrieval under Distributional Variations",
     "url": "https://ieeexplore.ieee.org/abstract/document/11723258",
